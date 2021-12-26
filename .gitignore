@@ -1,0 +1,11 @@
+/.idea
+/composer.phar
+/vendor
+/core
+/local
+/sites/admin
+/web/node_modules
+/web/lib
+/web/admin
+*.css
+*.css.map

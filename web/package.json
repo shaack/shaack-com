@@ -1,0 +1,28 @@
+{
+  "name": "chesscoin-chess-computer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node postinstall.js"
+  },
+  "keywords": [
+    "chess",
+    "chesscoin"
+  ],
+  "author": "Stefan Haack (shaack.com)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@fortawesome/fontawesome-pro": "^5.15.3",
+    "bootstrap-show-modal": "^1.4.2",
+    "browser-es-module-loader": "^0.4.1",
+    "canvas-confetti": "^1.4.0",
+    "chess-console": "^4.6.1",
+    "chess-console-stockfish": "^1.9.1",
+    "cm-chess": "^2.1.1",
+    "cm-chessboard": "^3.10.6",
+    "cm-pgn": "^2.1.4",
+    "cm-web-modules": "^1.7.6"
+  }
+}
