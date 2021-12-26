@@ -4,6 +4,8 @@
 /** @var Shaack\Reboot\Page $page */
 /** @var Shaack\Reboot\Request $request */
 
+$v = 2;
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -11,7 +13,7 @@
     <base href="<?= $site->getWebPath() ?>"/>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="/assets/styles/screen.css">
+    <link rel="stylesheet" href="/assets/styles/screen.css?v=<?= $v ?>">
     <title>shaack.com</title>
 </head>
 <body class="dev">

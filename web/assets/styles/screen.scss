@@ -2,6 +2,9 @@
 @import "colors";
 @import "../fonts/Atari_ST_8x16_System_Font/stylesheet.css";
 
+$width-mobile: 640px;
+$width-tablet: 1024px;
+
 body {
   background-color: black;
   color: $body-color;
@@ -10,7 +13,7 @@ body {
   line-height: 1.3;
 
   nav, main {
-    max-width: 1024px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 1rem;
   }
@@ -27,6 +30,7 @@ body {
       text-decoration: none;
       text-transform: uppercase;
       margin-right: 0.6rem;
+      padding: 0.3rem 0;
       &:hover, &.active {
         color: $navigation-active-color;
       }
@@ -35,6 +39,7 @@ body {
     .nav--navbar {
       li {
         float: left;
+        padding: 0.3rem 0;
         &::before {
           content: "//";
         }
@@ -54,11 +59,17 @@ body {
   main {
     clear: left;
     margin-bottom: 10rem;
+    @media screen and (max-width: $width-mobile) {
+      margin-bottom: 0;
+    }
     section {
       max-width: 50rem;
     }
     .big {
       font-size: 280%;
+      @media screen and (max-width: $width-mobile) {
+        margin-top: 2rem;
+      }
       a {
         text-decoration: none;
         // color: $headline-1-color;
@@ -75,16 +86,25 @@ body {
       margin-bottom: 2rem;
     }
     h1 {
-      margin-top: 4rem;
       font-size: 140%;
       color: $headline-1-color;
       text-transform: uppercase;
+      margin-top: 3rem;
+      @media screen and (max-width: $width-tablet) {
+        margin-top: 2rem;
+      }
+      @media screen and (max-width: $width-mobile) {
+        margin-top: 1rem;
+      }
     }
     h2 {
       margin-top: 4rem;
       font-size: 120%;
       color: $headline-2-color;
       text-transform: uppercase;
+      @media screen and (max-width: $width-mobile) {
+        margin-top: 0;
+      }
     }
     h3 {
       color: $headline-3-color;
@@ -108,6 +128,9 @@ body {
 
   footer {
     margin-bottom: 3rem;
+    @media screen and (max-width: $width-mobile) {
+      margin-bottom: 1rem;
+    }
     li {
       float: left;
       margin-right: 3rem;
