@@ -4,7 +4,7 @@
 /** @var Shaack\Reboot\Page $page */
 /** @var Shaack\Reboot\Request $request */
 
-$v = 2;
+$v = 3;
 
 ?>
 <!doctype html>
@@ -29,7 +29,6 @@ $v = 2;
                 foreach ($structure as $label => $path) {
                     ?>
                     <li>
-                        <!-- str_starts_with($request->getPath(), $path) -->
                         <a class="<?= substr($request->getPath(), 0, strlen($path)) === $path ? "active" : "" ?>" href="<?= $site->getWebPath() . $path ?>"><?= $label ?></a>
                     </li>
                     <?php
