@@ -1,8 +1,8 @@
 # Websites global values
 
 navbar:
-  brand: shaack.com
   structure:
     Services: /services
     Works: /works
+    # Blog: /blog
     Contact: /contact

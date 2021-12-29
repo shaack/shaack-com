@@ -43,6 +43,9 @@ body {
         &::before {
           content: "//";
         }
+        &:first-child::before {
+          content: none;
+        }
         a {
           text-transform: uppercase;
           text-decoration: none;

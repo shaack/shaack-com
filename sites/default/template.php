@@ -20,16 +20,19 @@ $v = 3;
 <header>
     <nav>
         <?php $navbarConfig = $site->getConfig()['navbar']; ?>
-        <a class="nav--brand <?= $request->getPath() == "/" ? "active" : "" ?>"
-           href="/"><?php echo $navbarConfig["brand"] ?></a>
         <ul class="nav--navbar">
+            <li>
+                <a class="<?= $request->getPath() == "/" ? "active" : "" ?>"
+                   href="/">shaack.com</a>
+            </li>
             <?php
             $structure = $navbarConfig['structure'];
             if ($structure) {
                 foreach ($structure as $label => $path) {
                     ?>
                     <li>
-                        <a class="<?= substr($request->getPath(), 0, strlen($path)) === $path ? "active" : "" ?>" href="<?= $site->getWebPath() . $path ?>"><?= $label ?></a>
+                        <a class="<?= substr($request->getPath(), 0, strlen($path)) === $path ? "active" : "" ?>"
+                           href="<?= $site->getWebPath() . $path ?>"><?= $label ?></a>
                     </li>
                     <?php
                 }
@@ -43,15 +46,15 @@ $v = 3;
         <?= $page->render($request) ?>
     </section>
 </main>
-<?php if($request->getPath() != "/") { ?>
-<footer>
-    <nav>
-        <ul>
-            <li><a href="/legal-notice">Legal notice</a></li>
-            <li><a href="/data-privacy-policy">Data privacy policy</a></li>
-        </ul>
-    </nav>
-</footer>
+<?php if ($request->getPath() != "/") { ?>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="/legal-notice">Legal notice</a></li>
+                <li><a href="/data-privacy-policy">Data privacy policy</a></li>
+            </ul>
+        </nav>
+    </footer>
 <?php } ?>
 </body>
 </html>
