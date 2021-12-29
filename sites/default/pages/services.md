@@ -1,12 +1,10 @@
 # From planning to operation
 
-Do you need a new website, a webshop or an app? Does your server system need an update or a data security check?
-
 My services cover the entire spectrum from planning and production to the operation of your website.
 
-`Conception => Production => Maintenance`
+`Conception -> Production -> Maintenance`
 
-## Planning and design
+## Conception, Planning and design
 
 Planning is essential. The concept and the definition of the general conditions influence all your future interaction
 with the website or app.
