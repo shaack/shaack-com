@@ -6,4 +6,4 @@ Wittinger Straße 140L<br/>
 
 Email [shaack@gmail.com](mailto:shaack@gmail.com)
 
-Sales tax identification number: DE 246 560 796
+Sales tax identification number: DE&nbsp;246&nbsp;560&nbsp;796

@@ -1,5 +1,6 @@
 # Websites 
 
+- [chessmail.de](https://www.chessmail.de) // design, concept, coding, maintenance
 - [residenzkonzerte.berlin](https://residenzkonzerte.berlin) // design, coding, maintenance
 - [orangerie-charlottenburg.com](https://orangerie-charlottenburg.com) // design, coding, maintenance
 - [innovationszentren.de](https://innovationszentren.de) // design, coding, maintenance
@@ -8,5 +9,6 @@
 - [wertestarter.de](https://wertestarter.de) // coding
 - [direktvertrieb.de](https://directvertrieb.de) // coding
 - [musiklehrer-finder.info](https://musiklehrer-finder.info) // concept, design, coding, maintenance
+- [musiker-honorare.de](https://musiker-honorare.de) // design, coding, maintenance
 - [zrb-vermessung.de](https://zrb-vermessung.de) // coding
 - [fuhrberger.de](https://fuhrberger.de) // coding, maintenance
