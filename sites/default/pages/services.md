@@ -1,6 +1,6 @@
 # From planning to operation
 
-My services cover the entire spectrum from planning and production to the operation of your website.
+My services cover the entire spectrum from planning and production to the operation of your app or website.
 
 `Conception -> Production -> Maintenance`
 
