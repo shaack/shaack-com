@@ -2,7 +2,7 @@
     <h1 class="big" id="name">
         Stefan Haack</h1>
     <p id="claim" style="visibility: hidden">
-        Planning and Development</p>
+        My code is your code</p>
 </a>
 <script type="module">
     import {ShellWrite} from "./src/ShellWrite.js"
