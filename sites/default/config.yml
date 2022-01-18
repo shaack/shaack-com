@@ -4,5 +4,5 @@ navbar:
   structure:
     Services: /services
     Works: /works
-    # Blog: /blog
+    Howto: /howto
     Contact: /contact

@@ -25,12 +25,14 @@ body {
     .nav--brand, .nav--navbar {
       float: left;
     }
+
     .nav--brand {
       color: $brand-color;
       text-decoration: none;
       text-transform: uppercase;
       margin-right: 0.6rem;
       padding: 0.3rem 0;
+
       &:hover, &.active {
         color: $navigation-active-color;
       }
@@ -40,17 +42,21 @@ body {
       li {
         float: left;
         padding: 0.3rem 0;
+
         &::before {
           content: "//";
         }
+
         &:first-child::before {
           content: none;
         }
+
         a {
           text-transform: uppercase;
           text-decoration: none;
           color: $navigation-color;
           margin-right: 0.6rem;
+
           &:hover, &.active {
             color: $navigation-active-color;
           }
@@ -65,29 +71,40 @@ body {
     @media screen and (max-width: $width-mobile) {
       margin-bottom: 0;
     }
+
     section {
       max-width: 50rem;
     }
+
     .big {
       font-size: 280%;
       @media screen and (max-width: $width-mobile) {
         margin-top: 2rem;
       }
+
       a {
         text-decoration: none;
         // color: $headline-1-color;
       }
     }
+
     a {
       color: $link-color;
       text-decoration: none;
+
       &:hover, &:active {
-          color: $link-hover-color;
+        color: $link-hover-color;
       }
     }
-    h1, h2, h3, p, ul, ol {
+
+    h1, h2, p, ul, ol, pre {
       margin-bottom: 2rem;
     }
+
+    h3, h4 {
+      margin-bottom: 1rem;
+    }
+
     h1 {
       font-size: 140%;
       color: $headline-1-color;
@@ -100,6 +117,7 @@ body {
         margin-top: 1rem;
       }
     }
+
     h2 {
       margin-top: 4rem;
       font-size: 120%;
@@ -109,19 +127,37 @@ body {
         margin-top: 0;
       }
     }
+
     h3 {
       color: $headline-3-color;
     }
+
+    h4 {
+      color: $headline-4-color;
+    }
+
     p {
     }
+
     code {
       font-family: "Atari ST 8x16 System Font", sans-serif;
       color: $downy;
     }
+
+    pre {
+      // background-color: $biscay;
+      padding: 1rem;
+      overflow-y: scroll;
+      // border: 1px solid $biscay;
+      background-color: $biscay;
+    }
+
     ul {
       margin-left: 1.25rem;
+
       li {
         text-indent: -1.25rem;
+
         &::before {
           content: "- ";
         }
@@ -134,13 +170,16 @@ body {
     @media screen and (max-width: $width-mobile) {
       margin-bottom: 1rem;
     }
+
     li {
       float: left;
       margin-right: 3rem;
     }
+
     a {
       text-decoration: none;
       color: $tundora;
+
       &:hover, &.active {
         color: $link-hover-color;
       }
