@@ -21,7 +21,7 @@ https://stackoverflow.com/questions/16383237/how-can-doc-docx-files-be-converted
 pandoc -f docx -t markdown foo.docx -o foo.markdown
 ```
 
-### Batch convert a folder
+### Batch convert a folder with pandoc
 
 ```bash
 for i in *.docx; do echo "$i" && pandoc -f docx -t markdown $i -o $i.md; done
