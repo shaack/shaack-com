@@ -7,13 +7,13 @@ https://pandoc.org/MANUAL.html
 
 ## Examples
 
-### Convert markdown to textile
+### Convert Markdown to Textile
 
 ```bash
 pandoc --from markdown --to textile FileFrom.md -o FileTo.txt
 ```
 
-### Convert docx to markdown
+### Convert Docx to Markdown
 
 https://stackoverflow.com/questions/16383237/how-can-doc-docx-files-be-converted-to-markdown-or-structured-text
 

@@ -6,17 +6,17 @@
 
 ### Find files with a certain extension, where these files contain a certain search term
 
-    find ./ -type f -name \*.php -exec grep -il "search_term" {} \;
+    find . -type f -name \*.php -exec grep -il "search_term" {} \;
 
 ### Find files with certain extensions
 
-    find ./ -regex ".*\(php\|html\|tpl\)$"
+    find . -regex ".*\(php\|html\|tpl\)$"
 
 ### As an alternative you could also use
 
-    find ./ -iname "*.php" -or -iname "*.tpl" -or -iname "*.html"
+    find . -iname "*.php" -or -iname "*.tpl" -or -iname "*.html"
 
-### Find all files on your computer larger than 1 GB
+### Find files larger than 1 GB
 
-    find -x / -type f -size +1G -exec ls -lh {} \; 2> /dev/null
+    find . -size +1G -exec ls -lh {} \;
 
