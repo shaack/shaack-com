@@ -1,5 +1,8 @@
 # Pandoc
 
+Pandoc is a universal document converter. With it, you can convert between various flavors of Markdown, Textile,
+HTML, LaTeX and Word docx.
+
 https://pandoc.org/MANUAL.html
 
 ## Convert markdown to textile
