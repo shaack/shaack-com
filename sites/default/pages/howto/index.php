@@ -1,5 +1,5 @@
 <h1>Knowledge Base</h1>
-<ul class="list-inline">
+<ul>
     <?php
     /**  @var \Shaack\Reboot\Site $site */
     $filenames = scandir($site->getFsPath() . "/pages/howto", SCANDIR_SORT_NONE);

@@ -1,6 +1,6 @@
 # Webserver and Mailserver with Python
 
-### Simple http server with python
+### Simple HTTP server with python
 
     python -m SimpleHTTPServer
 
