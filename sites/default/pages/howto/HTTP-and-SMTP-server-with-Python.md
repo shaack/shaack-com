@@ -4,7 +4,7 @@
 
     python -m SimpleHTTPServer
 
-or with python 3
+or with Python 3
 
     python3 -m http.server
 
