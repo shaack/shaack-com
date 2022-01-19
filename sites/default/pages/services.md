@@ -4,7 +4,7 @@ My services cover the entire spectrum from planning and production to the operat
 
 `Conception -> Production -> Maintenance`
 
-## Conception, Planning and design
+## Conception, planning and design
 
 Planning is essential. The concept and the definition of the general conditions influence all your future interaction
 with the website or app.

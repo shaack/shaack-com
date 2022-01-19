@@ -1,15 +1,12 @@
 # Git
 
-### Connect an existing folder to a repository 
+https://education.github.com/git-cheat-sheet-education.pdf
 
-```
-git init
-git remote add origin https://url/of/repository.git
-```
-
-### Clone a repository
+## Clone a repository
 
 ```
 git clone https://url/of/repository.git
 ```
+
+## 
 

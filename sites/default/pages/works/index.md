@@ -2,6 +2,8 @@
 
 ## Open Source projects
 
+Components of [chessmail](https://www.chessmail.de), Bootstrap components and other projects, which I made available to the general public.
+
 - [My GitHub profile page](https://github.com/shaack) // with an overview of all projects
 - [Chess projects](https://github.com/shaack?tab=repositories&q=chess&type=&language=&sort=stargazers) // the open source parts of chessmail.de
 - [Bootstrap extensions](https://github.com/shaack?tab=repositories&q=bootstrap&type=&language=&sort=stargazers) // projects with or for bootstrap
@@ -9,6 +11,8 @@
 - [Reboot CMS](https://github.com/shaack/reboot-cms) // a CMS that is fast and this page runs with
 
 ## Websites
+
+Various websites that I have created mainly for clients.
 
 - [residenzkonzerte.berlin](https://residenzkonzerte.berlin) // design, coding, maintenance
 - [orangerie-charlottenburg.com](https://orangerie-charlottenburg.com) // design, coding, maintenance

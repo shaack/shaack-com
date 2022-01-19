@@ -4,7 +4,7 @@
 /** @var Shaack\Reboot\Page $page */
 /** @var Shaack\Reboot\Request $request */
 
-$v = 4;
+$v = 5;
 
 ?>
 <!doctype html>
