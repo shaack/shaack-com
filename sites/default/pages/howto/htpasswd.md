@@ -19,3 +19,7 @@ AuthName "Access restricted"
 AuthUserFile /path/to/the/.htpasswd 
 Require user username
 ```
+
+## See also
+
+- [apache htaccess](Apache-htaccess)

@@ -12,6 +12,10 @@ body {
   font-size: 20px;
   line-height: 1.3;
 
+  b, strong {
+    color: $white;
+  }
+
   nav, main {
     max-width: 900px;
     margin: 0 auto;

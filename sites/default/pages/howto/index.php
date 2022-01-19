@@ -2,8 +2,10 @@
 <ul class="list-inline">
     <?php
     /**  @var \Shaack\Reboot\Site $site */
-    $files = scandir($site->getFsPath() . "/pages/howto");
-    foreach ($files as $file) {
+    $filenames = scandir($site->getFsPath() . "/pages/howto", SCANDIR_SORT_NONE);
+    natcasesort($filenames);
+
+    foreach ($filenames as $file) {
         if (str_ends_with($file, ".md")) {
             $name = substr($file, 0, strlen($file) - 3)
             ?>

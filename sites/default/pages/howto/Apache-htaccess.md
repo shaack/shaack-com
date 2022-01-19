@@ -39,3 +39,7 @@ IndexOptions FancyIndexing
 IndexOrderDefault Ascending Date
 AddType text/plain .eml
 ```
+
+## See also
+
+- [htpasswd](htpasswd)
