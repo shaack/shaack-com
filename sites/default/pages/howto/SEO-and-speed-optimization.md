@@ -10,7 +10,6 @@
 ## Non Technical SEO Checklist
 
 - **Content should solve the reader's problem**.
-- **Keep it simple**.
 
 ## Online Tools
 
