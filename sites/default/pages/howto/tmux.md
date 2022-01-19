@@ -2,38 +2,42 @@
 
 Cheat sheet https://gist.github.com/henrik/1967800
 
+### shell commands
+
 ```bash
-tmux ls       # all running tmux sessions
-tmux new      # start a new session
-tmux a -t 0   # attach to the first session
-tmux kill-server    # end the server, destroy all sessions
+tmux ls           # list all running tmux sessions
+tmux new          # start a new session
+tmux a -t 0       # attach to the first session
+tmux kill-server  # end the server, destroy all sessions
 ```
 
-### ctrl-b
+### ctrl-b commands
+
+#### Session
 
 ```
-d           detach session
+d        detach session
 ```
 
 #### Windows
 
 ```
-c           new window
-,           name window
-&           kill window
-.           move window - prompted for a new number
+c        new window
+,        name window
+&        kill window
+.        move window - prompted for a new number
 ```
 
 #### Panes
 
 ```
-%           horizontal split
-"           vertical split
+%        horizontal split
+"        vertical split
 
-o           swap panes
-q           show pane numbers
-x           kill pane
-⍽ space     toggle between layouts
+o        swap panes
+q        show pane numbers
+x        kill pane
+[space]  toggle between layouts
 ```
 ### tmux.conf
 

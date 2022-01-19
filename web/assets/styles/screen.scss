@@ -167,6 +167,15 @@ body {
         }
       }
     }
+
+    ol {
+      margin-left: 2.3rem;
+      list-style: decimal;
+
+      li {
+        // text-indent: -0.2rem;
+      }
+    }
   }
 
   footer {
