@@ -1,6 +1,7 @@
 <?php
 $quotes = [
-    "Simplicity is your friend"
+    // "Simplicity is your friend",
+    "Everything should be made as simple as possible, but not simpler."
 ];
 ?>
 <a href="/services">
