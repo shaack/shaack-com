@@ -1,4 +1,4 @@
-# shaak.com
+# shaack.com
 
 This website is based on Reboot CMS.
 
