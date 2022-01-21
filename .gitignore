@@ -3,7 +3,7 @@
 /vendor
 /core
 /local
-/sites/admin
+/site/admin
 /web/node_modules
 /web/lib
 /web/admin
