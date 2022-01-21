@@ -4,8 +4,9 @@
  */
 
 export class ShellWrite {
-    constructor(context) {
-        this.content = context.innerHTML
+    constructor(context, text) {
+        this.content = text
+        context.innerHTML = this.content
         context.style.visibility = "visible"
         context.innerHTML = ""
         let content = ""
