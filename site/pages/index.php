@@ -12,11 +12,11 @@
         "Good salesmen and good repairmen will never go hungry.",
         "If it's not tested, it doesn't work.",
         "All the troubles you have will pass away very quickly.",
-        "It looks like it's up to me to save our skins. Get into that garbage chute, flyboy! -- Princess Leia Organa",
         "Do, or do not; there is no try.",
         "A complex system that works is invariably found to have evolved from a simple system that works.",
         "Happiness is the greatest good.",
-        "Opportunities multiply when you seize them."
+        "Opportunities multiply when you seize them.",
+        "Success is a journey, not a destination."
     ]
     const fortune = fortunes[Math.floor(Math.random() * fortunes.length)];
     documentReady(() => {
