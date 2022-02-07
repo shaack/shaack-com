@@ -6,6 +6,10 @@
 
 https://getcomposer.org/doc
 
+## Initialize a project for usage with composer
+
+    composer init
+
 ## Install dependencies
 
     composer install

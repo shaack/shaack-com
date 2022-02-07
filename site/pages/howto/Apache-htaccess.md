@@ -1,4 +1,4 @@
-# Apache htaccess configuration
+# Apache .htaccess configuration
 
 ## Redirect / Rewrite
 
