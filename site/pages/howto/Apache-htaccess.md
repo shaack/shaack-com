@@ -40,6 +40,14 @@ IndexOrderDefault Ascending Date
 AddType text/plain .eml
 ```
 
+## Access management
+
+Deny folder access for all web requests.
+
+```
+Deny from all
+```
+
 ## See also
 
 - [htpasswd](htpasswd)
