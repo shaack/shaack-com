@@ -6,22 +6,22 @@ My services cover the entire spectrum from planning and production to the operat
 
 ## 1. Conception, planning and design
 
-**Planning is essential**. The concept and the definition of the general conditions influence all your future interaction
+**Planning** is essential. The concept and the definition of the general conditions influence all your future interaction
 with the website or app.
 
-**Complexity is the enemy of security** and also the enemy of users and editors. Therefore we look for the simplest
+Complexity is the enemy of **security** and also the enemy of users and editors. Therefore we look for the simplest
 system for the respective requirements.
 
-**A clear structure makes it easier to use**. This is reflected in my design, the user interface of the app and the overall
+A clear **structure** makes it easier to use. This is reflected in my design, the user interface of the app and the overall
 concept of the website.
 
 ## 2. Production
 
-I draw on over 15 years of experience in developing apps and websites. What I program is tested and
+I draw on over 15 years of **experience** in developing apps and websites. What I program is tested and
 meets the requirements. Related to the technique, I offer
 
-- **full stack programming** for web and apps,
-- **quality assurance** and automated tests of webapps and shops, unit tests, tests automation.
+- **full stack programming for web and apps,**
+- **quality assurance and automated tests** of webapps and shops, unit tests, tests automation.
 
 ## 3. Operation and maintenance
 
