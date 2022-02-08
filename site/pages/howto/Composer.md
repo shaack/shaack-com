@@ -10,7 +10,11 @@ https://getcomposer.org/doc
 
     composer init
 
-## Install dependencies
+## Install a specific dependency
+
+    composer require [vendor]/[package name]
+
+## Install dependencies from `composer.json`
 
     composer install
 
@@ -24,13 +28,11 @@ https://getcomposer.org/doc/01-basic-usage.md#autoloading
 
 ### To refresh the auto-loading information 
 
-```bash
-composer dump-autoload
-```
+    composer dump-autoload
 
 ## Example `composer.json`
 
-```
+```json
 {
   "name": "shaack/reboot-cms",
   "authors": [
