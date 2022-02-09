@@ -15,8 +15,7 @@
         "Do, or do not; there is no try.",
         "A complex system that works is invariably found to have evolved from a simple system that works.",
         "Happiness is the greatest good.",
-        "Opportunities multiply when you seize them.",
-        "Success is a journey, not a destination."
+        "Opportunities multiply when you seize them."
     ]
     const fortune = fortunes[Math.floor(Math.random() * fortunes.length)];
     documentReady(() => {
