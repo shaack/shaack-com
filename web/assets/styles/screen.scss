@@ -131,6 +131,11 @@ body {
     p {
     }
 
+    blockquote {
+      font-style: italic;
+      color: $dove-gray;
+    }
+
     code {
       font-family: "Atari ST 8x16 System Font", sans-serif;
       color: $downy;
