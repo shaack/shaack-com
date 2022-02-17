@@ -10,7 +10,6 @@ npm install bootstrap@latest-4
 ```
 
 ```html
-
 <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css"/>
 <script src="/node_modules/jquery/dist/jquery.min.js"></script>
 <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -19,7 +18,6 @@ npm install bootstrap@latest-4
 ### via CDN
 
 ```html
-
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
       integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"/>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -78,4 +76,31 @@ You find the latest version at [bootstrapcdn.com](https://www.bootstrapcdn.com).
         crossorigin="anonymous"></script>
 </body>
 </html>
+```
+
+## Integrate Bootstrap with scss
+
+```scss
+@import "fonts"; // load additional web fonts
+@import "colors"; // set values for the bootstrap colors
+@import "config"; // set values for further bootstrap variables
+@import "../../../node_modules/bootstrap/scss/bootstrap"; // include bootstrap
+@import "utils"; // my own utils, small helper classes like `.nowrap`
+@import "globals"; // global styling
+@import "header"; // css for the navigation and header
+@import "main"; // css for the main page
+@import "blocks"; // one scss file for every "block" (aka section or module) in your layout or CMS
+@import "footer"; // css for the page footer
+```
+
+### Read a Bootstrap breakpoint or max-width value
+
+```
+$breakpoint-sm: map-get($grid-breakpoints, sm); 
+```
+
+```
+.max-width-sm {
+  max-width: map-get($container-max-widths, sm);
+}
 ```
