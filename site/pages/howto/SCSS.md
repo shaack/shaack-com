@@ -1,4 +1,4 @@
-# CSS
+# SCSS
 
 ## Display guidelines for all elements
 

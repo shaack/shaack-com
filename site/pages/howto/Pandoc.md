@@ -5,6 +5,10 @@ HTML, LaTeX and Word docx.
 
 https://pandoc.org/MANUAL.html
 
+## Install
+
+    brew install pandoc
+
 ## Examples
 
 ### Convert Markdown to Textile

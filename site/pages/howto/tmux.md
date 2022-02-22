@@ -34,9 +34,8 @@ c        new window
 %        horizontal split
 "        vertical split
 
-o        swap panes
-q        show pane numbers
-x        kill pane
+o        switch active pane
+x        remove active pane
 [space]  toggle between layouts
 ```
 ### tmux.conf
