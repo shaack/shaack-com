@@ -17,12 +17,18 @@ https://pandoc.org/MANUAL.html
 pandoc --from markdown --to textile FileFrom.md -o FileTo.txt
 ```
 
-### Convert Docx to Markdown
+### Convert Word Docx to Markdown
 
 https://stackoverflow.com/questions/16383237/how-can-doc-docx-files-be-converted-to-markdown-or-structured-text
 
 ```bash
-pandoc -f docx -t markdown foo.docx -o foo.markdown
+pandoc -f docx -t markdown foo.docx -o foo.md
+```
+
+### Convert Markdown to Word Docx
+
+```bash
+pandoc -f markdown -t docx foo.md -o foo.docx
 ```
 
 ### Batch convert a folder with pandoc
