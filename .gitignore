@@ -5,7 +5,6 @@
 /local
 /site/admin
 /web/node_modules
-/web/lib
 /web/admin
-*.css
-*.css.map
+/web/assets/styles/*.css
+/web/assets/styles/*.css.map
