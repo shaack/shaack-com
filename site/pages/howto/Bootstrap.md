@@ -104,3 +104,7 @@ $breakpoint-sm: map-get($grid-breakpoints, sm);
   max-width: map-get($container-max-widths, sm);
 }
 ```
+
+## Disable the Grid-System
+
+- https://medium.com/@erik_flowers/how-youve-been-getting-the-bootstrap-grid-all-wrong-and-how-to-fix-it-6d97b920aa40

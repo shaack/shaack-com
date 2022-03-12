@@ -34,6 +34,20 @@ The Redaxo database, forms and email templating tool.
 
 See: https://www.redaxo.org/doku/main/redaxo-variablen
 
-## Add css to the backend
+## Add CSS to the backend
 
     rex_view::addCssFile('../assets/local/style/backend.css');
+
+## Commonly used API functions
+
+### Get all Child-Categories of a Category
+
+```php
+public static function getAllCategoriesInCategory($categoryId = null) {
+    if (!$categoryId) {
+        return rex_category::getRootCategories(true);
+    } else {
+        return rex_category::get($categoryId)->getChildren(true);
+    } 
+} 
+```
