@@ -53,7 +53,6 @@ node_modules
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <!-- <link rel="stylesheet" href="/assets/styles/cookie-consent.css?v={{ templateVersion }}"> -->
     <link rel="stylesheet" href="/assets/styles/screen.css?v={{ templateVersion }}">
     <title>Site Name</title>
 </head>
@@ -65,8 +64,6 @@ node_modules
 {% include "_footer.twig" %}
 <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js?v={{ templateVersion }}"></script>
 <script src="/node_modules/webtools-js/src/webtools.js?v={{ templateVersion }}"></script>
-<!-- <script src="/node_modules/cookie-consent-js/src/cookie-consent.js?v={{ templateVersion }}"></script> -->
-<!-- <script src="/assets/scripts/AnotherScript.js?v={{ templateVersion }}"></script> -->
 </body>
 </html>
 ```
