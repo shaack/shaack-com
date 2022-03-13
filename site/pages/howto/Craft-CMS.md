@@ -40,11 +40,62 @@ npm install webtools-js
 node_modules
 ```
 
-Create a `_base.twig` template in `craft/templates`
+### Standard templates
+
+#### _base.twig
 
 ```twig
-
+{% set templateVersion = "2203121947" %}
+{% set env = getenv('ENVIRONMENT') %}
+<!doctype html>
+<html lang="{{ craft.app.language }}">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <!-- <link rel="stylesheet" href="/assets/styles/cookie-consent.css?v={{ templateVersion }}"> -->
+    <link rel="stylesheet" href="/assets/styles/screen.css?v={{ templateVersion }}">
+    <title>Site Name</title>
+</head>
+<body class="debug env-{{ env }} entry-type-{{ entry.type ?? 'unknown' }} {% block bodyClass %}{% endblock bodyClass %}">
+{% include "_header.twig" %}
+<main>
+    {% block main %}{% endblock %}
+</main>
+{% include "_footer.twig" %}
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js?v={{ templateVersion }}"></script>
+<script src="/node_modules/webtools-js/src/webtools.js?v={{ templateVersion }}"></script>
+<!-- <script src="/node_modules/cookie-consent-js/src/cookie-consent.js?v={{ templateVersion }}"></script> -->
+<!-- <script src="/assets/scripts/AnotherScript.js?v={{ templateVersion }}"></script> -->
+</body>
+</html>
 ```
+
+### _default.twig
+
+```twig
+{% extends "_base.twig" %}
+
+{% block main %}
+    {% include "_matrix.twig" %}
+{% endblock %}
+```
+
+### _matrix.twig
+
+```twig
+<div class="matrix">
+    {% if entry.matrix is not empty %}
+        {% for block in entry.matrix.all() %}
+            <div class="block block-{{ block.type.handle }}">
+                {% include "blocks/" ~ "_" ~ block.type.handle ~ ".twig" with block %}
+            </div>
+        {% endfor %}
+    {% endif %}
+</div>
+```
+
+Additionally create a "matrix" field. 
 
 ## Useful Plugins
 
