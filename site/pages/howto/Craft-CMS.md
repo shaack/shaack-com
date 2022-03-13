@@ -21,9 +21,10 @@ Then set the web root folder to `/craft/web`.
 ### Structure in /web
 
 - web/assets/
-  - styles - see [Bootstrap/Integrate Bootstrap with scss](Bootstrap)
-  - scripts
   - fonts
+  - images
+  - scripts
+  - styles - see [Bootstrap/Integrate Bootstrap with scss](Bootstrap)
 
 ### npm
 
@@ -54,7 +55,7 @@ node_modules
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <link rel="stylesheet" href="/assets/styles/screen.css?v={{ templateVersion }}">
-    <title>Site Name</title>
+    <title>Site Name - {{ entry.title }}</title>
 </head>
 <body class="debug env-{{ env }} entry-type-{{ entry.type ?? 'unknown' }} {% block bodyClass %}{% endblock bodyClass %}">
 {% include "_header.twig" %}
@@ -116,21 +117,6 @@ composer require package/name
   "formatting": ["p", "blockquote", "pre", "h1", "h2", "h3"]
 }
 ```
-
-### SEO
-
-**Package Name:**  ether/seo
-
-Documentation: https://github.com/ethercreative/seo
-
-### Expanded Singles
-
-**Package Name:**  verbb/expanded-singles
-
-Configuration
-
-- Expand Singles: Yes
-- Redirect to Entry: Yes
 
 ### Smith
 
