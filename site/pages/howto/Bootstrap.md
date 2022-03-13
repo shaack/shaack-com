@@ -80,20 +80,24 @@ You find the latest version at [bootstrapcdn.com](https://www.bootstrapcdn.com).
 
 ## Integrate Bootstrap with scss
 
+- https://www.mugo.ca/Blog/How-to-customize-Bootstrap-4-using-Sass
+
 ```scss
 @import "fonts"; // load additional web fonts
-@import "colors"; // set values for the bootstrap colors
+// include the bootstrap variables to have them for our configuration
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "colors"; // set values for the colors
 @import "config"; // set values for further bootstrap variables
-@import "../../../node_modules/bootstrap/scss/bootstrap"; // include bootstrap
-@import "utils"; // my own utils, small helper classes like `.nowrap`
-@import "globals"; // global styling
+@import "../../node_modules/bootstrap/scss/bootstrap"; // include bootstrap
+@import "bootstrap-overrides"; // bootstrap things, that can not be handled via configuration
+@import "utils"; // my own utils, small helper classes, mixins
 @import "header"; // css for the navigation and header
-@import "main"; // css for the main page
 @import "blocks"; // one scss file for every "block" (aka section or module) in your layout or CMS
 @import "footer"; // css for the page footer
 ```
 
-### Read a Bootstrap breakpoint or max-width value
+## Read a Bootstrap breakpoint or max-width value
 
 ```
 $breakpoint-sm: map-get($grid-breakpoints, sm); 

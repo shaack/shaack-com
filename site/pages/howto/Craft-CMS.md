@@ -18,15 +18,12 @@ Then set the web root folder to `/craft/web`.
 
 ## My base setup
 
-### Plugins
+### Structure in /web
 
-Install plugins from the terminal
-
-```shell
-composer require package/name
-```
-
-### 
+- web/assets/
+  - styles - see [Bootstrap/Integrate Bootstrap with scss](Bootstrap)
+  - scripts
+  - fonts
 
 ### npm
 
@@ -48,4 +45,264 @@ Create a `_base.twig` template in `craft/templates`
 ```twig
 
 ```
+
+## Useful Plugins
+
+Install plugins from the terminal
+
+```shell
+composer require package/name
+```
+
+### Redactor
+
+**Package Name:** craftcms/redactor
+
+- Konfiguration erstellen `config/redactor/ShaackDefault.json`
+
+```json
+{
+  "buttons": ["formatting", "bold", "italic", "deleted","unorderedlist", "orderedlist", "link", "image", "html"],
+  "linkNewTab": true,
+  "toolbarFixed": true,
+  "formatting": ["p", "blockquote", "pre", "h1", "h2", "h3"]
+}
+```
+
+### SEO
+
+**Package Name:**  ether/seo
+
+Documentation: https://github.com/ethercreative/seo
+
+### Expanded Singles
+
+**Package Name:**  verbb/expanded-singles
+
+Configuration
+
+- Expand Singles: Yes
+- Redirect to Entry: Yes
+
+### Smith
+
+Add copy, paste and clone functionality to Matrix blocks.
+
+Package Name: verbb/smith
+
+### Contact Form
+
+**Package Name:**  craftcms/contact-form
+
+## Twig
+
+```twig
+Site ID: {{ currentSite.id }}<br/>
+Site Handle: {{ currentSite.handle }}<br/>
+Site Name: {{ currentSite.name }}<br/>
+Site Language: {{ currentSite.language }}<br/>
+Is Primary Site: {{ currentSite.primary }}<br/>
+Base URL: {{ currentSite.baseUrl }}<br/>
+Group: {{ currentSite.group }}<br/>
+```
+
+### include
+
+```twig
+{% include 'header.html' %}
+```
+
+### Twig Tenary operator
+
+https://stackoverflow.com/questions/11820297/twig-ternary-operator-shorthand-if-then-else/40605919#40605919
+
+### Current Year
+
+```twig
+{{ 'now' | date('Y') }}
+```
+
+### debugging
+
+```twig
+{{ dump(varname) }}
+```
+
+### if
+
+```twig
+{% if entry.showTitle %}
+<h1>{{ entry.title }}</h1>
+{% endif %}
+```
+
+| Value                  | Boolean evaluation |
+| :--------------------- | :----------------- |
+| empty string           | false              |
+| numeric zero           | false              |
+| NAN (Not A Number)     | true               |
+| INF (Infinity)         | true               |
+| whitespace-only string | true               |
+| string “0” or ‘0’      | false              |
+| empty array            | false              |
+| null                   | false              |
+| non-empty array        | true               |
+| object                 | true               |
+
+### loop
+
+```twig
+{% for block in entry.matrixStandard.all() %}
+...
+{% endfor %}
+```
+
+### macros
+
+https://twig.symfony.com/doc/3.x/tags/macro.html
+
+```twig
+{% macro input(name, value, type = "text", size = 20) %}
+    <input type="{{ type }}" name="{{ name }}" value="{{ value|e }}" size="{{ size }}" />
+{% endmacro %}
+
+<p>{{ _self.input('password', '', 'password') }}</p>
+```
+
+or via import
+
+```twig
+{% import "_macros.twig" as macros %}
+
+{{ macros.youtube('abc123id') }}
+```
+
+### Read fields
+
+From the entry: `entry.`
+
+#### Matrix
+
+```twig
+{% for block in entry.matrixStandard.all() %}
+...
+{% endfor %}
+```
+
+#### Section
+
+```twig
+{% set posts = craft.entries().section('articles').orderBy('postDate desc').limit(20) %}
+{% for post in posts.all() %}
+    <li><a href="{{ post.getUrl() }}" class="mr-3">{{ post.title }}</a> <small>{% for topic in post.topics.all() %}<span class="mr-3">{{ topic }}</span>{% endfor %}</small></li>
+{% endfor %}
+```
+
+#### Filter
+
+Not empty
+
+```twig
+{% set members = craft.entries.section('members').memberHeroImage(':notempty:') %}
+```
+
+#### Shuffle
+
+```twig
+{% set shuffledImages = shuffle(block.images.all()) %}
+```
+
+### Request Parameter
+
+```twig
+{% set itemId = craft.app.request.getParam("item") %}
+```
+
+### Navigation
+
+https://craftcms.com/guides/displaying-a-navigation-for-a-structure-section
+
+#### Navigation with childs
+
+```twig
+{% set mainNavigation = craft.entries.section('mainNavigation') %}
+{% nav page in mainNavigation.level(1).all() %}
+	{% set isAncestor = entry is defined and page.isAncestorOf(entry) %}
+	<li class="nav-item-{{ page.id }} nav-item {{ (page.id == entry.id or isAncestor) ? 'active' }}">
+		<span class="nav-link" data-id="{{ page.id }}">{{ page.title }}</span>
+		{% ifchildren %}
+    	<ul>
+    		{% children %}
+    	</ul>
+    {% endifchildren %}
+	</li>
+{% endnav %}
+```
+
+#### Collapsing Mobile menu
+
+### Breadcrumb
+
+https://craftcms.com/knowledge-base/displaying-breadcrumbs-for-an-entry
+
+```twig
+{% if entry.level > 1 %}
+<nav class="nav-breadcrumb">
+    <ol class="breadcrumb justify-content-center">
+        <li class="breadcrumb-item"><a href="/">Start</a></li>
+        {% for crumb in entry.getAncestors() %}
+            <li class="breadcrumb-item"><a href="{{ crumb.descendants.one.getUrl() }}">{{ crumb }}</a></li>
+        {% endfor %}
+        <li class="breadcrumb-item active">{{ entry }}</li>
+    </ol>
+</nav>
+{% endif %}
+```
+
+## Multi language
+
+- Create two variables in `.env`
+
+```
+DEFAULT_SITE_URL="https://example.com"
+DEFAULT_SITE_URL_DE="https://example.com/de"
+DEFAULT_SITE_URL_EN="https://example.com/en"
+```
+
+- Under `Settings/Sites`
+  - Name `Default (de)`
+  - Handle `defaultDe`
+  - Base URL `$DEFAULT_SITE_URL_DE`
+
+| Name         | Kurzname    | Sprache | Primär | Basis-URL              | Gruppe            |      |
+| :----------- | :---------- | :------ | :----- | :--------------------- |:------------------| ---- |
+| Default (de) | `defaultDe` | `de`    | X      | `$DEFAULT_SITE_URL_DE` | example.com       |      |
+| Default (en) | `defaultEn` | `en`    |        | `$DEFAULT_SITE_URL_EN` | example.com |      |
+
+## Create Section
+
+### Home
+
+- Name: Home
+- Handle: home
+- Section Type: Single
+- Site Settings
+
+| Site         | Haus | URI  | Template |
+| :----------- | :--- | :--- | :------- |
+| Default (de) | X    |      | _home    |
+| Default (en) | X    |      | _home    |
+
+
+### Main Navigation
+
+- Name `Main Navigation`
+- Handle `mainNavigation`
+- Section Type `Structure`
+
+| Website      |      | Eintrags-URI-Format | Vorlage  | Standardstatus |
+| :----------- | :--- | :------------------ | :------- | :------------- |
+| Default (de) |      | {slug}              | _default | on             |
+| Default (en) |      | {slug}              | _default | on             |
+
 
