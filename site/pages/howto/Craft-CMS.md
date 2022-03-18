@@ -122,7 +122,7 @@ composer require package/name
 
 Add copy, paste and clone functionality to Matrix blocks.
 
-Package Name: verbb/smith
+**Package Name:** verbb/smith
 
 ### Contact Form
 
@@ -213,8 +213,6 @@ or via import
 
 ### Read fields
 
-From the entry: `entry.`
-
 #### Matrix
 
 ```twig
@@ -234,7 +232,7 @@ From the entry: `entry.`
 
 #### Filter
 
-Not empty
+Filter not empty
 
 ```twig
 {% set members = craft.entries.section('members').memberHeroImage(':notempty:') %}
@@ -303,23 +301,24 @@ DEFAULT_SITE_URL_DE="https://example.com/de"
 DEFAULT_SITE_URL_EN="https://example.com/en"
 ```
 
-- Under `Settings/Sites`
-  - Name `Default (de)`
-  - Handle `defaultDe`
-  - Base URL `$DEFAULT_SITE_URL_DE`
+### Settings/Sites
 
-| Name         | Kurzname    | Sprache | Primär | Basis-URL              | Gruppe            |      |
-| :----------- | :---------- | :------ | :----- | :--------------------- |:------------------| ---- |
-| Default (de) | `defaultDe` | `de`    | X      | `$DEFAULT_SITE_URL_DE` | example.com       |      |
-| Default (en) | `defaultEn` | `en`    |        | `$DEFAULT_SITE_URL_EN` | example.com |      |
+- Name `Default (de)`
+- Handle `defaultDe`
+- Base URL `$DEFAULT_SITE_URL_DE`
+
+| Name         | Handle      | Language | Primär | Base URL               | Group       |      |
+| :----------- |:------------|:---------| :----- |:-----------------------|:------------| ---- |
+| Default (de) | `defaultDe` | `de`     | X      | `$DEFAULT_SITE_URL_DE` | example.com |      |
+| Default (en) | `defaultEn` | `en`     |        | `$DEFAULT_SITE_URL_EN` | example.com |      |
 
 ## Create Section
 
 ### Home
 
-- Name: Home
-- Handle: home
-- Section Type: Single
+- Name: `Home`
+- Handle: `home`
+- Section Type: `Single`
 - Site Settings
 
 | Site         | Haus | URI  | Template |

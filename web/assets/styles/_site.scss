@@ -27,6 +27,7 @@ body {
 
     .nav--navbar {
       float: left;
+
       li {
         float: left;
         padding: 0.1rem 0 0.5rem 0;
@@ -193,6 +194,16 @@ body {
   &.dev {
     div, nav, main {
       // outline: 1px transparentize($white, 0.90) dashed;
+    }
+  }
+
+  table {
+    margin-bottom: 1rem;
+    th {
+      color: $body-bold-color;
+    }
+    td, th {
+      padding-right: 1rem;
     }
   }
 }
