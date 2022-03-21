@@ -260,24 +260,35 @@ Filter not empty
 
 https://craftcms.com/guides/displaying-a-navigation-for-a-structure-section
 
-#### Navigation with childs
+#### CraftCMS Navigation with Bootstrap 5
 
 ```twig
-{% set mainNavigation = craft.entries.section('mainNavigation') %}
-{% nav page in mainNavigation.level(1).all() %}
-	{% set isAncestor = entry is defined and page.isAncestorOf(entry) %}
-	<li class="nav-item-{{ page.id }} nav-item {{ (page.id == entry.id or isAncestor) ? 'active' }}">
-		<span class="nav-link" data-id="{{ page.id }}">{{ page.title }}</span>
-		{% ifchildren %}
-    	<ul>
-    		{% children %}
-    	</ul>
-    {% endifchildren %}
-	</li>
-{% endnav %}
+<nav class="navbar navbar-expand-lg navbar-light">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+            {% set mainNavigation = craft.entries.section('mainNavigation').level('1').all() %}
+            {% for page in mainNavigation %}
+                {% set isAncestor = entry is defined and page.isAncestorOf(entry) %}
+                <li class="dropdown nav-item">
+                    <a class="nav-link {{ (page.id == entry.id or isAncestor) ? 'active' }}"
+                       id="{{ page.id }}" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">{{ page.title }}</a>
+                    <ul class="dropdown-menu" aria-labelledby="{{ page.id }}">
+                        {% for child in page.children.all() %}
+                            <li><a class="dropdown-item" href="{{ child.url }}">{{ child.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</nav>
 ```
-
-#### Collapsing Mobile menu
 
 ### Breadcrumb
 
