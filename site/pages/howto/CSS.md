@@ -54,11 +54,11 @@
 }
 ```
 
-## Display guidelines for all elements
+## Display outlines for all elements on hover
 
 ```css
-body div {
-    outline: 1px rgba(0, 0, 0, 0.2) dashed;
+body *:hover {
+    outline: 1px rgba(0, 0, 0, 0.2) solid;
 }
 ```
 

@@ -316,15 +316,16 @@ DEFAULT_SITE_URL_EN="https://example.com/en"
 
 ### Home
 
-- Name: `Home`
-- Handle: `home`
-- Section Type: `Single`
-- Site Settings
+- Name `Home`
+- Handle `home`
+- Section Type `Single`
+ 
+Site Settings
 
-| Site         | Haus | URI  | Template |
-| :----------- | :--- | :--- | :------- |
-| Default (de) | X    |      | _home    |
-| Default (en) | X    |      | _home    |
+| Site         | House | URI  | Template |
+| :----------- |:------| :--- | :------- |
+| Default (de) | X     |      | _home    |
+| Default (en) | X     |      | _home    |
 
 
 ### Main Navigation
@@ -333,9 +334,20 @@ DEFAULT_SITE_URL_EN="https://example.com/en"
 - Handle `mainNavigation`
 - Section Type `Structure`
 
+Site Settings
+
 | Website      |      | Eintrags-URI-Format | Vorlage  | Standardstatus |
 | :----------- | :--- | :------------------ | :------- | :------------- |
 | Default (de) |      | {slug}              | _default | on             |
 | Default (en) |      | {slug}              | _default | on             |
 
+## Assets
 
+Create a new asset volume.
+
+- Name `Downloads`
+- Handle `downloads`
+- Assets in this volume have public URLs `check`
+- Base URL `/media/downloads`
+- Volume Type `Local Folder`
+- File System Path `media/downloads`

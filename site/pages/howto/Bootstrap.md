@@ -84,12 +84,9 @@ You find the latest version at [bootstrapcdn.com](https://www.bootstrapcdn.com).
 
 ```scss
 @import "fonts"; // load additional web fonts
-// include the bootstrap variables to have them for our configuration
-@import "../../node_modules/bootstrap/scss/functions";
-@import "../../node_modules/bootstrap/scss/variables";
 @import "colors"; // set values for the colors
 @import "config"; // set values for further bootstrap variables
-@import "../../node_modules/bootstrap/scss/bootstrap"; // include bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap.scss"; // include bootstrap
 @import "bootstrap-overrides"; // bootstrap things, that can not be handled via configuration
 @import "utils"; // my own utils, small helper classes, mixins
 @import "header"; // css for the navigation and header
@@ -99,11 +96,11 @@ You find the latest version at [bootstrapcdn.com](https://www.bootstrapcdn.com).
 
 ## Read a Bootstrap breakpoint or max-width value
 
-```
+```css
 $breakpoint-sm: map-get($grid-breakpoints, sm); 
 ```
 
-```
+```css
 .max-width-sm {
   max-width: map-get($container-max-widths, sm);
 }
@@ -111,7 +108,13 @@ $breakpoint-sm: map-get($grid-breakpoints, sm);
 
 ## Mixin to create a max-width util
 
-
+```scss
+@each $name, $value in $container-max-widths {
+  .max-width-#{$name} {
+    max-width: $value;
+  }
+}
+```
 
 ## Disable the Grid-System
 
