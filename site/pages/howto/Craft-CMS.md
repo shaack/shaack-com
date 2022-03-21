@@ -140,15 +140,21 @@ Base URL: {{ currentSite.baseUrl }}<br/>
 Group: {{ currentSite.group }}<br/>
 ```
 
-### include
+### Include
 
 ```twig
 {% include 'header.html' %}
 ```
 
-### Twig Tenary operator
+### Tenary operator
 
-https://stackoverflow.com/questions/11820297/twig-ternary-operator-shorthand-if-then-else/40605919#40605919
+```twig
+{{ foo ? 'yes' : 'no' }}
+{{ foo ?: 'no' }} {# If `foo` echo it, else echo 'no' #}
+{{ foo ? 'yes' }} {# If `foo` echo 'yes' else echo nothing #}
+{{ foo ?? 'no' }} {# `foo` if it is defined and not null, 'no' otherwise #}
+{{ foo|default('no') }} {# `foo` if it is defined (empty values also count), 'no' otherwise #}
+```
 
 ### Current Year
 
@@ -156,13 +162,13 @@ https://stackoverflow.com/questions/11820297/twig-ternary-operator-shorthand-if-
 {{ 'now' | date('Y') }}
 ```
 
-### debugging
+### Debugging
 
 ```twig
 {{ dump(varname) }}
 ```
 
-### if
+### Conditions
 
 ```twig
 {% if entry.showTitle %}
@@ -183,7 +189,7 @@ https://stackoverflow.com/questions/11820297/twig-ternary-operator-shorthand-if-
 | non-empty array        | true               |
 | object                 | true               |
 
-### loop
+### Loop
 
 ```twig
 {% for block in entry.matrixStandard.all() %}
@@ -191,7 +197,7 @@ https://stackoverflow.com/questions/11820297/twig-ternary-operator-shorthand-if-
 {% endfor %}
 ```
 
-### macros
+### Macros
 
 https://twig.symfony.com/doc/3.x/tags/macro.html
 
@@ -307,10 +313,10 @@ DEFAULT_SITE_URL_EN="https://example.com/en"
 - Handle `defaultDe`
 - Base URL `$DEFAULT_SITE_URL_DE`
 
-| Name         | Handle      | Language | Primär | Base URL               | Group       |      |
-| :----------- |:------------|:---------| :----- |:-----------------------|:------------| ---- |
-| Default (de) | `defaultDe` | `de`     | X      | `$DEFAULT_SITE_URL_DE` | example.com |      |
-| Default (en) | `defaultEn` | `en`     |        | `$DEFAULT_SITE_URL_EN` | example.com |      |
+| Name         | Handle      | Language | Primary | Base URL               | Group       |      |
+| :----------- |:------------|:---------|:--------|:-----------------------|:------------| ---- |
+| Default (de) | `defaultDe` | `de`     | X       | `$DEFAULT_SITE_URL_DE` | example.com |      |
+| Default (en) | `defaultEn` | `en`     |         | `$DEFAULT_SITE_URL_EN` | example.com |      |
 
 ## Create Section
 
