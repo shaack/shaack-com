@@ -68,3 +68,15 @@ https://getcomposer.org/doc/01-basic-usage.md#autoloading
 
 - `"ext-json": "*"` is needed to declare standard PHP extensions.
 - `"autoload"` declares project folders to be recognized for autoloading.
+
+## Composer and Plesk
+
+### On CentOS/RHEL-based distributions
+
+    /opt/plesk/php/X.X/bin/php /usr/lib64/plesk-9.0/composer.phar [options] [arguments]
+
+### On Debian/Ubuntu-based distributions
+
+    /opt/plesk/php/X.X/bin/php /usr/lib/plesk-9.0/composer.phar [options] [arguments]
+
+https://support.plesk.com/hc/en-us/articles/115001707605-How-to-run-Composer-with-Plesk-PHP
