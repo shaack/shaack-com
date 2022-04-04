@@ -119,3 +119,7 @@ $breakpoint-sm: map-get($grid-breakpoints, sm);
 ## Disable the Grid-System
 
 - https://medium.com/@erik_flowers/how-youve-been-getting-the-bootstrap-grid-all-wrong-and-how-to-fix-it-6d97b920aa40
+
+## Navigation on Hover
+
+- https://bootstrap-menu.com/detail-basic-hover.html

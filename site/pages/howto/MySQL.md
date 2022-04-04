@@ -20,6 +20,18 @@ mysql -u $DBUSER -p$DBPASSWD -h$DBHOST --database=$DATABASE < $FILENAME
 mysqlcheck -u $DBUSER -p --auto-repair --check $DATABASE
 ```
 
+## Error "Server returns invalid timezone. Need to set 'serverTimezone' property."
+
+### Via user defined driver property
+
+Set the user defined driver property `serverTimezone` to `UTC`.
+
+### Via JDBC
+
+Or set it in the JDBC connection string
+
+    jdbc:mysql://localhost:3306/dbname?serverTimezone=UTC
+
 ## Log every query
 
 ### Configure the logfile in `my.cnf`
