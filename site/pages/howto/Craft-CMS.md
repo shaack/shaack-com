@@ -199,23 +199,27 @@ Group: {{ currentSite.group }}<br/>
 
 ### Macros
 
-https://twig.symfony.com/doc/3.x/tags/macro.html
+#### Inline
 
 ```twig
-{% macro input(name, value, type = "text", size = 20) %}
-    <input type="{{ type }}" name="{{ name }}" value="{{ value|e }}" size="{{ size }}" />
+{% macro image(image) %}
+    {% if image %}
+        <img loading="lazy" class="img-fluid w-100" src="{{ image ? image.getUrl() }}" alt="{{ image ? image.title }}"/>
+    {% endif %}
 {% endmacro %}
 
-<p>{{ _self.input('password', '', 'password') }}</p>
+{{ _self.image(entry.image.one) }}
 ```
 
-or via import
+#### From external file
 
 ```twig
-{% import "_macros.twig" as macros %}
+{% import "./_includes/macros.twig" as macros %}
 
-{{ macros.youtube('abc123id') }}
+{{ macros.image(entry.image.one) }}
 ```
+
+See also: https://twig.symfony.com/doc/3.x/tags/macro.html
 
 ### Read fields
 
