@@ -84,14 +84,14 @@ You find the latest version at [bootstrapcdn.com](https://www.bootstrapcdn.com).
 
 ```scss
 @import "fonts"; // load additional web fonts
-@import "colors"; // set values for the colors
-@import "config"; // set values for further bootstrap variables
+@import "config/colors"; // set values for the colors
+@import "config/variables"; // set values for further bootstrap variables
 @import "../../node_modules/bootstrap/scss/bootstrap.scss"; // include bootstrap
-@import "bootstrap-overrides"; // bootstrap things, that can not be handled via configuration
 @import "utils"; // my own utils, small helper classes, mixins
+@import "globals"; // globals and bootstrap things, that can not be handled via configuration
 @import "header"; // css for the navigation and header
-@import "blocks"; // one scss file for every "block" (aka section or module) in your layout or CMS
 @import "footer"; // css for the page footer
+@import "blocks"; // one scss file for every "block" (aka section or module) in your layout or CMS
 ```
 
 ## Read a Bootstrap breakpoint or max-width value

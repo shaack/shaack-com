@@ -146,7 +146,7 @@ Group: {{ currentSite.group }}<br/>
 {% include 'header.html' %}
 ```
 
-### Tenary operator
+### Ternary operator
 
 ```twig
 {{ foo ? 'yes' : 'no' }}
