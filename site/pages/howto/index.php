@@ -3,7 +3,7 @@
 /**  @var \Shaack\Reboot\Site $site */
 $filenames = scandir($site->getFsPath() . "/pages/howto", SCANDIR_SORT_NONE);
 natcasesort($filenames);
-$chunks = array_chunk($filenames, count($filenames) / 2 + 2);
+$chunks = array_chunk($filenames, count($filenames) / 2 + 1);
 ?>
 <div class="d-flex-sm">
     <div class="flex-col">
@@ -13,7 +13,7 @@ $chunks = array_chunk($filenames, count($filenames) / 2 + 2);
                 if (str_ends_with($file, ".md")) {
                     $name = substr($file, 0, strlen($file) - 3)
                     ?>
-                    <li><a href="./howto/<?= $name ?>"><?= str_replace("-", " ", $name) ?></a></li>
+                    <li><a style="min-width: 320px;" href="./howto/<?= $name ?>"><?= str_replace("-", " ", $name) ?></a></li>
                     <?php
                 }
             }
