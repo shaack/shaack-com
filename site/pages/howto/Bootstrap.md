@@ -80,6 +80,7 @@ You find the latest version at [bootstrapcdn.com](https://www.bootstrapcdn.com).
 
 ## Integrate Bootstrap with scss
 
+- https://getbootstrap.com/docs/5.0/customize/sass/
 - https://www.mugo.ca/Blog/How-to-customize-Bootstrap-4-using-Sass
 
 ```scss

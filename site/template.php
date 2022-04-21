@@ -22,7 +22,7 @@ $v = 5;
         <?php $navbarConfig = $site->getConfig()['navbar']; ?>
         <ul class="nav--navbar">
             <li>
-                <a class="<?= $request->getPath() == "/" ? "active" : "" ?>"
+                <a class="<?= $request->getPath() == "/" || $request->getPath() == "/simplicity" ? "active" : "" ?>"
                    href="/">shaack.com</a>
             </li>
             <?php

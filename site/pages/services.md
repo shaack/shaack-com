@@ -17,11 +17,11 @@ concept of the website.
 
 ## 2. Production
 
-I draw on over 15 years of **experience** in developing apps and websites. What I program is tested and
+I draw on over 15 years of experience in developing apps and websites. What I program is tested and
 meets the requirements. Related to the technique, I offer
 
-- **full stack programming for web and apps,**
-- **quality assurance and automated tests** of webapps and shops, unit tests, tests automation.
+- **full stack programming for web and apps** and
+- **quality assurance and automated testing** of webapps, websites and webshops
 
 ## 3. Operation and maintenance
 

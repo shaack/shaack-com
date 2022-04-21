@@ -10,7 +10,7 @@ export class ShellWrite {
         context.style.visibility = "visible"
         context.innerHTML = ""
         let content = ""
-        const delay = 30
+        const delay = 60
         for (let i = 0; i < this.content.length; i++) {
             setTimeout(() => {
                 content += this.content.charAt(i)

@@ -372,3 +372,32 @@ Create a new asset volume.
 - Base URL `/media/downloads`
 - Volume Type `Local Folder`
 - File System Path `media/downloads`
+
+## Extensions
+
+Steps to create an extension
+
+1. Create a plugin via https://pluginfactory.io (or [generator-craftplugin](https://github.com/nystudio107/generator-craftplugin))
+   - Plugin Name `TwigExtensions`
+   - Initial Version `1.0.0`
+   - Plugin Vendor `shaack`
+   - Author `Stefan Haack`
+   - Turn on Switches `Code Comments` and `TwigExtensions` 
+2. Create a folder `craft/local/extensions`
+3. Copy the `twigextensions` folder to `craft/local/extensions`
+4. Add the path to `composer.json`
+```json
+"repositories": [
+  {
+    "type": "path",
+    "url": "./local/extensions/*"
+  }
+]
+```
+5. Install it with `composer require shaack/twig-extensions`
+6. Enable the plugin via admin interface
+
+After changing the code of the plugin, call again
+```bash
+composer require shaack/twig-extensions
+```

@@ -1,4 +1,4 @@
-<a href="/services">
+<a href="/howto/Simplicity">
     <h1 class="big" id="name">
         Stefan Haack</h1>
     <p id="claim">_</p>
@@ -6,8 +6,11 @@
 <script type="module">
     import {ShellWrite} from "./src/ShellWrite.js"
     const fortunes = [
-        "Simplicity is your friend.",
-        "Everything should be made as simple as possible, but not simpler.",
+        // "“I didn’t have time to write a short letter, so I wrote a long one instead.” – Mark Twain",
+        "“Less is more.” — Mies van der Rohe",
+        // "Simplicity is your friend.",
+        // "”Everything should be made as simple as possible, but not simpler.” – Einstein",
+        /*
         "You cannot achieve the impossible without attempting the absurd.",
         "Good salesmen and good repairmen will never go hungry.",
         "If it's not tested, it doesn't work.",
@@ -16,6 +19,7 @@
         "A complex system that works is invariably found to have evolved from a simple system that works.",
         "Happiness is the greatest good.",
         "Opportunities multiply when you seize them."
+         */
     ]
     const fortune = fortunes[Math.floor(Math.random() * fortunes.length)];
     documentReady(() => {
