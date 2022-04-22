@@ -1,4 +1,4 @@
-<a href="/howto/Simplicity">
+<a href="services">
     <h1 class="big" id="name">
         Stefan Haack</h1>
     <p id="claim">_</p>
