@@ -17,5 +17,3 @@ beautiful (in the sense of a logical, coherent structure) and good (i.e. functio
 simple. Albert Einstein also held this view.
 
 > From Wikipedia
-
-See also: [Services](/services)
