@@ -23,7 +23,7 @@ Enables a flex context for its **direct** children.
 ### flex-wrap
 
 ```css
-.container{
+.container {
   flex-wrap: nowrap | wrap | wrap-reverse;
 }
 ```

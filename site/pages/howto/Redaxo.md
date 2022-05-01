@@ -1,5 +1,32 @@
 # Redaxo
 
+## Installation
+
+- Unpack files
+- create `.gitignore`
+- Create the database
+- Install CMS (call root url)
+- First (initial) commit
+- Install AddOns
+
+## .gitignore
+
+```bash
+# redaxo configuration
+/redaxo/data/core/config.yml
+/redaxo/data/addons/install/config.json
+/redaxo/cache/*
+!/redaxo/cache/.*
+/media/*
+!/media/.*
+/redaxo/data/log/*
+*.log
+
+## shaack specific
+/.idea
+/node_modules
+```
+
 ## AddOns
 
 These are the AddOns that I literally install in every project.
@@ -10,9 +37,10 @@ These are the AddOns that I literally install in every project.
 - **developer** - Allows the editing of modules and templates with an editor or development environment.
 - **global_settings** - Allows global settings and global content for your site.
 - **mForm** - Allows the programming of forms in PHP without HTML.
+- **mBlock** - Create multiple data blocks within a module.
 - **yForm** - The Redaxo database, forms and email templating tool.
 
-### cke5 - Tabelle rex_cke5_profiles
+### cke5 - table rex_cke5_profiles
 
 ```sql
 INSERT INTO rex_cke5_profiles (lang_content, font_color, font_color_default, font_background_color, font_background_color_default, font_families, font_family_default, id, name, description, toolbar, heading, alignment, image_toolbar, fontsize, highlight, table_toolbar, rexlink, height_default, min_height, max_height, lang, mediaembed, mediatype, mediapath, mediacategory, upload_default, createdate, updatedate, createuser, updateuser) VALUES (null, null, null, null, null, null, null, 4, 'shaack-light', 'Default & Demo Profile', 'heading,|,bold,|,link,|,alignment,|,undo,redo', 'paragraph,h1,h2,h3', 'left,right,center,justify', 'imageTextAlternative,|,full,alignLeft,alignRight,alignCenter', 'tiny,small,big,huge', 'yellowMarker,greenMarker,redPen,greenPen', 'tableColumn,tableRow,mergeTableCells', 'internal,media', '|default_height|', 0, 0, 'de', null, '', '', 0, null, now(), now(), 'admin', 'admin');
@@ -222,17 +250,6 @@ public static function getChildCategories($parentCategoryId = null) {
 
 https://friendsofredaxo.github.io/tricks/
 
-## .gitignore
-
-```bash
-/.idea
-/redaxo/cache
-/redaxo/data/core/system.log
-/redaxo/data/core/config.yml
-/media/*
-/node_modules
-*.css.map
-```
 ## Doku
 
 - Extension Points: https://www.redaxo.org/doku/master/extension-points
