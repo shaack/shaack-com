@@ -59,7 +59,7 @@ flex-start          # # # #
                     # #   #
                     #
 
-flex-end.           #
+flex-end            #
                     # #   #
                     # # # #
 */

@@ -1,34 +1,6 @@
-# Bootstrap
+# Bootstrap 5
 
-## Bootstrap 4
-
-### local via npm
-
-```shell
-npm install jquery
-npm install bootstrap@latest-4
-```
-
-```html
-<link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css"/>
-<script src="/node_modules/jquery/dist/jquery.min.js"></script>
-<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-```
-
-### via CDN
-
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"/>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
-        crossorigin="anonymous"></script>
-```
-
-## Bootstrap 5
+## Install
 
 ### local via npm
 
@@ -55,7 +27,7 @@ npm install bootstrap@latest-5
 
 You find the latest version at [bootstrapcdn.com](https://www.bootstrapcdn.com).
 
-### Bootstrap 5 starter template
+### Bootstrap starter template
 
 ```php
 <!doctype html>
@@ -116,6 +88,13 @@ $breakpoint-sm: map-get($grid-breakpoints, sm);
   }
 }
 ```
+
+## Tricks
+
+### Align text or button at the bottom of a card
+
+1. Add `d-flex` and `flex-column` to `card-body`
+2. Add `mt-auto` to the element in `card-body`
 
 ## Disable the Grid-System
 
