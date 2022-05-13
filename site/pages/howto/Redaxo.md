@@ -39,6 +39,7 @@ These are the AddOns that I literally install in every project.
 - **mForm** - Allows the programming of forms in PHP without HTML.
 - **mBlock** - Create multiple data blocks within a module.
 - **yForm** - The Redaxo database, forms and email templating tool.
+- **yRewrite** - SEO and pretty URLs 
 
 ### cke5 - table rex_cke5_profiles
 
@@ -46,6 +47,12 @@ These are the AddOns that I literally install in every project.
 INSERT INTO rex_cke5_profiles (lang_content, font_color, font_color_default, font_background_color, font_background_color_default, font_families, font_family_default, id, name, description, toolbar, heading, alignment, image_toolbar, fontsize, highlight, table_toolbar, rexlink, height_default, min_height, max_height, lang, mediaembed, mediatype, mediapath, mediacategory, upload_default, createdate, updatedate, createuser, updateuser) VALUES (null, null, null, null, null, null, null, 4, 'shaack-light', 'Default & Demo Profile', 'heading,|,bold,|,link,|,alignment,|,undo,redo', 'paragraph,h1,h2,h3', 'left,right,center,justify', 'imageTextAlternative,|,full,alignLeft,alignRight,alignCenter', 'tiny,small,big,huge', 'yellowMarker,greenMarker,redPen,greenPen', 'tableColumn,tableRow,mergeTableCells', 'internal,media', '|default_height|', 0, 0, 'de', null, '', '', 0, null, now(), now(), 'admin', 'admin');
 INSERT INTO rex_cke5_profiles (lang_content, font_color, font_color_default, font_background_color, font_background_color_default, font_families, font_family_default, id, name, description, toolbar, heading, alignment, image_toolbar, fontsize, highlight, table_toolbar, rexlink, height_default, min_height, max_height, lang, mediaembed, mediatype, mediapath, mediacategory, upload_default, createdate, updatedate, createuser, updateuser) VALUES (null, null, null, null, null, null, null, 5, 'shaack-default', 'Default & Demo Profile', 'heading,|,bold,italic,bulletedList,numberedList,|,link,|,alignment,|,undo,redo,rexImage', 'paragraph,h1,h2,h3', 'left,right,center,justify', 'imageTextAlternative,|,full,alignLeft,alignRight,alignCenter', 'tiny,small,big,huge', 'yellowMarker,greenMarker,redPen,greenPen', 'tableColumn,tableRow,mergeTableCells', 'internal,media', '|default_height|', 0, 0, 'de', null, 'full-size', 'media/', 0, null, now(), now(), 'admin', 'admin');
 ```
+
+### global_settings
+
+cke5 in global settings, `HTML-Attribute`
+
+    class="cke5-editor" data-profile="light"
 
 ### mForm
 

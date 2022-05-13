@@ -20,3 +20,7 @@
 
     find . -size +1G -exec ls -lh {} \;
 
+### Count the number of send emails in /var/log/maillog
+
+    cat /var/log/maillog | grep -v "relay=local" | grep "relay=" | grep "status=sent" | grep "May 10" | wc -l
+
