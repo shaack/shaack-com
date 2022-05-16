@@ -14,4 +14,4 @@ Tested in the macOS terminal.
     > date | md5 | head -c16; echo
     0bc70151c09e5745
 
-See also: [shell script](shell-script.md)
+See also: [shell script](shell-script)

@@ -18,4 +18,4 @@ printf '%(%Y-%m-%d)T\n' -1
 
 From: https://stackoverflow.com/questions/1401482/yyyy-mm-dd-format-date-in-shell-script
 
-See also: [shell password generation](shell-password-generation.md)
+See also: [shell password generation](shell-password-generation)
