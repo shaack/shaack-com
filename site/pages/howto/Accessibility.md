@@ -19,6 +19,10 @@ is build into every Mac, iPad and iPhone.
 
 > Testing your web pages with "Voice Over", will open your eyes.
 
+## Accessible SVG
+
+- https://www.sitepoint.com/tips-accessible-svg/
+
 ## ARIA-Attributes
 
 - [https://wiki.selfhtml.org/wiki/HTML/Attribute/aria-*](https://wiki.selfhtml.org/wiki/HTML/Attribute/aria-*)
