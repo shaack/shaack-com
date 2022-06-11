@@ -45,23 +45,16 @@ is build into every Mac, iPad and iPhone.
 
 ## "Visually hidden" is the new "screenreader only"
 
-- BS 4: `.sr-only`
-- BS 5: `.visually-hidden`
-
-The original code from Bootstrap 5:
+The css code for `.visually-hidden`
 
 ```css
-.visually-hidden,
-.visually-hidden-focusable:not(:focus):not(:focus-within) {
-    position: absolute !important;
-    width: 1px !important;
-    height: 1px !important;
-    padding: 0 !important;
-    margin: -1px !important;
-    overflow: hidden !important;
-    clip: rect(0, 0, 0, 0) !important;
-    white-space: nowrap !important;
-    border: 0 !important;
+.visually-hidden {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
 ```
 
