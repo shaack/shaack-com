@@ -1,5 +1,9 @@
 # JavaScript
 
+## Is it better to return null or undefined?
+
+https://stackoverflow.com/questions/37980559/is-it-better-to-return-undefined-or-null-from-a-javascript-function
+
 ## Determine the dimensions of elements
 
 ### clientWidth, clientHeight
