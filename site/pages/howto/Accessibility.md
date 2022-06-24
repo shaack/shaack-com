@@ -91,6 +91,23 @@ can improve the experience for assistive technology users by hiding:
 - `aria-describedby`: id of the description (optional)
 - `aria-label`: The label, should be in the websites language
 
+## Newline in alt attribute or title
+
+### HTML
+
+```html
+<img src="image.jpg" alt="Line 1
+Line 2"/>
+```
+
+### CSS
+
+```css
+img {
+    white-space: pre
+}
+```
+
 ## Role Attribute
 
 ### Definition of roles
