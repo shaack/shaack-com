@@ -13,7 +13,7 @@ The size of the displayed content, including padding, without scrollbars and bor
 ### scrollWidth, scrollHeight
 
 The actual size of the content, regardless of how much of it is currently visible.
-
+![img.png](img.png)
 ### offsetWith, offsetHeight
 
 The width and height of an element, including borders, without margins. Ignores scaling.
@@ -39,3 +39,8 @@ context.appendChild(element)
 ```js
 window.getComputedStyle(document.documentElement).getPropertyValue('--css-variable')
 ```
+
+## Promises
+
+https://www.youtube.com/watch?v=DHvZLI7Db8E
+
