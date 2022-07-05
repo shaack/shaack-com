@@ -189,6 +189,23 @@ Group: {{ currentSite.group }}<br/>
 | non-empty array        | true               |
 | object                 | true               |
 
+### switch
+
+```twig
+{% set value = 'value2' %}
+{% switch value %}
+    {% case 'value1' %}
+        <p>value is "value1"</p>
+    {% case 'value2' %}
+        <p>value is "value2"</p>
+    {% case 'value3' %}
+    {% case 'value4' %}
+        <p>value is "value3" or "value4"</p>
+    {% default %}
+        <p>value is something else</p>
+{% endswitch %}
+```
+
 ### Loop
 
 ```twig
@@ -310,6 +327,12 @@ https://craftcms.com/knowledge-base/displaying-breadcrumbs-for-an-entry
     </ol>
 </nav>
 {% endif %}
+```
+
+### Redirect to first child page
+
+```twig
+{% redirect entry.getChildren().one().url %}
 ```
 
 ## Multi language
