@@ -64,30 +64,29 @@ cke5 in global settings, `HTML-Attribute`
 ```php+HTML
 <?php
 $mForm = new MForm();
-$mForm->addSelectField(1, ["large" => "Groß, mit Bild im Hintergrund", "small" => "Klein, mit freigestelltem Bild"], ['label' => 'Typ']);
-$mForm->addTextField(2, ['label' => 'Überschrift']);
-$mForm->addTextAreaField(3, ['label' => 'Text']);
+$mForm->addSelectField(1, ['value1' => 'OPTION1', 'value2' => 'OPTION2'], ['label' => 'LABEL']);
+$mForm->addTextField(2, ['label' => 'LABEL']);
+$mForm->addTextAreaField(3, ['label' => 'LABEL']);
 $mForm->addTextAreaField(4, ['class' => 'cke5-editor', 'data-lang' => \Cke5\Utils\Cke5Lang::getUserLang(), 'data-profile' => 'shaack-default']);
-$mForm->addMediaField(5, ['label' => 'Bild']);
-$mForm->addLinkField(6, ['label' => 'Verlinkung intern']);
-$mForm->addCheckboxField(7, ['label' => 'Hintergrund Grau']);
+$mForm->addMediaField(5, ['label' => 'LABEL']);
+$mForm->addLinkField(6, ['label' => 'LABEL']);
+$mForm->addCheckboxField(7, ['label' => 'LABEL']);
 echo $mForm->show();
 ```
 
 #### Output
 
-See: https://www.redaxo.org/doku/main/redaxo-variablen
-
 ```php+HTML
 <?php
-$type = 'REX_VALUE[1]';
-$headline = 'REX_VALUE[2]';
-$text = 'REX_VALUE[3]';
-$html = 'REX_VALUE[id="4" output="html"]';
-$image = 'REX_MEDIA[5]';
-$articleId = intval('REX_LINK[6]', 10);
-$externalLink = 'REX_VALUE[7]';
+$selectValue = 'REX_VALUE[1]';
+$textValue = 'REX_VALUE[2]';
+$textareaValue = 'REX_VALUE[3]';
+$htmlValue = 'REX_VALUE[id="4" output="html"]';
+$imageFileValue = 'REX_MEDIA[5]';
+$linkArticleId = intval('REX_LINK[6]', 10);
+$checkboxValue = !!'REX_VALUE[7]';
 ```
+See also: https://www.redaxo.org/doku/main/redaxo-variablen
 
 ### yForm
 
