@@ -50,9 +50,15 @@ INSERT INTO rex_cke5_profiles (lang_content, font_color, font_color_default, fon
 
 ### global_settings
 
-cke5 in global settings, `HTML-Attribute`
+Use global settings in your modules and templates
 
-    class="cke5-editor" data-profile="light"
+```php
+$value = rex_global_settings::getValue("fieldName");
+```
+
+To use cke5 in global settings, use `textarea` and set the `HTML-Attribute` to
+
+    class="cke5-editor" data-profile="profileName"
 
 ### mForm
 
@@ -66,7 +72,7 @@ cke5 in global settings, `HTML-Attribute`
 $mForm = new MForm();
 $mForm->addSelectField(1, ['value1' => 'OPTION1', 'value2' => 'OPTION2'], ['label' => 'LABEL']);
 $mForm->addTextField(2, ['label' => 'LABEL']);
-$mForm->addTextAreaField(3, ['label' => 'LABEL']);
+$mForm->addTextAreaField(3, ['label' => 'LABEL', "rows" => "ROW_COUNT"]);
 $mForm->addTextAreaField(4, ['class' => 'cke5-editor', 'data-lang' => \Cke5\Utils\Cke5Lang::getUserLang(), 'data-profile' => 'shaack-default']);
 $mForm->addMediaField(5, ['label' => 'LABEL']);
 $mForm->addLinkField(6, ['label' => 'LABEL']);
