@@ -177,7 +177,7 @@ Group: {{ currentSite.group }}<br/>
 ```
 
 | Value                  | Boolean evaluation |
-| :--------------------- | :----------------- |
+|:-----------------------|:-------------------|
 | empty string           | false              |
 | numeric zero           | false              |
 | NAN (Not A Number)     | true               |
@@ -351,10 +351,10 @@ DEFAULT_SITE_URL_EN="https://example.com/en"
 - Handle `defaultDe`
 - Base URL `$DEFAULT_SITE_URL_DE`
 
-| Name         | Handle      | Language | Primary | Base URL               | Group       |      |
-| :----------- |:------------|:---------|:--------|:-----------------------|:------------| ---- |
-| Default (de) | `defaultDe` | `de`     | X       | `$DEFAULT_SITE_URL_DE` | example.com |      |
-| Default (en) | `defaultEn` | `en`     |         | `$DEFAULT_SITE_URL_EN` | example.com |      |
+| Name         | Handle      | Language | Primary | Base URL               | Group       |     |
+|:-------------|:------------|:---------|:--------|:-----------------------|:------------|-----|
+| Default (de) | `defaultDe` | `de`     | X       | `$DEFAULT_SITE_URL_DE` | example.com |     |
+| Default (en) | `defaultEn` | `en`     |         | `$DEFAULT_SITE_URL_EN` | example.com |     |
 
 ## Create Section
 
@@ -363,13 +363,13 @@ DEFAULT_SITE_URL_EN="https://example.com/en"
 - Name `Home`
 - Handle `home`
 - Section Type `Single`
- 
+
 Site Settings
 
-| Site         | House | URI  | Template |
-| :----------- |:------| :--- | :------- |
-| Default (de) | X     |      | _home    |
-| Default (en) | X     |      | _home    |
+| Site         | House | URI | Template |
+|:-------------|:------|:----|:---------|
+| Default (de) | X     |     | _home    |
+| Default (en) | X     |     | _home    |
 
 
 ### Main Navigation
@@ -380,10 +380,10 @@ Site Settings
 
 Site Settings
 
-| Website      |      | Eintrags-URI-Format | Vorlage  | Standardstatus |
-| :----------- | :--- | :------------------ | :------- | :------------- |
-| Default (de) |      | {slug}              | _default | on             |
-| Default (en) |      | {slug}              | _default | on             |
+| Website      |     | Eintrags-URI-Format | Vorlage  | Standardstatus |
+|:-------------|:----|:--------------------|:---------|:---------------|
+| Default (de) |     | {slug}              | _default | on             |
+| Default (en) |     | {slug}              | _default | on             |
 
 ## Assets
 
@@ -409,14 +409,14 @@ Steps to create an extension
 2. Create a folder `craft/local/extensions`
 3. Copy the `twigextensions` folder to `craft/local/extensions`
 4. Add the path to `composer.json`
-```json
-"repositories": [
-  {
-    "type": "path",
-    "url": "./local/extensions/*"
-  }
-]
-```
+    ```json
+    "repositories": [
+      {
+        "type": "path",
+        "url": "./local/extensions/*"
+      }
+    ]
+    ```
 5. Install it with `composer require shaack/twig-extensions`
 6. Enable the plugin via admin interface
 
@@ -424,3 +424,22 @@ After changing the code of the plugin, call again
 ```bash
 composer require shaack/twig-extensions
 ```
+
+## Update
+
+### Disable Admin Login
+
+- Create a file `templates/maintenance-mode.html`
+- Edit the .htaccess, below `RewriteEngine On` add
+
+```
+# maintenance mode
+RewriteCond %{REQUEST_URI} ^/admin*
+RewriteRule (.*) /maintenance-mode [QSA,L]
+```
+
+
+### Update From Craft CMS 3 to Craft CMS 4
+
+Reference: https://craftcms.com/docs/4.x/upgrade.html
+
