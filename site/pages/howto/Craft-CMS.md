@@ -443,3 +443,56 @@ RewriteRule (.*) /maintenance-mode [QSA,L]
 
 Reference: https://craftcms.com/docs/4.x/upgrade.html
 
+- Upgrade to  the latest version of Craft 3
+- Switch to PHP 8.0.8 and MySQL 5.78, check also the server
+- Run  `php craft project-config/rebuild`  
+- Backup Files and Databse
+- Edit your project’s `composer.json` to require `"craftcms/cms": "^4.0.0"` and Craft-4-compatible plugins all at once.
+
+```
+"require": {
+	"craftcms/cms": "^4.0.0",
+	"craftcms/redactor": "^3.0.2",
+	"shaack/twig-extensions": "^1.0",
+	"vlucas/phpdotenv": "^5.4.0"
+}
+[...]
+"config": {
+	"platform": {
+		"php": "8.0.8"
+	}
+}
+```
+
+- Update the Craft Version in your own twig extensions
+
+```
+"require": {
+	"craftcms/cms": "^4.0.0"
+}
+```
+
+- Run `composer update` (should run and have green output)
+
+```
+Error:
+Type of shaack\twigextensions\TwigExtensions::$schemaVersion must be string (as in class craft\base\Plugin) 
+=> public string $schemaVersion = '1.0.0';
+```
+
+- Run `php craft migrate/all`.
+
+```
+Apply the above migrations? (yes|no) [no]:yes
+Create database backup? (yes|no) [yes]:no
+[...]
+Migrated up successfully.
+```
+
+- Your site is now running Craft 4.
+
+#### Migrate the Templates Code
+
+- Error `Variable "xyz" does not exist.` in matrix blocks.
+
+  => try {{ block.xyz }} instead {{ xyz }}
