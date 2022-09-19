@@ -468,7 +468,7 @@ Reference: https://craftcms.com/docs/4.x/upgrade.html
 }
 ```
 
-- Backup Files and Database again
+- Backup Files again
 - Run `composer update` (should run and have green output)
 
 ```
