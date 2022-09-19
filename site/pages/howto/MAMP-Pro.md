@@ -18,3 +18,23 @@ Under `Languages/PHP` check `Activate command line shortcuts for the selected PH
 ## See also
 
 - [Composer](Composer)
+
+## MySQL dumps
+
+### Create a MySQL dump file
+
+```
+/applications/MAMP/library/bin/mysqldump -uroot -proot -hlocalhost $DATABASE > $FILENAME
+```
+
+### Read a MySQL dump file
+
+```
+/applications/MAMP/library/bin/mysql -u root -proot -hlocalhost --database=$DATABASE < $FILENAME
+```
+
+## Repair a database
+
+```
+/applications/MAMP/library/bin/mysqlcheck -u $DBUSER -p --auto-repair --check $DATABASE
+```

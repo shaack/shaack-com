@@ -430,7 +430,7 @@ composer require shaack/twig-extensions
 ### Disable Admin Login
 
 - Create a file `templates/maintenance-mode.html`
-- Edit the .htaccess, below `RewriteEngine On` add
+- Edit the `web/.htaccess`, below `RewriteEngine On` add
 
 ```
 # maintenance mode
@@ -444,19 +444,15 @@ RewriteRule (.*) /maintenance-mode [QSA,L]
 Reference: https://craftcms.com/docs/4.x/upgrade.html
 
 - Upgrade to  the latest version of Craft 3
-- Switch to PHP 8.0.8 and MySQL 5.78, check also the server
+- Switch to PHP 8.0.x and MySQL 5.78, check also the server
 - Run  `php craft project-config/rebuild`  
-- Backup Files and Databse
-- Edit your project’s `composer.json` to require `"craftcms/cms": "^4.0.0"` and Craft-4-compatible plugins all at once.
+- Backup Files and Database
+- Edit your project’s `composer.json` to require `"craftcms/cms": "^4.0.0"` and Craft-4-compatible plugins all at once
+  - Find the correct Version Numbers under `Craft 4 Upgrade` `/admin/utilities/upgrade`
+  - **Don't touch** `"vlucas/phpdotenv"`, this will be updated later, when `migrate/all`
+- Set the `config / platform / php` to `8.0.8`
 
 ```
-"require": {
-	"craftcms/cms": "^4.0.0",
-	"craftcms/redactor": "^3.0.2",
-	"shaack/twig-extensions": "^1.0",
-	"vlucas/phpdotenv": "^5.4.0"
-}
-[...]
 "config": {
 	"platform": {
 		"php": "8.0.8"
@@ -464,7 +460,7 @@ Reference: https://craftcms.com/docs/4.x/upgrade.html
 }
 ```
 
-- Update the Craft Version in your own twig extensions
+- Set the new Craft Version in your own twig extensions
 
 ```
 "require": {
@@ -472,6 +468,7 @@ Reference: https://craftcms.com/docs/4.x/upgrade.html
 }
 ```
 
+- Backup Files and Database again
 - Run `composer update` (should run and have green output)
 
 ```
@@ -493,6 +490,6 @@ Migrated up successfully.
 
 #### Migrate the Templates Code
 
-- Error `Variable "xyz" does not exist.` in matrix blocks.
+##### Error `Variable "xyz" does not exist.` in matrix blocks.
 
-  => try {{ block.xyz }} instead {{ xyz }}
+try {{ block.xyz }} instead {{ xyz }}
