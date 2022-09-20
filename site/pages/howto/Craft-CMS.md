@@ -470,14 +470,7 @@ Reference: https://craftcms.com/docs/4.x/upgrade.html
 
 - Backup Files again
 - Run `composer update` (should run and have green output)
-
-```
-Error:
-Type of shaack\twigextensions\TwigExtensions::$schemaVersion must be string (as in class craft\base\Plugin) 
-=> public string $schemaVersion = '1.0.0';
-```
-
-- Run `php craft migrate/all`.
+- Run `php craft migrate/all` (if it throws errors, fix them)
 
 ```
 Apply the above migrations? (yes|no) [no]:yes
