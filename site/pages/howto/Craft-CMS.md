@@ -4,7 +4,7 @@
 
 ## Install
 
-In the root folder of your preoject.
+In the root folder of your project.
 
 ```shell
 composer self-update
@@ -444,6 +444,16 @@ RewriteRule (.*) /maintenance-mode [QSA,L]
 Reference: https://craftcms.com/docs/4.x/upgrade.html
 
 - Upgrade to  the latest version of Craft 3
+
+```bash
+# Update all Components
+composer update
+# Just show, what will be updated
+php craft update
+# Update all
+php craft update all
+```
+
 - Switch to PHP 8.0.x and MySQL 5.78, check also the server
 - Run  `php craft project-config/rebuild`  
 - Backup Files and Database
