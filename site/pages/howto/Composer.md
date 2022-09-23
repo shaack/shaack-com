@@ -81,6 +81,6 @@ https://getcomposer.org/doc/01-basic-usage.md#autoloading
 
 https://support.plesk.com/hc/en-us/articles/115001707605-How-to-run-Composer-with-Plesk-PHP
 
-## Run composer with a different PHP version
+## Run composer in MAMP with a different PHP version
 
     /Applications/MAMP/bin/php/php7.4.21/bin/php /Applications/MAMP/bin/php/composer update
