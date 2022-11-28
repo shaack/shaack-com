@@ -10,6 +10,13 @@
 - Display field: Call it `name`, to automatically use it when baking
 - Timestamp: The fields `created` and `modified` will be automatically updated
 
+## Steps to add a field manually to a CakePHP model
+
+1. Add the field in the database
+2. Add the field as `@property` in the header of the `Model/Entity`
+3. Add the field to the `$_accessible` list in the `Model/Entity` code
+4. Add validator values in `Model/Table`
+
 ## Add a record with a field filled in from request parameters
 
 In the Controllers `function add()`
