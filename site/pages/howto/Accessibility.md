@@ -9,8 +9,6 @@
 - Use [Landmarks](https://webaim.org/techniques/aria/#landmarks) &lt;header>, &lt;nav>, &lt;main>, &lt;footer>...
 - Pages should have a correct heading structure
 - Every page should have an &lt;H1>, which in worst case could be visually hidden
-- Insert a ["skip to main content" link](https://css-tricks.com/how-to-create-a-skip-to-content-link/) as first element
-  in your page
 - Make all interactive page elements accessible via "tab"
 
 ## What is the most used screen-reader

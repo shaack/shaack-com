@@ -13,9 +13,9 @@
 ## Steps to add a field manually to a CakePHP model
 
 1. Add the field in the database
-2. Add the field as `@property` in the header of the `Model/Entity`
-3. Add the field to the `$_accessible` list in the `Model/Entity` code
-4. Add validator values in `Model/Table`
+2. Add the property to the `Model/Entity` header as `@property`
+3. Add the property to the `$_accessible` list
+4. Clear the `_cake_model` cache
 
 ## Add a record with a field filled in from request parameters
 
