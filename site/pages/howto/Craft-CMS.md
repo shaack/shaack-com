@@ -438,6 +438,9 @@ RewriteCond %{REQUEST_URI} ^/admin*
 RewriteRule (.*) /maintenance-mode [QSA,L]
 ```
 
+## Animated SVGs
+
+
 
 ### Update From Craft CMS 3 to Craft CMS 4
 
@@ -496,3 +499,5 @@ Migrated up successfully.
 ##### Error `Variable "xyz" does not exist.` in matrix blocks.
 
 try {{ block.xyz }} instead {{ xyz }}
+
+
