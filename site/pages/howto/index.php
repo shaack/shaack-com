@@ -3,7 +3,7 @@
 /**  @var \Shaack\Reboot\Site $site */
 $filenames = scandir($site->getFsPath() . "/pages/howto", SCANDIR_SORT_NONE);
 natcasesort($filenames);
-$chunks = array_chunk($filenames, count($filenames) / 2 + 1);
+$chunks = array_chunk($filenames, (count($filenames) + 4) / 2);
 ?>
 <div class="d-flex-sm">
     <div class="flex-col">

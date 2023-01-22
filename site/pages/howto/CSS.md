@@ -74,6 +74,15 @@ body *:hover {
 }
 ```
 
+## Scrollbar styling
+
+    ::-webkit-scrollbar, ::-webkit-scrollbar-corner {
+        background: blue;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: black;
+    }
+
 ## See also
 
 - [CSS Flexbox](CSS-Flexbox)

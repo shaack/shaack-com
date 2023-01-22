@@ -209,3 +209,10 @@ body {
 }
 
 
+
+::-webkit-scrollbar, ::-webkit-scrollbar-corner {
+  background: $biscay;
+}
+::-webkit-scrollbar-thumb {
+  background: $indigo;
+}
