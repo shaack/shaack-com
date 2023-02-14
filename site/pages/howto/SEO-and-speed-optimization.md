@@ -8,6 +8,10 @@
 - [Check the **Meta description**](https://www.brightedge.com/glossary/meta-description). 
 Not ranking relevant but may be shown in the search result. 120-150 characters. Better none than a bad one.
 
+### Notes
+
+- Hyphens in URLs are better then underscore
+
 ## Non Technical SEO Checklist
 
 - **Content should solve the reader's problem**.
