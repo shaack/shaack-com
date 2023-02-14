@@ -387,7 +387,7 @@ $scripts[] = <<<EOF
     </script>
 ```
 
-## Is Logged in Backend
+### Is Logged in Backend
 
 https://redaxo.org/forum/allgemeines-r4-f27/im-backend-eingeloggt-t18439.html
 
@@ -395,7 +395,7 @@ https://redaxo.org/forum/allgemeines-r4-f27/im-backend-eingeloggt-t18439.html
 $_SESSION[$REX['INSTNAME']]['UID']
 ```
 
-## Backend stylesheet
+### Backend stylesheet
 
 in `project/boot.php`
 
@@ -403,5 +403,30 @@ in `project/boot.php`
 rex_view::addCssFile('../assets/local/styles/backend.css');
 ```
 
+### Simple SEO-URLs
+
+In `boot.php`
+
+```php
+rex_extension::register('PACKAGES_INCLUDED', function ($params) {
+    $url = $_SERVER['REQUEST_URI'];
+    // find out url path to article
+    $rewriteArticles = ShRexUtils::csvToArticles(rex_global_settings::getValue("rewrite_articles"));
+    foreach ($rewriteArticles as $rewriteArticle) {
+        $articleUrl = $rewriteArticle->getUrl();
+        if (str_starts_with($url, $rewriteArticle->getUrl())) {
+            \rex_addon::get('structure')->setProperty('article_id', $rewriteArticle->getId());
+            global $articleDbId;
+            $articleDbId = intval(explode("/", substr($url, strlen($articleUrl)))[0]);
+            return;
+        }
+    }
+}, rex_extension::LATE);
+```
+The link in modules or templates
+
+```html
+<a href="<?= ShRexUtils::seoLink($article, $posting['id'], $posting['headline']) ?>"><?= $posting["headline"] ?></a>
+```
 
 See also [Bootstrap](Bootstrap), [npm](npm)
