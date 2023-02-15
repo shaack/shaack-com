@@ -397,7 +397,7 @@ $_SESSION[$REX['INSTNAME']]['UID']
 
 ### Backend stylesheet
 
-in `project/boot.php`
+In `project/boot.php`
 
 ```php
 rex_view::addCssFile('../assets/local/styles/backend.css');
@@ -405,7 +405,7 @@ rex_view::addCssFile('../assets/local/styles/backend.css');
 
 ### Simple SEO-URLs
 
-In `boot.php`
+In `project/boot.php`
 
 ```php
 rex_extension::register('PACKAGES_INCLUDED', function ($params) {
@@ -422,11 +422,6 @@ rex_extension::register('PACKAGES_INCLUDED', function ($params) {
         }
     }
 }, rex_extension::LATE);
-```
-The link in modules or templates
-
-```html
-<a href="<?= ShRexUtils::seoLink($article, $posting['id'], $posting['headline']) ?>"><?= $posting["headline"] ?></a>
 ```
 
 See also [Bootstrap](Bootstrap), [npm](npm)
