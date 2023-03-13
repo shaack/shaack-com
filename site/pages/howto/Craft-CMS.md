@@ -95,7 +95,7 @@ node_modules
 
 Additionally create a "matrix" field. 
 
-## Useful Plugins
+## Useful plugins
 
 Install plugins from the terminal
 
@@ -124,20 +124,33 @@ Add copy, paste and clone functionality to Matrix blocks.
 
 **Package Name:** verbb/smith
 
-### Contact Form
+### Contact form
 
 **Package Name:**  craftcms/contact-form
 
 ## Twig
 
+### Global variables
+
+https://craftcms.com/docs/3.x/dev/global-variables.html
+
 ```twig
-Site ID: {{ currentSite.id }}<br/>
-Site Handle: {{ currentSite.handle }}<br/>
-Site Name: {{ currentSite.name }}<br/>
-Site Language: {{ currentSite.language }}<br/>
-Is Primary Site: {{ currentSite.primary }}<br/>
-Base URL: {{ currentSite.baseUrl }}<br/>
-Group: {{ currentSite.group }}<br/>
+Site ID: {{ currentSite.id }}
+Site Handle: {{ currentSite.handle }}
+Site Name: {{ currentSite.name }}
+Site Language: {{ currentSite.language }}
+Is Primary Site: {{ currentSite.primary }}
+Base URL: {{ currentSite.baseUrl }}
+Group: {{ currentSite.group }}
+User: {{ currentUser }}
+Is devMode: {{ devMode }}
+```
+
+### Entry values
+
+```twig
+Title: {{ entry.title }}
+Slug: {{ entry.slug }}
 ```
 
 ### Include

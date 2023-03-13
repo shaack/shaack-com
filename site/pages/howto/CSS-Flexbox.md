@@ -73,6 +73,9 @@ flex-end            #
 }
 ```
 
-See also: [CSS](CSS)
+## See also
+
+- [CSS](CSS)
+- [CSS-Animations](CSS-Animations)
 
 

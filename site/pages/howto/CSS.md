@@ -1,6 +1,6 @@
 # CSS
 
-## Display outlines for all elements on hover (eases development)
+## Display outlines for all elements on hover (simplifies development)
 
 ```css
 body *:hover {
@@ -24,6 +24,7 @@ body *:hover {
 - https://www.w3schools.com/howto/howto_css_image_text.asp
 
 ```html
+
 <div class="container">
     <img src="image.jpg" alt="An image" style="width:100%">
     <div class="bottom-left">Bottom Left</div>
@@ -40,26 +41,31 @@ body *:hover {
     text-align: center;
     color: white;
 }
+
 .bottom-left {
     position: absolute;
     bottom: 8px;
     left: 16px;
 }
+
 .top-left {
     position: absolute;
     top: 8px;
     left: 16px;
 }
+
 .top-right {
     position: absolute;
     top: 8px;
     right: 16px;
 }
+
 .bottom-right {
     position: absolute;
     bottom: 8px;
     right: 16px;
 }
+
 .centered {
     position: absolute;
     top: 50%;
@@ -74,31 +80,13 @@ body *:hover {
 ::-webkit-scrollbar, ::-webkit-scrollbar-corner {
     background: blue;
 }
+
 ::-webkit-scrollbar-thumb {
     background: black;
-}
-```
-
-## Animation on appearance
-
-```css
-.appear-from-right {
-    position: relative;
-    animation: appearFromRight 0.4s ease-out;
-}
-
-@keyframes appearFromRight {
-    from {
-        opacity: 0;
-        left: 5rem;
-    }
-    to {
-        opacity: 1;
-        left: 0;
-    }
 }
 ```
 
 ## See also
 
 - [CSS Flexbox](CSS-Flexbox)
+- [CSS Animations](CSS-Animations)
