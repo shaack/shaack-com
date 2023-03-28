@@ -2,6 +2,7 @@
 
 - [What is accessibility?](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility)
 - [Accessibility Developer Guide](https://www.accessibility-developer-guide.com)
+- [Apple accessibility guide](https://www.apple.com/de/accessibility/)
 
 ## Checklist
 
@@ -11,12 +12,13 @@
 - Every page should have an &lt;H1>, which in worst case could be visually hidden
 - Make all interactive page elements accessible via "tab"
 
-## What is the most used screen-reader
+## Test your pages with a screen-reader
 
-Test your web pages with the most used screen reader, it is Apples "Voice Over". "Voice Over"
+Test your web pages with the most used screen reader, it is Apples "Voice Over" and
 is build into every Mac, iPad and iPhone.
 
-> Testing your web pages with "Voice Over", will open your eyes.
+- [Voiceover guide](https://support.apple.com/guide/voiceover/welcome/mac)
+- [Voiceover key mapping](https://help.apple.com/voiceover/command-charts/)
 
 ## Accessible SVG
 
