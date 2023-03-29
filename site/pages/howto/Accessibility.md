@@ -1,13 +1,14 @@
 # Accessibility
 
 - [What is accessibility?](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility)
+- [WebAIM articles](https://webaim.org/articles/)
 - [Accessibility Developer Guide](https://www.accessibility-developer-guide.com)
 - [Apple accessibility guide](https://www.apple.com/de/accessibility/)
 
 ## Checklist
 
 - Every page should have a meaningful title, like "BRAND, PAGE_NAME" e.g. "chessmail, Lobby"
-- Use [Landmarks](https://webaim.org/techniques/aria/#landmarks) &lt;header>, &lt;nav>, &lt;main>, &lt;footer>...
+- Use [Semantic Structure](https://webaim.org/techniques/semanticstructure/) Regions and Landmarks
 - Pages should have a correct heading structure
 - Every page should have an &lt;H1>, which in worst case could be visually hidden
 - Make all interactive page elements accessible via "tab"
@@ -19,6 +20,13 @@ is build into every Mac, iPad and iPhone.
 
 - [Voiceover guide](https://support.apple.com/guide/voiceover/welcome/mac)
 - [Voiceover key mapping](https://help.apple.com/voiceover/command-charts/)
+
+## Other testing tools
+
+- [Accessibility Insights for Web](https://chrome.google.com/webstore/detail/accessibility-insights-fo/pbjjkligggfmakdaogkfomddhfmpjeni/related)
+- [Google Lighthouse - Test Accessibility and SEO Parameters](https://developer.chrome.com/docs/lighthouse/overview/)
+- [WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/)
+- [axe® - The Standard in Accessibility Testing](https://www.deque.com/axe/)
 
 ## Accessible SVG
 
