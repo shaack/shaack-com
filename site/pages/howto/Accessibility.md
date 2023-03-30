@@ -8,7 +8,7 @@
 ## Checklist
 
 - Every page should have a meaningful title, like "BRAND, PAGE_NAME" e.g. "chessmail, Lobby"
-- Use [Semantic Structure](https://webaim.org/techniques/semanticstructure/) Regions and Landmarks
+- Use [Semantic Structure](https://webaim.org/techniques/semanticstructure/), Regions and Landmarks
 - Pages should have a correct heading structure
 - Every page should have an &lt;H1>, which in worst case could be visually hidden
 - Make all interactive page elements accessible via "tab"
@@ -44,9 +44,9 @@ is build into every Mac, iPad and iPhone.
 
 - https://www.deque.com/blog/text-links-practices-screen-readers/
 
-## "skip to content" link
+## Skip to content link is (sometimes) woefully incorrect
 
-- https://css-tricks.com/how-to-create-a-skip-to-content-link/
+- https://github.com/facebook/docusaurus/issues/3917
 
 ## Do screen readers read the page title?
 

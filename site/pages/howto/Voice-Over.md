@@ -1,4 +1,4 @@
-# Main Voice Over keyboard commands
+# The main "Voice Over" keyboard commands
 
 ## General commands
 
