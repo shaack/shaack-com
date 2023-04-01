@@ -2,9 +2,9 @@
 <?php
 /**  @var \Shaack\Reboot\Site $site */
 $filenamesUnfiltered = scandir($site->getFsPath() . "/pages/howto", SCANDIR_SORT_NONE);
-// remove files starting with .
+// remove files starting with . and allow only with .md extension
 $filenames = array_filter($filenamesUnfiltered, function ($filename) {
-    return !str_starts_with($filename, ".");
+    return !str_starts_with($filename, ".") && str_ends_with($filename, ".md");
 });
 // remove the .md extension from $filenames
 $filenames = array_map(function ($filename) {
