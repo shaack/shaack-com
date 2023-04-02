@@ -28,6 +28,16 @@ is build into every Mac, iPad and iPhone.
 - [WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/)
 - [axe® - The Standard in Accessibility Testing](https://www.deque.com/axe/)
 
+## Use the accessibility tools in Google Chrome
+
+Within the Developer Tools, you can find the "Elements" tab which comprises of sub-tabs like "Styles," "Computed,"
+and "Accessibility." If you are unable to locate the "Accessibility" tab, it may be hidden behind the "More tabs"
+icon "»". Click on the "Accessibility" tab. In the "Accessibility Tree" section, you can
+activate the "Enable full-page accessibility tree" option.
+
+Once enabled, you will notice a person-icon within the "Elements" pane. Clicking on this icon will allow you to switch
+to the accessibility tree of the page.
+
 ## Accessible SVG
 
 - https://www.sitepoint.com/tips-accessible-svg/
@@ -122,6 +132,13 @@ img {
 ### Definition of roles
 
 https://www.w3.org/TR/2014/REC-wai-aria-20140320/roles#role_definitions
+
+## Forms
+
+### Error messages in forms
+
+- https://www.w3.org/WAI/tutorials/forms/notifications
+
 
 ## See also
 
