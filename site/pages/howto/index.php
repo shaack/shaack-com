@@ -12,8 +12,12 @@ $filenames = array_map(function ($filename) {
 }, $filenames);
 natcasesort($filenames);
 // split the array $filenames in two chunks
-$chunks = array_chunk($filenames, count($filenames) / 2 + 1);
-// add an overlapping element to the second chunk
+// if not divide able by two make the first chunk bigger
+if(count($filenames) % 2 === 0) {
+    $chunks = array_chunk($filenames, count($filenames) / 2);
+} else {
+    $chunks = array_chunk($filenames, count($filenames) / 2 + 1);
+}
 ?>
 <div class="d-flex-sm">
     <div class="flex-col">
