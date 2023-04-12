@@ -13,16 +13,25 @@
 
 ```bash
 # redaxo configuration
+# contains sensitive data and should not be stored in a git repo!
 /redaxo/data/core/config.yml
+
+# installer configuration
 /redaxo/data/addons/install/config.json
+
+# cache folder (except hidden files)
 /redaxo/cache/*
 !/redaxo/cache/.*
+
+# media folder (except hidden files)
 /media/*
 !/media/.*
+
+# log folder and log files
 /redaxo/data/log/*
 *.log
 
-## shaack specific
+# shaack specific
 /.idea
 /node_modules
 ```
