@@ -108,6 +108,10 @@ See also: https://www.redaxo.org/doku/main/redaxo-variablen
 - Field types: https://github.com/yakamara/redaxo_yform_docs/blob/master/de_de/yform_modul_values.md
 - Snippets: https://friendsofredaxo.github.io/tricks/addons/yform/snippets
 
+### yRewrite
+
+- Don't forget to run the **Setup** after installation, which creates the `.htaccess` file.  
+
 #### Anti-Spam
 
 ```html
@@ -156,7 +160,7 @@ $v = "2203181323";
 $article = rex_article::getCurrent();
 ?>
 <!doctype html>
-<html lang="<?= ShRedaxo::langCode() ?>">
+<html lang="<?= rex_clang::getCurrent()->getCode() ?>">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -200,7 +204,7 @@ $article = rex_article::getCurrent();
 <script src="/node_modules/cookie-consent-js/src/cookie-consent.js?v=<?= $v ?>"></script>
 <script src="/assets/local/scripts/project.js?v=<?= $v ?>"></script>
 <?php
-$hideCookieBanner = ShRedaxo::csvToArray(rex_global_settings::getValue("hideCookieBanner"));
+$hideCookieBanner = ShRexUtils::csvToArray(rex_global_settings::getValue("hideCookieBanner"));
 $privacyPolicyArticle = rex_article::get(rex_global_settings::getValue("privacyPolicyArticle"));
 ?>
 <script>

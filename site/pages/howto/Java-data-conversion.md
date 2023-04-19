@@ -1,43 +1,55 @@
 # Converting datatypes in Java
 
-### int to string
+## integer to String
     
-    String myString = Integer.toString(my int value) or String str = "" + i;
+    String myString = Integer.toString(my int value) 
 
-### String to int
+or
 
-    int i = Integer.parseInt(str);   or int i = Integer.valueOf(str).intValue();
+    String str = "" + i;
 
-### double to String
+## String to integer
+
+    int i = Integer.parseInt(str);
+
+or
+
+    int i = Integer.valueOf(str).intValue();
+
+## double to String
 
     String str = Double.toString(i);
 
-### long to String
+## long to String
 
     String str = Long.toString(l);
 
-### float to String
+## float to String
 
     String str = Float.toString(f);
 
-### String to double
+## String to double
 
     double d = Double.valueOf(str).doubleValue();
 
-### String to long
+## String to long
 
-    long l = Long.valueOf(str).longValue(); or long l = Long.parseLong(str);
+    long l = Long.valueOf(str).longValue();
 
-### String to float
+or
+
+    long l = Long.parseLong(str);
+
+## String to float
 
     float f = Float.valueOf(str).floatValue();
 
-### decimal to binary
+## decimal to binary
 
     int i = 42;
     String binstr = Integer.toBinaryString(i);
 
-### decimal to hexadecimal
+## decimal to hexadecimal
 
     int i = 42;
     String hexstr = Integer.toString(i, 16);
@@ -48,35 +60,37 @@ or
 
 or (with leading zeroes and uppercase)
 
-    public class Hex 
-    {
-        public static void main(String args[])
-        {
-            int i = 42;
-            System.out.print
-                (Integer.toHexString( 0×10000 | i).substring(1).toUpperCase());
-        }
-    }
+    System.out.print(Integer.toHexString(0×10000 | i).substring(1).toUpperCase());
 
-### hexadecimal to integer
+## hexadecimal to integer
 
     int i = Integer.valueOf("B8DA3", 16).intValue(); or int i = Integer.parseInt("B8DA3", 16); 
 
-### ASCII code to String
+## ASCII code (int) to char
 
-    int i = 64;
-    String aChar = new Character((char)i).toString();
+    int code = 65;
+    char c = (char) code; // will have the value 'A'
 
-### integer to ASCII code (byte)
+## char to integer
 
-    char c = ‘A’;
-    int i = (int) c; // i will have the value 65 decimal
+    char c = 'A';
+    int i = (int) c; // will have the value 65
 
-### integer to boolean
+## char to String
 
-    b = (i != 0);
+    char c = 'A';
+    String str = Character.toString(c);
 
-### boolean to integer
+## String to char
 
-    i = (b)?1:0;
+    String str = "A";
+    char c = str.charAt(0);
+
+## integer to boolean
+
+    b = i != 0;
+
+## boolean to integer
+
+    i = b ? 1 : 0;
 
