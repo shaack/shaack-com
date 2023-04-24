@@ -103,6 +103,23 @@ $checkboxValue = !!'REX_VALUE[7]';
 ```
 See also: https://www.redaxo.org/doku/main/redaxo-variablen
 
+##### Output via ia PHP 
+
+```php
+$slice = $this->getCurrentSlice();
+
+$slice->getValue(1);
+$slice->getMedia(1);
+$slice->getMediaUrl(1);
+$slice->getLinklist(1);
+$slice->getLinklist(1);
+$slice->getLinkUrl(1);
+$slice->getMedialist(1); 
+$slice->getValueArray(1); // Alternative für rex_var::toArray('REX_VALUE[1]')
+$slice->getMediaListArray(1); // Medialist als Array
+$slice->getLinkListArray(1); // Linklist als Array
+```
+
 ### yForm
 
 - Field types: https://github.com/yakamara/redaxo_yform_docs/blob/master/de_de/yform_modul_values.md

@@ -80,7 +80,7 @@ $breakpoint-sm: map-get($grid-breakpoints, sm);
 ## Mixin to create a max-width util
 
 ```scss
-@each $name, $value in $container-max-widths {
+@each $name, $value in $grid-breakpoints {
   .max-width-#{$name} {
     max-width: $value;
   }
