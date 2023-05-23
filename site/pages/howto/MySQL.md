@@ -32,12 +32,12 @@ Or set it in the JDBC connection string
 
     jdbc:mysql://localhost:3306/dbname?serverTimezone=UTC
 
-## Log every query
+## Enable the general log to log all SQL statements
 
-### Configure the logfile in `my.cnf`
+In the configuration file `my.cnf`, add the following line
 
 ```
-general_log_file = /tmp/mysql.log
+general_log_file = /var/log/mysql_access.log
 ```
 
 ### Start the logging with
@@ -45,3 +45,15 @@ general_log_file = /tmp/mysql.log
 ```
 SET global general_log = 1;
 ```
+
+## Generate a random id (without "+" and "/")
+
+```sql
+UPDATE my_table set id = REPLACE(REPLACE(LEFT(TO_BASE64(RANDOM_BYTES(16)), 12), '+', LEFT(UUID(), 1)), '/', LEFT(UUID(), 1))
+```
+
+Replace the "12" to adjust the length of the id.
+
+## See also
+
+- [MAMP-Pro](MAMP-Pro)

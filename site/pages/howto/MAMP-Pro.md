@@ -2,6 +2,23 @@
 
 https://documentation.mamp.info/en/MAMP-PRO-Mac/Settings/
 
+## Enable general log to log all SQL statements
+
+- Open the "Template" `my.cnf` (don't know, why they call it template)
+- Add the following lines
+
+```
+general_log = 1
+general_log_file = /var/log/mysql_access.log
+```
+
+Instead of setting the `general_log` parameter you also can use the following SQL statement to switch
+the global log on and off.
+
+```
+SET global general_log = 1;
+```
+
 ## Locate the MySQL Database in your file system
 
     /Library/Application Support/appsolute/MAMP PRO/db/mysql57
@@ -38,3 +55,7 @@ Under `Languages/PHP` check `Activate command line shortcuts for the selected PH
 ```
 /applications/MAMP/library/bin/mysqlcheck -u $DBUSER -p --auto-repair --check $DATABASE
 ```
+
+## See also
+
+- [MySQL](MySQL)
