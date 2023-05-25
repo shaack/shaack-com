@@ -1,4 +1,4 @@
-# Content Security Policy
+# Content Security Policy (CSP)
 
 "Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks,
 including Cross-Site Scripting (XSS) and data injection attacks."<br/>
@@ -18,6 +18,8 @@ or use a `<meta>` element as shown here
 ```
 <meta http-equiv="Content-Security-Policy" content="default-src 'self';" />
 ```
+
+See also: [Discussion about CSP in HTTP header vs CSP in meta tag on Stackoverflow](https://stackoverflow.com/questions/56007473/why-is-delivery-of-content-security-policy-via-headers-preferred)
 
 ## Examples
 
