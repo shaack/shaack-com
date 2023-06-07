@@ -1,4 +1,4 @@
-# JetBrains, IntelliJ, WebStorm etc.
+# JetBrains, IntelliJ IDEA, WebStorm, PHPStorm etc.
 
 ## Disable code formatter for specific areas in the code
 
@@ -22,3 +22,6 @@ brew install sassc
     - not compressed `--sourcemap $FileName$ $FileNameWithoutExtension$.css`
 - Output Path `$FileNameWithoutExtension$.css`
 
+## Where is the tomcat `work` directory?
+
+~/Users/[USERNAME]/Library/Caches/JetBrains/IntelliJIdea[VERSION]/tomcat/[PROJECT]/work

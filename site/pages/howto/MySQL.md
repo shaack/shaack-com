@@ -46,11 +46,19 @@ general_log_file = /var/log/mysql_access.log
 SET global general_log = 1;
 ```
 
+## Generate a random 16 char hexadezimal value
+
+```sql
+SELECT LEFT(MD5((SELECT UUID())), 16);
+```
+=> `d5e902d58184e43d`
+
 ## Generate a random id (without "+" and "/")
 
 ```sql
-UPDATE my_table set id = REPLACE(REPLACE(LEFT(TO_BASE64(RANDOM_BYTES(16)), 12), '+', LEFT(UUID(), 1)), '/', LEFT(UUID(), 1))
+SELECT REPLACE(REPLACE(LEFT(TO_BASE64(RANDOM_BYTES(16)), 12), '+', LEFT(UUID(), 1)), '/', LEFT(UUID(), 1))
 ```
+=> `8UgoRigMWY9g`
 
 Replace the "12" to adjust the length of the id.
 
