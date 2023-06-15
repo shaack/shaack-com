@@ -37,4 +37,6 @@ Dec  Hex  Char   Dec  Hex  Char   Dec  Hex  Char   Dec  Hex  Char
  31  1F   US      63  3F   ?       95  5F   _      127  7F  DEL
 ```
 
-<a href="https://en.wikipedia.org/wiki/ASCII">Wikipedia article about ASCII</a>  
+## See also 
+
+- [Wikipedia article about ASCII](https://en.wikipedia.org/wiki/ASCII)

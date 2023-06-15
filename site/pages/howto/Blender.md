@@ -39,3 +39,8 @@
 - view3d.localview // switch Local View
 - view3d.view_center_pick // center view to mouse
 - view3d.view_center_cursor // center view to cursor
+
+## See also
+
+- [Blender Hotkeys](https://www.blender.org/api/blender_python_api_current/info_quickstart.html#blender-hotkeys)
+

@@ -53,7 +53,7 @@ SELECT LEFT(MD5((SELECT UUID())), 16);
 ```
 => `d5e902d58184e43d`
 
-## Generate a random id (without "+" and "/")
+## Generate a random kind of base62 id
 
 ```sql
 SELECT REPLACE(REPLACE(LEFT(TO_BASE64(RANDOM_BYTES(16)), 12), '+', LEFT(UUID(), 1)), '/', LEFT(UUID(), 1))

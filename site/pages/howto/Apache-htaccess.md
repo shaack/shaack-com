@@ -48,6 +48,12 @@ Deny folder access for all web requests.
 Deny from all
 ```
 
+## Error pages
+
+```
+ErrorDocument 404 /404.html
+```
+
 ## See also
 
 - [htpasswd](htpasswd)
