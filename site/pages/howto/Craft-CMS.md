@@ -451,15 +451,7 @@ RewriteCond %{REQUEST_URI} ^/admin*
 RewriteRule (.*) /maintenance-mode [QSA,L]
 ```
 
-## Animated SVGs
-
-
-
-### Update From Craft CMS 3 to Craft CMS 4
-
-Reference: https://craftcms.com/docs/4.x/upgrade.html
-
-- Upgrade to  the latest version of Craft 3
+### Update Craft CMS
 
 ```bash
 # Update all Components
@@ -469,7 +461,11 @@ php craft update
 # Update all
 php craft update all
 ```
+### Update From Craft CMS 3 to Craft CMS 4
 
+Reference: https://craftcms.com/docs/4.x/upgrade.html
+
+- Upgrade to  the latest version of Craft 3
 - Switch to PHP 8.0.x and MySQL 5.78, check also the server
 - Run  `php craft project-config/rebuild`  
 - Backup Files and Database
