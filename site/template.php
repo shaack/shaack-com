@@ -4,7 +4,7 @@
 /** @var Shaack\Reboot\Page $page */
 /** @var Shaack\Reboot\Request $request */
 
-$v = 5;
+$v = "2307191303";
 
 ?>
 <!doctype html>
@@ -56,5 +56,6 @@ $v = 5;
         </nav>
     </footer>
 <?php } ?>
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -94,6 +94,10 @@ $breakpoint-sm: map-get($grid-breakpoints, sm);
 1. Add `d-flex` and `flex-column` to `card-body`
 2. Add `mt-auto` to the element in `card-body`
 
+### Align cols on bottom of a row
+
+- Add `align-items-end` to the row
+
 ## Disable the Grid-System
 
 - https://medium.com/@erik_flowers/how-youve-been-getting-the-bootstrap-grid-all-wrong-and-how-to-fix-it-6d97b920aa40

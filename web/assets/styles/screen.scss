@@ -1,6 +1,9 @@
-@import "reset";
-@import "colors";
-@import "../fonts/Atari_ST_8x16_System_Font/stylesheet.css";
+// Custom.scss
+// Option A: Include all of Bootstrap
 
-@import "flexwork"; 
-@import "site";
+// Include any default variable overrides here (though functions won't be available)
+
+@import "colors";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+@import "fonts";
