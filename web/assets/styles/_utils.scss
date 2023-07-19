@@ -1,0 +1,5 @@
+@each $name, $value in $grid-breakpoints {
+  .max-width-#{$name} {
+    max-width: $value;
+  }
+}
