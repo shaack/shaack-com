@@ -3,7 +3,9 @@
  */
 
 $font-family-base: 'Open Sans', sans-serif;
-$font-family-monospace: 'Atari ST 8x16 System Font', monospace;
+$font-family-monospace: 'Courier', 'Atari ST 8x16 System Font', monospace;
+$font-size-base: 1.2rem;
+$line-height-base: 1.6;
 $body-bg: $blue-light-project;
 $navbar-dark-color: #fff;
 $navbar-dark-hover-color: $cyan-project;

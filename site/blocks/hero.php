@@ -7,7 +7,7 @@
 /**  @var \Shaack\Reboot\Block $block */
 ?>
 <section class="block block-hero">
-    <div class="container-fluid max-width-md">
+    <div class="container-fluid max-width-lg">
             <a href="services" class="text-claim text-decoration-none font-monospace">
                 > <span id="claim">_</span>
             </a>
@@ -19,7 +19,7 @@
     import {ShellWrite} from "/src/ShellWrite.js"
 
     const fortunes = [
-        "Stefan Haack\nIT-Consultant and\nFull Stack Developer"
+        "Stefan Haack\nInformation Technology\nConsulting Services"
     ]
     const fortune = fortunes[Math.floor(Math.random() * fortunes.length)];
     documentReady(() => {

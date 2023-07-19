@@ -10,12 +10,11 @@
 
     .text-claim {
       position: absolute;
-      top: 50px;
-      left: 2 * $spacer;
-      font-size: $h1-font-size;
-      opacity: 0.9;
+      top: 12rem;
+      left: $spacer;
+      font-size: 200%;
+      line-height: 1.4;
       color: $blue-project;
-      // width: 300px;
     }
 
     .avatar {
