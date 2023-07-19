@@ -8,7 +8,9 @@
 /**  @var \Shaack\Reboot\Block $block */
 ?>
 <section class="block block-text">
-    <div class="container-fluid max-width-md">
-        <?= $block->content() ?>
+    <div class="container-fluid max-width-lg">
+        <div class="max-width-md">
+            <?= $block->content() ?>
+        </div>
     </div>
 </section>
