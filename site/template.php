@@ -42,9 +42,7 @@ $v = "2307191303";
  */ ?>
 </header>
 <main>
-    <section>
-        <?= $page->render($request) ?>
-    </section>
+    <?= $page->render($request) ?>
 </main>
 <?php if ($request->getPath() != "/") { ?>
     <footer>

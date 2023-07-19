@@ -1,0 +1,13 @@
+.block-hero {
+  height: calc(100vh - 100px);
+  background: radial-gradient(ellipse at center, #EEEDFF 0%, #9A9A9A 150%) center center;
+  position: relative;
+  .container-fluid {
+    .avatar {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 40%;
+    }
+  }
+}

@@ -1,5 +1,12 @@
+/**
+ * @author Stefan Haack (https://shaack.com), all rights reserved
+ */
 @each $name, $value in $grid-breakpoints {
   .max-width-#{$name} {
     max-width: $value;
   }
 }
+body *:hover {
+  outline: 1px rgba(0, 0, 0, 0.2) solid;
+}
+
