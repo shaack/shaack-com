@@ -18,8 +18,8 @@ $v = "2307191303";
 </head>
 <body class="dev">
 <header>
-    <nav>
-        <?php $navbarConfig = $site->getConfig()['navbar']; ?>
+    <?php include "_navbar.php" ?>
+    <?php /*
         <ul class="nav--navbar">
             <li>
                 <a class="<?= $request->getPath() == "/" || $request->getPath() == "/simplicity" ? "active" : "" ?>"
@@ -39,7 +39,7 @@ $v = "2307191303";
             }
             ?>
         </ul>
-    </nav>
+ */ ?>
 </header>
 <main>
     <section>
