@@ -19,27 +19,6 @@ $v = "2307191303";
 <body class="dev">
 <header>
     <?php include "_navbar.php" ?>
-    <?php /*
-        <ul class="nav--navbar">
-            <li>
-                <a class="<?= $request->getPath() == "/" || $request->getPath() == "/simplicity" ? "active" : "" ?>"
-                   href="/">shaack.com</a>
-            </li>
-            <?php
-            $structure = $navbarConfig['structure'];
-            if ($structure) {
-                foreach ($structure as $label => $path) {
-                    ?>
-                    <li>
-                        <a class="<?= substr($request->getPath(), 0, strlen($path)) === $path ? "active" : "" ?>"
-                           href="<?= $site->getWebPath() . $path ?>"><?= $label ?></a>
-                    </li>
-                    <?php
-                }
-            }
-            ?>
-        </ul>
- */ ?>
 </header>
 <main>
     <?= $page->render($request) ?>

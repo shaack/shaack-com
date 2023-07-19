@@ -1,0 +1,13 @@
+header {
+  nav {
+    .nav-link {
+      text-transform: lowercase;
+      // color: $white;
+      font-weight: 500;
+      font-size: 1.2rem;
+      &.active {
+        // color: $cyan-project !important;
+      }
+    }
+  }
+}

@@ -13,7 +13,12 @@ export class ShellWrite {
         const delay = 60
         for (let i = 0; i < this.content.length; i++) {
             setTimeout(() => {
-                content += this.content.charAt(i)
+                const char = this.content.charAt(i)
+                if(char === "\n") {
+                    content += "<br>"
+                } else {
+                    content += this.content.charAt(i)
+                }
                 context.innerHTML = content + "_"
             }, delay * i)
         }

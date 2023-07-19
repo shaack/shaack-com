@@ -5,8 +5,8 @@
 $navbarConfig = $site->getConfig()['navbar'];
 $structure = $navbarConfig['structure'];
 ?>
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    <div class="container-fluid max-width-xl">
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+    <div class="container-fluid max-width-lg">
         <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

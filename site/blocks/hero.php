@@ -7,18 +7,19 @@
 /**  @var \Shaack\Reboot\Block $block */
 ?>
 <section class="block block-hero">
-    <div class="container-fluid max-width-lg">
-        <a href="services" class="text-decoration-none font-monospace">
-            > <span id="claim">_</span>
-        </a>
-        <img class="avatar" alt="" src="/assets/images/shaack.png"/>
+    <div class="container-fluid max-width-md">
+            <a href="services" class="text-claim text-decoration-none font-monospace">
+                > <span id="claim">_</span>
+            </a>
+            <img class="avatar" alt="" src="/assets/images/shaack.png"/>
     </div>
+    <div class="separator-1"></div>
 </section>
 <script type="module">
     import {ShellWrite} from "/src/ShellWrite.js"
 
     const fortunes = [
-        "Full Stack IT-Consulting"
+        "Stefan Haack\nIT-Consultant and\nFull Stack Developer"
     ]
     const fortune = fortunes[Math.floor(Math.random() * fortunes.length)];
     documentReady(() => {
