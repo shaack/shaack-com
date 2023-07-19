@@ -1,15 +1,35 @@
 <!-- hero -->
 <!-- text -->
-# SOLUTIONS
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laLorem ipsum dolor sit amet,
-consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate
-velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui
-officia deserunt mollit anim id est laborum.
+# Solutions for your business
+
+In the modern business landscape, the potent impact of technology on every sector cannot be overstated. From running
+day-to-day operations to seizing strategic opportunities, IT is undeniably the backbone of the new age corporate realm.
+Understanding the interweaving of technology and business management is therefore crucial for every firm.
+
+With businesses handling and transmitting a substantial amount of confidential information, they inevitably become
+attractive prey for cyber threats. Consequently, implementing strong IT security measures is a non-negotiable
+requirement. However, the complexity of the modern IT landscape makes it difficult for businesses to keep up with the
+latest security trends and best practices.
 
 <!-- video -->
 <!-- pink-fancy -->
+
+## Websites
+
+If you need a new website or want to improve your existing website, I can provide you with a solution that is tailored
+to your needs.
+
+--- 
+
+## Apps
+
+If you need a new website or want to improve your existing website, I can provide you with a solution that is tailored
+to your needs.
+
+--- 
+
+## Shops
+
+If you need a new website or want to improve your existing website, I can provide you with a solution that is tailored
+to your needs.
