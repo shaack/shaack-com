@@ -19,7 +19,7 @@
     import {ShellWrite} from "/src/ShellWrite.js"
 
     const fortunes = [
-        "Stefan Haack\nInformation Technology\nConsulting Services"
+        "Stefan Haack\nInformation Technology\nConsulting & Development"
     ]
     const fortune = fortunes[Math.floor(Math.random() * fortunes.length)];
     documentReady(() => {
