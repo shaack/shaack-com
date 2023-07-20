@@ -14,9 +14,10 @@ $v = "2307191303";
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="/assets/styles/screen.css?v=<?= $v ?>">
-    <title>shaack.com</title>
+    <link rel="stylesheet" href="/assets/fontawesome-subset/css/all.min.css?v=<?= $v ?>">
+    <title>Stefan Haack, IT-Consulting & Development</title>
 </head>
-<body class="dev">
+<body>
 <header>
     <?php include "_navbar.php" ?>
 </header>

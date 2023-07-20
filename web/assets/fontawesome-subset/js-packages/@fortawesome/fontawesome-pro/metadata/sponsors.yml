@@ -1,0 +1,10 @@
+inspira-bvba:
+  icons:
+    - chess-knight
+  label: Inspira bvba
+  url: 'https://www.inspira.be'
+supple:
+  icons:
+    - badge-check
+  label: Supple
+  url: 'https://supple.com.au'

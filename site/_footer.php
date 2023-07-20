@@ -11,7 +11,8 @@ $structure = $navbarConfig['structure'];
             <p>
                 <b>Dipl.-Ing. Stefan Haack</b><br/>
                 Wittinger Str. 140L<br/>
-                29223 Celle
+                29223 Celle<br/>
+                Germany
             </p>
             <p>
                 <a href="mailto:shaack@gmail.com">shaack@gmail.com</a><br/>
@@ -20,7 +21,7 @@ $structure = $navbarConfig['structure'];
         </div>
         <div class="col-md">
             <nav>
-                <h3>shaack.com</h3>
+                <h3><a href="/">shaack.com</a></h3>
                 <ul class="list-unstyled">
                     <?php if ($structure) {
                         foreach ($structure as $label => $path) {
@@ -33,12 +34,23 @@ $structure = $navbarConfig['structure'];
             </nav>
         </div>
     </div>
-    <div>
+    <div class="row legal">
         <div class="col-md">
             <nav>
                 <ul class="list-inline">
                     <li class="list-inline-item"><a href="/legal-notice">Legal notice</a></li>
                     <li class="list-inline-item"><a href="/data-privacy-policy">Data privacy policy</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="col-md">
+            <nav>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="https://github.com/shaack"><i class="fa fab fa-github"></i></a></li>
+                    <li class="list-inline-item"><a href="https://chessmail.de/~shaack"><i class="fa fas fa-chess-knight"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/stefan-haack-028864a/"><i class="fa fab fa-linkedin-in"></i></a></li>
+                    <li class="list-inline-item"><a href="https://twitter.com/shaack"><i class="fa fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.facebook.com/shaack.consulting"><i class="fa fab fa-facebook-f"></i></a></li>
                 </ul>
             </nav>
         </div>

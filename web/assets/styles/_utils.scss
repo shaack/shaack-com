@@ -9,6 +9,14 @@
 .py-6 {
   padding-top: 8rem;
   padding-bottom: 8rem;
+  @include media-breakpoint-down(md) {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  @include media-breakpoint-down(sm) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
 }
 body *:hover {
   // outline: 1px rgba(0, 0, 0, 0.2) solid;

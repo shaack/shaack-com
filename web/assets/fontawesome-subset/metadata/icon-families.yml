@@ -1,0 +1,703 @@
+address-card:
+  aliases:
+    names:
+      - contact-card
+      - vcard
+    unicodes:
+      composite:
+        - f2bc
+      secondary:
+        - 10f2bb
+  changes:
+    - 4.7.0
+    - 5.0.0
+    - 5.0.3
+    - 6.0.0-beta1
+    - 6.2.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: regular
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+      - family: classic
+        style: thin
+      - family: duotone
+        style: solid
+      - family: sharp
+        style: solid
+  label: Address Card
+  unicode: f2bb
+  voted: false
+angular:
+  changes:
+    - 5.0.0
+    - 5.8.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Angular
+  unicode: f420
+  voted: false
+badge-check:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f336
+  changes:
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+      - family: classic
+        style: thin
+      - family: duotone
+        style: solid
+      - family: sharp
+        style: solid
+  label: Check Badge
+  unicode: f336
+  voted: false
+bars:
+  aliases:
+    names:
+      - navicon
+    unicodes:
+      secondary:
+        - 10f0c9
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+      - family: classic
+        style: thin
+      - family: duotone
+        style: solid
+      - family: sharp
+        style: solid
+  label: Bars
+  unicode: f0c9
+  voted: false
+chess-knight:
+  aliases:
+    unicodes:
+      composite:
+        - 265e
+      secondary:
+        - 10f441
+  changes:
+    - 5.0.5
+    - 5.9.0
+    - 6.0.0-beta1
+    - 6.2.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: regular
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+      - family: classic
+        style: thin
+      - family: duotone
+        style: solid
+      - family: sharp
+        style: solid
+  label: Chess Knight
+  unicode: f441
+  voted: false
+css3-alt:
+  changes:
+    - 5.0.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Alternate CSS3 Logo
+  unicode: f38b
+  voted: false
+discord:
+  changes:
+    - 5.0.0
+    - 5.15.4
+    - 6.0.0-beta1
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Discord
+  unicode: f392
+  voted: false
+facebook-f:
+  changes:
+    - 5.0.0
+    - 5.8.2
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Facebook F
+  unicode: f39e
+  voted: false
+github:
+  changes:
+    - 2.0.0
+    - 5.0.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: GitHub
+  unicode: f09b
+  voted: false
+html5:
+  changes:
+    - 3.1.0
+    - 5.0.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: HTML 5 Logo
+  unicode: f13b
+  voted: false
+instagram:
+  changes:
+    - 4.6.0
+    - 5.0.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Instagram
+  unicode: f16d
+  voted: false
+js:
+  changes:
+    - 5.0.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: JavaScript (JS)
+  unicode: f3b8
+  voted: false
+language:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f1ab
+  changes:
+    - 4.1.0
+    - 5.0.0
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+      - family: classic
+        style: thin
+      - family: duotone
+        style: solid
+      - family: sharp
+        style: solid
+  label: Language
+  unicode: f1ab
+  voted: false
+less:
+  changes:
+    - 5.0.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Less
+  unicode: f41d
+  voted: false
+linkedin-in:
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 5.4.1
+    - 5.8.0
+    - 5.8.1
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: LinkedIn In
+  unicode: f0e1
+  voted: false
+lock:
+  aliases:
+    unicodes:
+      composite:
+        - 1f512
+      secondary:
+        - 10f023
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0
+    - 6.2.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+      - family: classic
+        style: thin
+      - family: duotone
+        style: solid
+      - family: sharp
+        style: solid
+  label: lock
+  unicode: f023
+  voted: false
+node-js:
+  changes:
+    - 5.0.0
+    - 5.0.3
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Node.js JS
+  unicode: f3d3
+  voted: false
+notdef:
+  changes:
+    - 6.0.0-beta1
+    - 6.2.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+      - family: classic
+        style: thin
+      - family: duotone
+        style: solid
+      - family: sharp
+        style: solid
+  label: Notdef
+  unicode: e1fe
+  voted: false
+php:
+  changes:
+    - 5.0.5
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: PHP
+  unicode: f457
+  voted: true
+react:
+  changes:
+    - 5.0.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: React
+  unicode: f41b
+  voted: false
+right-from-bracket:
+  aliases:
+    names:
+      - sign-out-alt
+    unicodes:
+      secondary:
+        - 10f2f5
+  changes:
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+      - family: classic
+        style: thin
+      - family: duotone
+        style: solid
+      - family: sharp
+        style: solid
+  label: Right from bracket
+  unicode: f2f5
+  voted: false
+right-to-bracket:
+  aliases:
+    names:
+      - sign-in-alt
+    unicodes:
+      secondary:
+        - 10f2f6
+  changes:
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+      - family: classic
+        style: thin
+      - family: duotone
+        style: solid
+      - family: sharp
+        style: solid
+  label: Right to bracket
+  unicode: f2f6
+  voted: false
+sass:
+  changes:
+    - 5.0.0
+    - 5.8.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Sass
+  unicode: f41e
+  voted: false
+shield-check:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f2f7
+  changes:
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+      - family: classic
+        style: thin
+      - family: duotone
+        style: solid
+      - family: sharp
+        style: solid
+  label: shield
+  unicode: f2f7
+  voted: false
+telegram:
+  aliases:
+    names:
+      - telegram-plane
+    unicodes:
+      composite:
+        - f3fe
+      secondary:
+        - 10f3fe
+  changes:
+    - 4.7.0
+    - 5.0.0
+    - 6.0.0-beta1
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Telegram
+  unicode: f2c6
+  voted: false
+thumbs-up:
+  aliases:
+    unicodes:
+      composite:
+        - 1f44d
+        - f087
+      secondary:
+        - 10f164
+  changes:
+    - 3.2.0
+    - 5.0.0
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.2.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: regular
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+      - family: classic
+        style: thin
+      - family: duotone
+        style: solid
+      - family: sharp
+        style: solid
+  label: thumbs-up
+  unicode: f164
+  voted: false
+twitter:
+  changes:
+    - 2.0.0
+    - 5.0.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Twitter
+  unicode: f099
+  voted: false
+unlock:
+  aliases:
+    unicodes:
+      composite:
+        - 1f513
+      secondary:
+        - 10f09c
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0
+    - 6.2.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+      - family: classic
+        style: thin
+      - family: duotone
+        style: solid
+      - family: sharp
+        style: solid
+  label: unlock
+  unicode: f09c
+  voted: false
+vuejs:
+  changes:
+    - 5.0.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: Vue.js
+  unicode: f41f
+  voted: false
+wordpress:
+  changes:
+    - 4.1.0
+    - 5.0.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: brands
+    pro:
+      - family: classic
+        style: brands
+  label: WordPress Logo
+  unicode: f19a
+  voted: false
+xmark:
+  aliases:
+    names:
+      - close
+      - multiply
+      - remove
+      - times
+    unicodes:
+      composite:
+        - 1f5d9
+        - '2715'
+        - '2716'
+        - 274c
+        - d7
+      secondary:
+        - 10f00d
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 5.0.13
+    - 5.11.0
+    - 5.11.1
+    - 6.0.0-beta1
+    - 6.2.0
+  familyStylesByLicense:
+    free:
+      - family: classic
+        style: solid
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+      - family: classic
+        style: thin
+      - family: duotone
+        style: solid
+      - family: sharp
+        style: solid
+  label: X Mark
+  unicode: f00d
+  voted: false
+xmark-large:
+  changes:
+    - 6.1.0
+    - 6.2.0
+  familyStylesByLicense:
+    free: []
+    pro:
+      - family: classic
+        style: solid
+      - family: classic
+        style: regular
+      - family: classic
+        style: light
+      - family: classic
+        style: thin
+      - family: duotone
+        style: solid
+      - family: sharp
+        style: solid
+  label: Xmark Large
+  unicode: e59b
+  voted: false
