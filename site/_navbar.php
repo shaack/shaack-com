@@ -13,7 +13,7 @@ $expandSize = "md";
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-<?= $expandSize ?>-0">
+            <ul class="navbar-nav me-auto mb-3 mb-<?= $expandSize ?>-0">
                 <li class="nav-item">
                     <a class="fw-bold nav-link <?= $request->getPath() == "/" ? "active" : "" ?>"
                        href="/">shaack.com</a>

@@ -15,20 +15,25 @@ information technologies, we surely can find a solution for your business which 
 
 ## Websites
 
-Unleash your business potential with top-notch website development services!<br/>I provide tailor-made, innovative, and
-feature-rich sites to effectively showcase your brand, attract customers, and drive growth.
+*Unleash your business potential with top-notch website development services.*
+
+I provide tailor-made, innovative, and feature-rich sites to effectively showcase your brand, attract customers, and
+drive growth.
 
 --- 
 
 ## Apps
 
-Revolutionize your business with custom app development!<br/>I deliver optimally performing, user-friendly, and secure apps,
-designed to engage your audience and take your business to new heights.
+*Revolutionize your business with custom app development.*
+
+I deliver optimally performing, user-friendly, and secure apps, designed to engage your audience and take your business
+to new heights.
 
 --- 
 
 ## Webshops
 
-Elevate your eCommerce business with bespoke webshop development services! <br/>
-I design seamless, secure, and interactive
-online stores tailored to your brand, enhancing customer experience and boosting your sales.
+*Elevate your eCommerce business with bespoke webshop development services.*
+
+I design seamless, secure, and interactive online stores tailored to your brand, enhancing customer experience and
+boosting your sales.
