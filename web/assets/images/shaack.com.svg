@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="874px" height="494px" viewBox="0 0 874 494" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="833px" height="452px" viewBox="0 0 833 452" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>Group</title>
     <defs>
         <linearGradient x1="84.0874216%" y1="37.6133382%" x2="10.5897923%" y2="59.5246443%" id="linearGradient-1">
@@ -7,51 +7,45 @@
             <stop stop-color="#3B3B5A" offset="100%"></stop>
         </linearGradient>
         <rect id="path-2" x="0" y="0" width="832" height="452" rx="36"></rect>
-        <filter x="-3.2%" y="-5.9%" width="108.8%" height="116.2%" filterUnits="objectBoundingBox" id="filter-3">
-            <feOffset dx="10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="10.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.188456075 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
     </defs>
     <g id="services" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop-HD" transform="translate(-161.000000, -709.000000)">
-            <g id="Group" transform="translate(172.000000, 720.000000)">
+        <g id="Desktop-HD" transform="translate(-165.000000, -704.000000)">
+            <g id="Group" transform="translate(165.500000, 704.000000)">
                 <g id="Rectangle">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
-                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-2"></use>
-                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <use fill="#D8D8D8" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
                 </g>
                 <text id="shaack.com" font-family="OpenSans-Bold, Open Sans" font-size="37" font-weight="bold" letter-spacing="0.7228986" fill="#FFFFFF">
                     <tspan x="288" y="226">shaack.com</tspan>
                 </text>
-                <text id="consulting" font-family="OpenSans-Regular, Open Sans" font-size="37" font-weight="normal" letter-spacing="0.7228986" fill="#FFFFFF">
-                    <tspan x="459" y="93">consulting</tspan>
+                <text id="consulting" font-family="OpenSans-Regular, Open Sans" font-size="32" font-weight="normal" letter-spacing="0.6252096" fill="#FFFFFF">
+                    <tspan x="434" y="84">consulting</tspan>
                 </text>
-                <text id="support" font-family="OpenSans-Regular, Open Sans" font-size="37" font-weight="normal" letter-spacing="0.7228986" fill="#FFFFFF">
-                    <tspan x="606" y="191">support</tspan>
+                <text id="support" font-family="OpenSans-Regular, Open Sans" font-size="32" font-weight="normal" letter-spacing="0.6252096" fill="#FFFFFF">
+                    <tspan x="636" y="191">support</tspan>
                 </text>
-                <text id="development" font-family="OpenSans-Regular, Open Sans" font-size="37" font-weight="normal" letter-spacing="0.7228986" fill="#FFFFFF">
-                    <tspan x="515" y="326">development</tspan>
+                <text id="development" font-family="OpenSans-Regular, Open Sans" font-size="32" font-weight="normal" letter-spacing="0.6252096" fill="#FFFFFF">
+                    <tspan x="526" y="356">development</tspan>
                 </text>
-                <text id="maintain" font-family="OpenSans-Regular, Open Sans" font-size="37" font-weight="normal" letter-spacing="0.7228986" fill="#FFFFFF">
-                    <tspan x="224" y="364">maintain</tspan>
+                <text id="maintainance" font-family="OpenSans-Regular, Open Sans" font-size="32" font-weight="normal" letter-spacing="0.6252096" fill="#FFFFFF">
+                    <tspan x="199.5" y="385">maintainance</tspan>
                 </text>
-                <text id="code" font-family="OpenSans-Regular, Open Sans" font-size="37" font-weight="normal" letter-spacing="0.7228986" fill="#FFFFFF">
-                    <tspan x="49" y="270">code</tspan>
+                <text id="planning" font-family="OpenSans-Regular, Open Sans" font-size="32" font-weight="normal" letter-spacing="0.6252096" fill="#FFFFFF">
+                    <tspan x="53" y="287">planning</tspan>
                 </text>
-                <text id="apps" font-family="OpenSans-Regular, Open Sans" font-size="37" font-weight="normal" letter-spacing="0.7228986" fill="#FFFFFF">
-                    <tspan x="118" y="147">apps</tspan>
+                <text id="apps" font-family="OpenSans-Regular, Open Sans" font-size="32" font-weight="normal" letter-spacing="0.6252096" fill="#FFFFFF">
+                    <tspan x="113" y="137.5">apps</tspan>
                 </text>
-                <text id="web" font-family="OpenSans-Regular, Open Sans" font-size="37" font-weight="normal" letter-spacing="0.7228986" fill="#FFFFFF">
-                    <tspan x="261" y="93">web</tspan>
+                <text id="websites" font-family="OpenSans-Regular, Open Sans" font-size="32" font-weight="normal" letter-spacing="0.6252096" fill="#FFFFFF">
+                    <tspan x="232" y="88">websites</tspan>
                 </text>
-                <path id="Line" d="M459.764446,106.075656 L456.732537,138.356572 L446.548,132.009 L418.621721,176.822232 L417.299489,178.943954 L413.056046,176.299489 L414.378279,174.177768 L442.305,129.365 L432.120568,123.018678 L459.764446,106.075656 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
-                <path id="Line-Copy" d="M559.334172,195.345199 L590.985071,202.378732 L566.367705,223.479332 L563.457,211.837 L531.106339,219.925356 L528.680983,220.531695 L527.468305,215.680983 L529.893661,215.074644 L562.244,206.986 L559.334172,195.345199 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
-                <path id="Line-Copy-2" d="M457.705002,238.055007 L459.824997,239.380004 L507.657,269.275 L514.017033,259.099055 L530.923999,286.764999 L498.647064,283.691006 L505.007,273.515 L457.175003,243.619996 L455.055007,242.294998 L457.705002,238.055007 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
-                <path id="Line-Copy-3" d="M336.148182,252.233107 L340.766893,254.148182 L339.809355,256.457538 L316.725,312.13 L327.810189,316.727068 L303.308492,337.961871 L301.021668,305.619632 L312.106,310.215 L335.190645,254.542462 L336.148182,252.233107 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
-                <path id="Line-Copy-4" d="M273.176196,219.387065 L274.612935,224.176196 L272.21837,224.894566 L189.516,249.705 L192.964593,261.199066 L161.021087,255.643674 L184.631505,233.422104 L188.079,244.916 L270.78163,220.105434 L273.176196,219.387065 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
-                <path id="Line-Copy-5" d="M242.471768,147.946775 L237.215,158.734 L289.594924,184.252525 L291.842398,185.347449 L289.652551,189.842398 L287.405076,188.747475 L235.025,163.229 L229.770655,174.017482 L210.050505,148.281015 L242.471768,147.946775 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
-                <path id="Line-Copy-6" d="M313.335462,109.027848 L336.571054,131.641058 L325.239,135.59 L338.860759,174.677311 L339.683448,177.03807 L334.96193,178.683448 L334.139241,176.322689 L320.517,137.235 L309.186249,141.184248 L313.335462,109.027848 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path id="Line" d="M459.5,106.5 L456.990834,133.215241 L448.503,127.926 L418.197377,176.557786 L417.139591,178.255163 L413.744837,176.139591 L414.802623,174.442214 L445.109,125.81 L436.622308,120.521811 L459.5,106.5 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path id="Line-Copy" d="M585.483095,177.700147 L611,186 L589.049974,201.433612 L587.563,191.544 L524.79724,200.977789 L522.819451,201.275029 L522.224971,197.319451 L524.20276,197.022211 L586.969,187.589 L585.483095,177.700147 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path id="Line-Copy-2" d="M438.392279,246.237632 L440.077323,247.314956 L511.356,292.887 L516.743409,284.461853 L530.5,307.5 L503.815528,304.682385 L509.202,296.256 L437.922677,250.685044 L436.237632,249.607721 L438.392279,246.237632 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path id="Line-Copy-3" d="M355.394043,252.737245 L358.762755,254.894043 L357.684356,256.578399 L318.124,318.366 L326.546923,323.758118 L303.5,337.5 L306.334648,310.817332 L314.756,316.209 L354.315644,254.421601 L355.394043,252.737245 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path id="Line-Copy-4" d="M268.947989,230.570324 L269.929676,234.447989 L267.990844,234.938833 L212.256,249.048 L214.711055,258.742872 L188.5,253 L208.820931,235.476879 L211.275,245.171 L267.009156,231.061167 L268.947989,230.570324 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path id="Line-Copy-5" d="M237.33139,148.223388 L232.951,157.213 L289.375939,184.70202 L291.173919,185.577959 L289.422041,189.173919 L287.624061,188.29798 L231.2,160.809 L226.820124,169.799145 L210.5,148.5 L237.33139,148.223388 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path id="Line-Copy-6" d="M313.5,109.5 L332.729455,128.214381 L323.286,131.505 L338.388607,174.841849 L339.046758,176.730456 L335.269544,178.046758 L334.611393,176.158151 L319.508,132.821 L310.066169,136.112193 L313.5,109.5 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
             </g>
         </g>
     </g>

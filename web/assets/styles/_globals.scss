@@ -7,3 +7,12 @@ main {
   height: 1rem;
   background: linear-gradient(90deg, $cyan-project-2 0%, $blue-project 100%);
 }
+
+.block-text, .block-with-padding {
+  padding-top: 6 * $spacer;
+  padding-bottom: 6 * $spacer;
+  @include media-breakpoint-down(sm) {
+    padding-top: 2 * $spacer;
+    padding-bottom: 2 * $spacer;
+  }
+}

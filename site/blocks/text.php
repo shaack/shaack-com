@@ -7,7 +7,7 @@
 
 /**  @var \Shaack\Reboot\Block $block */
 ?>
-<section class="block block-text">
+<section class="block block-text block-padding">
     <div class="container-fluid max-width-lg">
         <div class="max-width-md">
             <?= $block->content() ?>

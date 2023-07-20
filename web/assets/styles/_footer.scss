@@ -1,6 +1,10 @@
 footer {
   padding-top: 8rem;
   padding-bottom: 8rem;
+  @include media-breakpoint-down(sm) {
+    padding-top: 2 * $spacer;
+    padding-bottom: 2 * $spacer;
+  }
   p {
     color: $gray-500;
     font-size: $font-size-sm;

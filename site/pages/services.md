@@ -2,7 +2,7 @@
 
 My services cover the entire spectrum from planning and production to the operation of your app or website.
 
-`1. Conception -> 2. Production -> 3. Maintenance`
+![From planning to operation](/assets/images/shaack.com.svg)
 
 ## 1. Conception, planning and design
 
