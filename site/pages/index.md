@@ -7,8 +7,8 @@ In the modern business landscape, the potent impact of technology on every secto
 day-to-day operations to seizing strategic opportunities, IT is undeniably the backbone of the new age corporate realm.
 Understanding the interweaving of technology and business management is therefore crucial for every firm.
 
-Get in touch to find out how I can help you. With over 20 years of experience in information technologies, we surely
-can find a solution for your business which suits your needs.
+Get in touch to find out how I can help you. With over 20 years of experience in information technologies on my side, we
+surely can find a solution for your business which suits your needs.
 
 <!-- video -->
 <!-- pink-fancy -->

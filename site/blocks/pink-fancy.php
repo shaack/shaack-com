@@ -14,13 +14,19 @@
     <div class="container overflow-hidden max-width-lg py-6">
         <div class="row g-5">
             <div class="col-md-4">
-                <?= $block->nodeHtml($block->xpath("/*[part(1)]")) ?>
+                <a href="services">
+                    <?= $block->nodeHtml($block->xpath("/*[part(1)]")) ?>
+                </a>
             </div>
             <div class="col-md-4">
-                <?= $block->nodeHtml($block->xpath("/*[part(2)]")) ?>
+                <a href="services">
+                    <?= $block->nodeHtml($block->xpath("/*[part(2)]")) ?>
+                </a>
             </div>
             <div class="col-md-4">
-                <?= $block->nodeHtml($block->xpath("/*[part(3)]")) ?>
+                <a href="services">
+                    <?= $block->nodeHtml($block->xpath("/*[part(3)]")) ?>
+                </a>
             </div>
         </div>
     </div>

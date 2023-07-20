@@ -20,4 +20,11 @@
     background: linear-gradient(135deg, $main-bg 50%,  transparent 50%);
     float: left;
   }
+  a {
+    color: $white;
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }
