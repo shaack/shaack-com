@@ -39,7 +39,7 @@ $structure = $navbarConfig['structure'];
             <nav>
                 <ul class="list-inline">
                     <li class="list-inline-item"><a href="https://github.com/shaack"><i class="fa fab fa-github"></i></a></li>
-                    <li class="list-inline-item"><a href="https://chessmail.de/~shaack"><i class="fa fas fa-chess-knight"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.chessmail.de/~shaack"><i class="fa fas fa-chess-knight"></i></a></li>
                     <li class="list-inline-item"><a href="https://www.linkedin.com/in/stefan-haack-028864a/"><i class="fa fab fa-linkedin-in"></i></a></li>
                     <li class="list-inline-item"><a href="https://twitter.com/shaack"><i class="fa fab fa-twitter"></i></a></li>
                     <li class="list-inline-item"><a href="https://www.facebook.com/shaack.consulting"><i class="fa fab fa-facebook-f"></i></a></li>
