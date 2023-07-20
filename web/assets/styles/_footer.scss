@@ -1,9 +1,21 @@
 footer {
   padding-top: 8rem;
   padding-bottom: 8rem;
+  p {
+    color: $gray-500;
+    font-size: $font-size-sm;
+  }
   a {
     font-size: $font-size-sm;
-    color: $gray-500;
     text-decoration: none;
+    color: $gray-600;
+    &:hover {
+      color: $link-hover-color;
+    }
+  }
+  h3 {
+    color: $gray-500;
+    font-size: $font-size-sm;
+    margin-top: 0;
   }
 }

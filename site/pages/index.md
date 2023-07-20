@@ -12,24 +12,27 @@ attractive prey for cyber threats. Consequently, implementing strong IT security
 requirement. However, the complexity of the modern IT landscape makes it difficult for businesses to keep up with the
 latest security trends and best practices.
 
+Get in touch to find out how I can help you with your Website, Webshop or App. With over 20 years of experience in
+information technologies, we surely can find a solution for your business and create an adequate web presence that
+suits your needs.
+
 <!-- video -->
 <!-- pink-fancy -->
 
-## Websites
+## Website<br/>Development
 
-If you need a new website or want to improve your existing website, I can provide you with a solution that is tailored
-to your needs.
-
---- 
-
-## Apps
-
-If you need a new website or want to improve your existing website, I can provide you with a solution that is tailored
-to your needs.
+If you need a new website or want to improve your existing web presence, I can provide you with a solution that is
+tailored to your needs.
 
 --- 
 
-## Shops
+## SEO<br/>Optimization
 
-If you need a new website or want to improve your existing website, I can provide you with a solution that is tailored
-to your needs.
+If your website is not listed in the top results on Google, you are losing potential customers. I can help you to
+improve your ranking.
+
+--- 
+
+## Website<br/>Maintenance
+
+To keep your Website secure and up-to-date, I can provide you with a maintenance plan that fits your demands.
