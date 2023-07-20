@@ -3,16 +3,20 @@
   margin-top: -100px;
   color: $white;
 
+  h2 {
+    margin-top: 0;
+  }
+
   .mask-1 {
     width: calc(50% - 75px);
     height: 150px;
-    background-color: $blue-light-project;
+    background-color: $body-bg;
     float: left;
   }
   .mask-2 {
     width: 150px;
     height: 150px;
-    background: linear-gradient(135deg, $blue-light-project 50%,  transparent 50%);
+    background: linear-gradient(135deg, $body-bg 50%,  transparent 50%);
     float: left;
   }
 }

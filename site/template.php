@@ -23,16 +23,9 @@ $v = "2307191303";
 <main>
     <?= $page->render($request) ?>
 </main>
-<?php if ($request->getPath() != "/") { ?>
-    <footer>
-        <nav>
-            <ul>
-                <li><a href="/legal-notice">Legal notice</a></li>
-                <li><a href="/data-privacy-policy">Data privacy policy</a></li>
-            </ul>
-        </nav>
-    </footer>
-<?php } ?>
+<footer class="bg-dark text-dark">
+    <?php include "_footer.php" ?>
+</footer>
 <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

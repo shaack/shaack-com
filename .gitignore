@@ -8,5 +8,5 @@
 /web/admin
 /web/assets/styles/*.css
 /web/assets/styles/*.css.map
-/web/assets/videos/it-consulting.mp4
+/web/assets/videos/*
 /web/downloads/customers
