@@ -10,7 +10,7 @@ $structure = $navbarConfig['structure'];
         <div class="col-md">
             <p>
                 <b>Dipl.-Ing. Stefan Haack</b><br/>
-                Wittinger Str. 149L<br/>
+                Wittinger Str. 140L<br/>
                 29223 Celle
             </p>
             <p>

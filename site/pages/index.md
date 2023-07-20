@@ -19,20 +19,21 @@ suits your needs.
 <!-- video -->
 <!-- pink-fancy -->
 
-## Website<br/>Development
+## Websites
 
-If you need a new website or want to improve your existing web presence, I can provide you with a solution that is
-tailored to your needs.
-
---- 
-
-## SEO<br/>Optimization
-
-If your website is not listed in the top results on Google, you are losing potential customers. I can help you to
-improve your ranking.
+Unleash your business potential with top-notch website development services! I provide tailor-made, innovative, and
+feature-rich sites to effectively showcase your brand, attract customers, and drive growth.
 
 --- 
 
-## Website<br/>Maintenance
+## Apps
 
-To keep your Website secure and up-to-date, I can provide you with a maintenance plan that fits your demands.
+Revolutionize your business with custom app development! I deliver optimally performing, user-friendly, and secure apps,
+designed to engage your audience and take your business to new heights.
+
+--- 
+
+## Webshops
+
+Elevate your eCommerce business with bespoke webshop development services! I design seamless, secure, and interactive
+online stores tailored to your brand, enhancing customer experience and boosting your sales.
