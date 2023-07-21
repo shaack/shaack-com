@@ -20,6 +20,14 @@
     background: linear-gradient(135deg, $main-bg 50%,  transparent 50%);
     float: left;
   }
+  .container {
+    padding-top: 8 * $spacer;
+    padding-bottom: 8 * $spacer;
+    @include media-breakpoint-down(lg) {
+      padding-top: 4 * $spacer;
+      padding-bottom: 4 * $spacer;
+    }
+  }
   a {
     color: $white;
     text-decoration: none;
