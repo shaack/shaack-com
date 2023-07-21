@@ -1,6 +1,6 @@
 # Nativefier
 
-Nativefier is a command-line tool to easily create a desktop application for any website 
+[Nativefier](https://github.com/nativefier/nativefier) is a command-line tool to easily create a desktop application for any website 
 with minimal configuration.
 
 ## Installation
@@ -15,7 +15,7 @@ npm install nativefier -g
 nativefier <URL> [options]
 ```
 
-### Example
+### Examples
 
 #### Create a desktop app for chessmail.de
 
