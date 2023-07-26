@@ -15,6 +15,7 @@
       font-size: 200%;
       line-height: 1.4;
       color: $blue-project;
+      font-family: "Courier New", "Courier", monospace;
       @include media-breakpoint-down(lg) {
         font-size: 160%;
       }

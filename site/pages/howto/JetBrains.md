@@ -24,4 +24,4 @@ brew install sassc
 
 ## Where is the tomcat `work` directory?
 
-~/Users/[USERNAME]/Library/Caches/JetBrains/IntelliJIdea[VERSION]/tomcat/[PROJECT]/work
+`~/Users/[USERNAME]/Library/Caches/JetBrains/IntelliJIdea[VERSION]/tomcat/[PROJECT]/work`

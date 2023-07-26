@@ -27,6 +27,7 @@
 ## Nested List
 
 ```html
+
 <ul>
     <li>Coffee</li>
     <li>Tea
@@ -40,7 +41,11 @@
 
 ## Allowed chars in HTML-ids
 
-`id` and `name` tokens must begin with a letter (`[A-Za-z]`) and may be followed by any number of letters, 
+### HTML 4
+
+`id` and `name` tokens must begin with a letter (`[A-Za-z]`) and may be followed by any number of letters,
 digits (`[0-9]`), hyphens (`-`), underscores (`_`), colons (`:`), and periods (`.`).
 
-See also: [Content-Security-Policy](Content-Security-Policy)
+### HTML 5
+
+An id must contain at least one character and may not contain any space characters.
