@@ -29,6 +29,16 @@ a {
   text-decoration-color: $gray-project;
   //font-weight: bold;
 }
+
 main a:hover {
   text-decoration: underline;
+}
+
+pre {
+  background-color: $gray-200;
+  padding: $spacer;
+
+  code {
+    color: $code-color;
+  }
 }
