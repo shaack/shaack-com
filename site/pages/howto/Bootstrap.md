@@ -87,7 +87,26 @@ $breakpoint-sm: map-get($grid-breakpoints, sm);
 }
 ```
 
-## Tricks
+## Disable the Grid-System
+
+- https://medium.com/@erik_flowers/how-youve-been-getting-the-bootstrap-grid-all-wrong-and-how-to-fix-it-6d97b920aa40
+
+## Navigation expand on Hover
+
+- https://bootstrap-menu.com/detail-basic-hover.html
+
+## Prevent sticky button hovers on mobile touch devices
+
+```css
+@media (hover: none) {
+    .btn:hover {
+        color: inherit;
+        background-color: inherit;
+    }
+}
+```
+
+## Alignment
 
 ### Align text or button at the bottom of a card
 
@@ -97,11 +116,3 @@ $breakpoint-sm: map-get($grid-breakpoints, sm);
 ### Align cols on bottom of a row
 
 - Add `align-items-end` to the row
-
-## Disable the Grid-System
-
-- https://medium.com/@erik_flowers/how-youve-been-getting-the-bootstrap-grid-all-wrong-and-how-to-fix-it-6d97b920aa40
-
-## Navigation on Hover
-
-- https://bootstrap-menu.com/detail-basic-hover.html
