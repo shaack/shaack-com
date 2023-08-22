@@ -1,15 +1,5 @@
 # Projects and Customers
 
-## Open Source projects
-
-Components of [chessmail](https://www.chessmail.de), Bootstrap components and other projects, which I made available to the general public.
-
-- [My **GitHub** profile page](https://github.com/shaack) // with an overview of all projects
-- [**Chess** projects](https://github.com/shaack?tab=repositories&q=chess&type=&language=&sort=stargazers) // the open source parts of chessmail
-- [**Bootstrap** extensions](https://github.com/shaack?tab=repositories&q=bootstrap&type=&language=&sort=stargazers) // projects with or for Bootstrap
-- [GDPR **cookie consent** settings](https://github.com/shaack?tab=repositories&q=cookie-consent&type=&language=&sort=stargazers) // free GDPR (DSGVO) banners for websites
-- [Reboot **CMS**](https://github.com/shaack/reboot-cms) // a CMS that is fast and this page runs with
-
 ## Websites
 
 Various websites that I have created mainly for clients.
@@ -26,12 +16,33 @@ Various websites that I have created mainly for clients.
 - [musiker-honorare.de](https://musiker-honorare.de) // design, coding, maintenance
 - [zrb-vermessung.de](https://zrb-vermessung.de) // coding, SEO check and optimizations
 - [fuhrberger.de](https://fuhrberger.de) // coding, maintenance
-- [chessmail.de](https://www.chessmail.de) // concept, design, coding, operation
 
 ### I mostly use these systems to create websites
 
-- [Redaxo](https://redaxo.org) <br/>Good system for all types of websites. Open source and free.
-- [Craft CMS](https://craftcms.com) <br/>For larger websites that require content versioning. Open source but not free.
-- [Reboot CMS](https://github.com/shaack/reboot-cms) <br/>My own CMS for small and medium sites. Open source, free, no database needed.
+- [Craft CMS](https://craftcms.com) // For medium-sized and larger websites that require content versioning. Open
+  source but not free.
+- [Redaxo](https://redaxo.org) // Good system for all types of websites. Open source and free.
+- [Reboot CMS](https://github.com/shaack/reboot-cms) // My own CMS for small and medium sites. Open source, free, no
+  database needed. Markdown based. It´s extremely fast. This page runs on it. 👍
+
+## Chess apps and websites
+
+- [chessmail.de](https://www.chessmail.de) // concept, design, coding, operation
+- [gambit.ai](https://gambit.ai) // coding
+
+## Open Source projects
+
+Components of [chessmail](https://www.chessmail.de), Bootstrap components and other projects, which I made available to
+the general public.
+
+- [My **GitHub** profile page](https://github.com/shaack) // with an overview of all projects
+- [**Chess** projects](https://github.com/shaack?tab=repositories&q=chess&type=&language=&sort=stargazers) // the open
+  source parts of chessmail
+- [**Bootstrap** extensions](https://github.com/shaack?tab=repositories&q=bootstrap&type=&language=&sort=stargazers) //
+  projects with or for Bootstrap
+- [GDPR **cookie consent
+  ** settings](https://github.com/shaack?tab=repositories&q=cookie-consent&type=&language=&sort=stargazers) // free
+  GDPR (DSGVO) banners for websites
+- [Reboot **CMS**](https://github.com/shaack/reboot-cms) // a CMS that is fast and this page runs with
 
 See also: [Services](services)

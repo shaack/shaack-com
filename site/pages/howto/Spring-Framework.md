@@ -1,5 +1,24 @@
 # Spring Framework
 
+## Controllers
+
+### Optional Path Variables
+
+- From [baeldung.com "Spring Optional Path Variables"](https://www.baeldung.com/spring-optional-path-variables)
+
+```java
+@RequestMapping(value = {"/article", "/article/{id}"})
+public Article getArticle(@PathVariable Map<String, String> pathVarsMap) {
+    String articleId = pathVarsMap.get("id");
+    if (articleId != null) {
+        Integer articleIdAsInt = Integer.valueOf(articleId);
+        //...
+    } else {
+        //...
+    }
+}
+```
+
 ## Pointcut Expressions
 
 ### Wildcards
