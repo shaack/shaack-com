@@ -8,7 +8,7 @@ $v = "2307201659";
 
 ?>
 <!doctype html>
-<html lang="en">
+<html data-bs-theme="light" lang="en">
 <head>
     <base href="<?= $site->getWebPath() ?>"/>
     <meta charset="utf-8">
