@@ -401,20 +401,13 @@ In the Module
 ```php
 global $scripts;
 if (empty($scripts)) {
-  $scripts = [];
+    $scripts = [];
 }
 $scripts[] = <<<EOF
-    <script>
-        var images = $("#$id").find("img");
-        for (var i = 0; i < images.length; i++) {
-            var image = $(images[i]);
-            var src = image.attr("src");
-            src = src.replace("rex_media_type=Hero", "rex_media_type=Logo")
-            image.on("load", function() {
-                $(this).css("visibility", "visible").hide().fadeIn(250);
-            }).attr("src", src);           
-        }
-    </script>
+<script>
+    // your script
+</script>
+EOF;
 ```
 
 ### Is Logged in Backend
