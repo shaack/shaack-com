@@ -2,8 +2,6 @@
 
 My services cover the entire spectrum from planning and production to the operation of your app or website.
 
-![From planning to operation](/assets/images/shaack.com.svg)
-
 ## 1. Conception, planning and design
 
 **Planning** is essential. The concept and the definition of the general conditions influence all your future interaction

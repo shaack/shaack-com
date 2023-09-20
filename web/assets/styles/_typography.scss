@@ -8,14 +8,16 @@ h1 {
 }
 
 h2 {
+  color: $blue-project;
   margin-top: 2 * $spacer;
   margin-bottom: $spacer;
 }
 
 h3 {
-  margin-top: $spacer;
-  font-size: 100%;
-  font-weight: bold;
+  font-weight: 300;
+  margin-top: 1.5 * $spacer;
+  margin-bottom: $spacer;
+  font-size: calc(1rem + 1.02vw);
 }
 
 h4 {
