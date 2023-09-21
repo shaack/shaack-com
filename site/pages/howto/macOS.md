@@ -66,3 +66,11 @@ dscacheutil -flushcache; sudo killall -HUP mDNSResponder
 defaults write com.apple.iCal n\ days\ of\ week 10
 ```
 
+### Change the auto-show and auto-hide delay of the Dock
+
+The default value is "0.2".
+
+```bash
+defaults write com.apple.dock "autohide-delay" -float "0.5" && killall Dock
+```
+

@@ -6,6 +6,7 @@
   h2 {
     margin-top: 0;
     font-size: 160%;
+    color: $white;
   }
 
   .mask-1 {
@@ -14,12 +15,14 @@
     background-color: $main-bg;
     float: left;
   }
+
   .mask-2 {
     width: 150px;
     height: 150px;
-    background: linear-gradient(135deg, $main-bg 50%,  transparent 50%);
+    background: linear-gradient(135deg, $main-bg 50%, transparent 50%);
     float: left;
   }
+
   .container {
     padding-top: 8 * $spacer;
     padding-bottom: 8 * $spacer;
@@ -28,11 +31,20 @@
       padding-bottom: 4 * $spacer;
     }
   }
+
   a {
     color: $white;
     text-decoration: none;
+
     &:hover {
       text-decoration: none;
+    }
+
+    em {
+      display: block;
+      opacity: 0.8;
+      font-size: 90%;
+      line-height: 1.4;
     }
   }
 }
