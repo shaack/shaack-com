@@ -410,7 +410,7 @@ $scripts[] = <<<EOF
 EOF;
 ```
 
-### Is Logged in Backend
+### Is user logged in backend
 
 https://redaxo.org/forum/allgemeines-r4-f27/im-backend-eingeloggt-t18439.html
 
@@ -448,3 +448,29 @@ rex_extension::register('PACKAGES_INCLUDED', function ($params) {
 ```
 
 See also [Bootstrap](Bootstrap), [npm](npm)
+
+### Copy all pages and structure from one language to another
+
+- Try AddOn `Sprog`
+
+### Use data from a slice in the template header
+
+- Below `REX_ARTICLE[]` the data of the slice is available.
+- To use it in the header you can render the article with `$cur_content = $this->getArticle()` into a variable above 
+  the header.
+
+Use `setProperty()` to set a property in the slice and read it in the template.
+
+```
+$project = rex_addon::get('project');
+$project->setProperty('key',"wert")`
+```
+
+### What if mediapool shows no images
+
+- Is the `.htaccess` of yrewrite installed?
+
+### Multi domain setup with Redaxo
+
+Possible with [yrewrite](https://github.com/yakamara/redaxo_yrewrite).
+
