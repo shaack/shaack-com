@@ -451,7 +451,7 @@ See also [Bootstrap](Bootstrap), [npm](npm)
 
 ### Copy all pages and structure from one language to another
 
-- Try AddOn `Sprog`
+- Try the AddOn `Sprog`
 
 ### Use data from a slice in the template header
 
@@ -472,5 +472,5 @@ $project->setProperty('key',"wert")`
 
 ### Multi domain setup with Redaxo
 
-Possible with [yrewrite](https://github.com/yakamara/redaxo_yrewrite).
+- Possible with [yrewrite](https://github.com/yakamara/redaxo_yrewrite).
 
