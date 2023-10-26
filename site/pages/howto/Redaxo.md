@@ -466,6 +466,14 @@ $project = rex_addon::get('project');
 $project->setProperty('key',"wert")`
 ```
 
+### Suppress PHP deprecated warnings
+
+Configure the PHP error reporting on top of the main template.
+
+```
+error_reporting(E_ALL & ~E_DEPRECATED);
+```
+
 ### What if mediapool shows no images
 
 - Is the `.htaccess` of yrewrite installed?
