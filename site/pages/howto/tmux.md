@@ -1,4 +1,4 @@
-# tmux
+# Usage of tmux
 
 Cheat sheet https://gist.github.com/henrik/1967800
 

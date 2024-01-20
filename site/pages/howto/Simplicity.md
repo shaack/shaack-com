@@ -1,4 +1,4 @@
-# Simplicity
+# About Simplicity
 
 Simplicity is a condition characterized by the fact that only a few factors contribute to its emergence or existence,
 and by the fact that the interaction of these factors can be described by only a few rules.

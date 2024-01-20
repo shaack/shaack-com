@@ -1,4 +1,12 @@
-# Search files with grep and find
+# The macOS Terminal
+
+## Recursively copy files and hidden files from one folder to another
+
+The `.` is critical to make it working.
+
+	cp -rv /from/folder/. /to/folder/
+
+## Search files with grep and find
 
 ### Find files in or below the current folder containing a certain search term
 
