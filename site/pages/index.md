@@ -1,4 +1,5 @@
 <!-- hero -->
+
 <!-- text -->
 
 # Solutions for your business
@@ -20,7 +21,7 @@ surely can find a solution for your business which suits your needs.
 I provide tailor-made, innovative, and feature-rich sites to effectively showcase your brand, attract customers, and
 drive growth.
 
---- 
+---
 
 ## Apps
 
@@ -29,7 +30,7 @@ drive growth.
 I deliver optimally performing, user-friendly, and secure apps, designed to engage your audience and take your business
 to new heights.
 
---- 
+---
 
 ## Webshops
 
