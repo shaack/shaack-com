@@ -9,7 +9,7 @@ $structure = $navbarConfig['structure'];
     <div class="row">
         <div class="col-md mb-3">
             <p>
-                <b>Dipl.-Ing. Stefan Haack</b><br/>
+                <b>Stefan Haack</b><br/>
                 Wittinger Str. 140L<br/>
                 29223 Celle<br/>
                 Germany
