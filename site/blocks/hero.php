@@ -8,10 +8,7 @@
 ?>
 <section class="block block-hero">
     <div class="container-fluid max-width-lg">
-            <a href="services" class="text-claim text-decoration-none">
-                > <span id="claim">_</span>
-            </a>
-            <img class="avatar" alt="" src="/assets/images/shaack.png"/>
+
     </div>
     <div class="separator-1"></div>
 </section>

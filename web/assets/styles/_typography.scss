@@ -1,46 +1,14 @@
-h1, h2 {
-  font-weight: 300;
-}
-
 h1 {
-  color: $blue-project;
-  margin-bottom: 2 * $spacer;
 }
 
 h2 {
-  color: $blue-project;
-  margin-top: 2 * $spacer;
-  margin-bottom: $spacer;
 }
 
 h3 {
-  font-weight: 300;
-  margin-top: 1.5 * $spacer;
-  margin-bottom: $spacer;
-  font-size: calc(1rem + 1.02vw);
 }
 
 h4 {
-  margin-top: $spacer;
-  font-size: 100%;
-  font-weight: normal;
 }
 
 a {
-  text-decoration: none;
-  text-decoration-color: $gray-project;
-  //font-weight: bold;
-}
-
-main a:hover {
-  text-decoration: underline;
-}
-
-pre {
-  background-color: $gray-200;
-  padding: $spacer;
-
-  code {
-    color: $code-color;
-  }
 }

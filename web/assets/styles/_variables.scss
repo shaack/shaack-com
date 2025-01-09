@@ -3,19 +3,13 @@
  */
 
 $font-family-base: 'Open Sans', sans-serif;
-// $font-family-monospace: 'Courier New', 'Courier', monospace;
-$font-size-base: 1.2rem;
-$line-height-base: 1.5;
-$body-bg: $gray-project;
-$main-bg: #f9f9f9;
-$body-color: #333;
-$navbar-dark-color: #fff;
-$navbar-dark-hover-color: $cyan-project;
-$navbar-dark-active-color: $cyan-project;
-$enable-smooth-scroll: false;
-$link-color: $cyan-project-2;
-$list-inline-padding: 1.2rem;
-$box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
-// $code-color: #6d2eec;
-
-$dark: $gray-project;
+$font-family-monospace: 'Courier New', 'Courier', monospace;
+// $font-size-base: 16px;
+$line-height-base: 1.2;
+$body-bg: $_gray1;
+$body-color: $_light_blue;
+$navbar-dark-color: $_gray4;
+$navbar-dark-hover-color: $_beige;
+$navbar-dark-active-color: $_beige;
+$enable-smooth-scroll: false;  ;
+$dark: $_gray2;
