@@ -1,13 +1,5 @@
 /.idea
-/composer.phar
-/vendor
-/core
 /local
-/site/admin
-/web/index.php
 /web/node_modules
-/web/admin
-/web/assets/styles/*.css
-/web/assets/styles/*.css.map
 /web/assets/videos/*
 /web/downloads/customers

@@ -1,0 +1,8 @@
+# Admin site configuration
+
+addons: [ Authentication, Admin ]
+navbar:
+  brand: Reboot CMS
+  structure:
+    Edit Pages: /pages
+    Site Configuration: /config
