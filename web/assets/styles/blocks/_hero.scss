@@ -1,6 +1,11 @@
 .block-hero {
   margin-top: 15lvh;
-  img.hero-brand {
+  .hero-brand {
     width: 30rem;
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+  nav.navbar {
+    margin-bottom: 5rem;
   }
 }

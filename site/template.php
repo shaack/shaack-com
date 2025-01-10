@@ -31,11 +31,11 @@ $navbarConfig = $site->getConfig()['nav'];
 </main>
 <footer class="container-fluid max-width-lg">
     <nav class="navbar navbar-legal navbar-dark">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav d-flex flex-row">
             <?php
             $navService = $navbarConfig['service'];
             foreach ($navService as $label => $path) { ?>
-                <li class="nav-item">
+                <li class="nav-item me-5">
                     <a class="nav-link"
                        href="<?= $site->getWebPath() . $path ?>"><?= $label ?></a>
                 </li>
