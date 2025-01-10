@@ -8,6 +8,7 @@ $v = "2501102102";
 $content = $page->render($request);
 $pageConfig = $page->getConfig(); // the frontmatter config
 $hideNav = !!$page->getConfig()["hide-nav"];
+$navbarConfig = $site->getConfig()['nav'];
 ?>
 <!doctype html>
 <html data-bs-theme="light" lang="en">
@@ -28,6 +29,20 @@ $hideNav = !!$page->getConfig()["hide-nav"];
 <main>
     <?= $content ?>
 </main>
+<footer class="container-fluid max-width-lg">
+    <nav class="navbar navbar-legal navbar-dark">
+        <ul class="navbar-nav">
+            <?php
+            $navService = $navbarConfig['service'];
+            foreach ($navService as $label => $path) { ?>
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="<?= $site->getWebPath() . $path ?>"><?= $label ?></a>
+                </li>
+            <?php } ?>
+        </ul>
+    </nav>
+</footer>
 <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

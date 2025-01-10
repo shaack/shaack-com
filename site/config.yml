@@ -1,8 +1,11 @@
 # Websites global values, like the navigation
 
-navbar:
-  structure:
+nav:
+  main:
     Projects: /projects
     Services: /services
     Publications: /publications
     Contact: /contact
+  service:
+    Legal notice: /legal-notice
+    Privacy policy: /data-privacy-policy

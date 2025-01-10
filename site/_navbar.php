@@ -2,8 +2,8 @@
 /** @var Shaack\Reboot\Site $site */
 /** @var Shaack\Reboot\Page $page */
 /** @var Shaack\Reboot\Request $request */
-$navbarConfig = $site->getConfig()['navbar'];
-$structure = $navbarConfig['structure'];
+$navbarConfig = $site->getConfig()['nav'];
+$structure = $navbarConfig['main'];
 $expandSize = "md";
 ?>
 <nav class="navbar navbar-expand-<?= $expandSize ?> navbar-dark bg-dark fixed-top">
