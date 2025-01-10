@@ -1,12 +1,8 @@
-# Websites global values
+# Websites global values, like the navigation
 
 navbar:
   structure:
     Projects: /projects
     Services: /services
     Publications: /publications
-    
-#   Services: /services
-#   Works: /works
-#   Articles: /howto
-#   Contact: /contact
+    Contact: /contact
