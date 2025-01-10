@@ -4,31 +4,38 @@
  * Repository: https://github.com/shaack/reboot-cms
  * License: MIT, see file 'LICENSE'
  */
-/**  @var \Shaack\Reboot\Block $block */
+/** @var Shaack\Reboot\Block $block */
+/** @var Shaack\Reboot\Site $site */
+/** @var Shaack\Reboot\Request $request */
 ?>
 <section class="block block-hero">
-    <div class="container-fluid max-width-lg">
-
+    <div class="container-fluid">
+        <img class="img-fluid" src="/assets/images/shaack_com_logo.svg" alt="shaack.com"/>
+        <nav class="navbar navbar-dark">
+            <?php
+            $navbarConfig = $site->getConfig()['navbar'];
+            ?>
+            <ul class="navbar-nav">
+                <?php
+                $structure = $navbarConfig['structure'];
+                if ($structure) {
+                    foreach ($structure as $label => $path) {
+                        $active = false;
+                        if ($path === "/") {
+                            $active = $request->getPath() === $path;
+                        } else {
+                            $active = str_starts_with($request->getPath(), $path);
+                        }
+                        ?>
+                        <li class="nav-item">
+                            <a class="nav-link <?= $active ? "active" : "" ?>"
+                               href="<?= $site->getWebPath() . $path ?>"><?= $label ?></a>
+                        </li>
+                        <?php
+                    }
+                }
+                ?>
+            </ul>
+        </nav>
     </div>
-    <div class="separator-1"></div>
 </section>
-<script type="module">
-    import {ShellWrite} from "/src/ShellWrite.js"
-
-    const fortunes = [
-        "Stefan Haack\nInformation Technology\nConsulting & Development"
-    ]
-    const fortune = fortunes[Math.floor(Math.random() * fortunes.length)];
-    documentReady(() => {
-        setTimeout(() => {
-            new ShellWrite(document.getElementById("claim"), fortune)
-        }, 200)
-    })
-
-    function documentReady(callback) {
-        document.addEventListener("DOMContentLoaded", callback)
-        if (document.readyState === "interactive" || document.readyState === "complete") {
-            callback()
-        }
-    }
-</script>

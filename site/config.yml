@@ -2,7 +2,11 @@
 
 navbar:
   structure:
+    Projects: /projects
     Services: /services
-    Works: /works
-    Articles: /howto
-    Contact: /contact
+    Publications: /publications
+    
+#   Services: /services
+#   Works: /works
+#   Articles: /howto
+#   Contact: /contact
