@@ -31,7 +31,7 @@ $navbarConfig = $site->getConfig()['nav'];
 </main>
 <footer class="container-fluid max-width-lg">
     <nav class="navbar navbar-legal navbar-dark">
-        <ul class="navbar-nav d-flex flex-row">
+        <ul class="navbar-nav d-flex flex-row <?= $page->getConfig()["hide-nav"] ? "animate-fade-in" : "" ?>">
             <?php
             $navService = $navbarConfig['service'];
             foreach ($navService as $label => $path) { ?>

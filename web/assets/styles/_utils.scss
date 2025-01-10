@@ -6,8 +6,8 @@
     max-width: $value;
   }
 }
-body *:hover {
-  // outline: 1px rgba(0, 0, 0, 0.2) solid;
+body * {
+  // outline: 1px rgba(255, 255, 255, 0.1) solid;
 }
 
 .bg-gray2 {
