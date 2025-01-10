@@ -2,8 +2,8 @@
 
 namespace Shaack\Reboot;
 
-use Shaack\Utils\Htpasswd;
-use Shaack\Utils\Logger;
+use Shaack\Htpasswd;
+use Shaack\Logger;
 
 class Authentication extends AddOn
 {
@@ -39,7 +39,7 @@ class Authentication extends AddOn
     /**
      * Calculates a checksum for the admin session. Detects, if the .htpasswd was changed, the IP-Address or
      * the user agent of the user.
-     * @return String md5 checksum
+     * @return string md5 checksum
      */
     private function getChecksum(): string
     {

@@ -3,7 +3,8 @@
 
 namespace Shaack\Reboot;
 
-use Shaack\Utils\Logger;
+use Shaack\Logger;
+use Shaack\Utils\HttpUtils;
 use Symfony\Component\Yaml\Exception\ParseException;
 use Symfony\Component\Yaml\Yaml;
 
@@ -57,7 +58,7 @@ class Site
             }
         }
         $page = new Page($this->reboot, $this);
-        $content = renderTemplate($this, $page, $request);
+        $content = renderPage($this, $page, $request);
         foreach ($this->addOns as $addOn) {
             $content = $addOn->postRender($request, $content);
         }
@@ -92,15 +93,13 @@ class Site
     {
         return $this->addOns[$addOnName];
     }
-
 }
 
 /** @noinspection PhpUnusedParameterInspection */
-function renderTemplate(Site $site, Page $page, Request $request)
+function renderPage(Site $site, Page $page, Request $request): string
 {
     ob_start();
-    /** @noinspection PhpIncludeInspection */
-    include $site->getFsPath() . '/template.php';
+    include $site->getFsPath() . '/template.php'; // The name is hardcoded for now. Maybe configurable in the future.
     $contents = ob_get_contents();
     ob_end_clean();
     return $contents;
