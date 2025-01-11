@@ -1,8 +1,8 @@
-# From planning to operation
+# From planning to operation.
 
-My services cover the entire spectrum from planning and production to the operation of your app or website.
+Our services cover the entire spectrum from planning and production to the operation of your app or website.
 
-## 1. Conception, planning and design
+## Conception, planning and design
 
 **Planning** is essential. The concept and the definition of the general conditions influence all your future interaction
 with the website or app.
@@ -13,7 +13,7 @@ system for the respective requirements.
 A clear **structure** makes it easier to use. This is reflected in my design, the user interface of the app and the overall
 concept of the website.
 
-## 2. Production
+## Production
 
 I draw on over 15 years of experience in developing apps and websites. What I program is tested and
 meets the requirements. Related to the technique, I offer
@@ -21,7 +21,7 @@ meets the requirements. Related to the technique, I offer
 - **full stack programming for web and apps** and
 - **quality assurance and automated testing** of webapps, websites and webshops
 
-## 3. Operation and maintenance
+## Operation and maintenance
 
 In order for your website or app to **run stably**, the system needs to be updated regularly. Data loss can
 can be counteracted with a **backup concept**. 

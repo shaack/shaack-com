@@ -1,8 +1,9 @@
+@import "atari-st-colors";
+
 $_gray1: #111111;
 $_gray2: #181818;
-$_gray3: #494949;
-$_gray4: #929292;
-$_gray5: #C4C4C4;
-$_light_blue: #F3F5F6;
-$_orange: #DB6D24;
-$_beige: #DBB692;
+$_gray3: $color-st02;
+$_gray4: $color-st06;
+$_gray5: $color-st10;
+$_gray6: #C4C4C4;
+$_gray6: #EEEEEE;
