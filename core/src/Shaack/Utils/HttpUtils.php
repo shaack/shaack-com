@@ -7,8 +7,15 @@
 
 namespace Shaack\Utils;
 
-class HttpUtils {
-    public static function sanitizeFileName($content): string {
+class HttpUtils
+{
+    public static function sanitizeFileName(string $content): string
+    {
         return preg_replace('/[^a-zA-Z0-9_\-]/', '', $content);
+    }
+
+    public static function sanitizeHttpParam(string $content): string
+    {
+        return htmlentities($content);
     }
 }

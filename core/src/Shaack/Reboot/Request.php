@@ -3,6 +3,7 @@
 namespace Shaack\Reboot;
 
 use Shaack\Logger;
+use Shaack\Utils\HttpUtils;
 
 class Request
 {
@@ -64,16 +65,15 @@ class Request
      * @param string|null $method set to "get" or "post" to return only that methods params
      * @return mixed|null
      */
-    public function getParam(string $name, string $method = null)
+    public function getParam(string $name, string $method = "get")
     {
-        if ($method == null || strtolower($method) == "post") {
-            if (array_key_exists($name, $this->paramsPost)) {
-                return $this->paramsPost[$name];
-            }
-        }
-        if ($method == null || strtolower($method) == "get") {
+        if (strtolower($method) == "get") {
             if (array_key_exists($name, $this->paramsGet)) {
-                return $this->paramsGet[$name];
+                return HttpUtils::sanitizeHttpParam($this->paramsGet[$name]);
+            }
+        } else if (strtolower($method) == "post") {
+            if (array_key_exists($name, $this->paramsPost)) {
+                return HttpUtils::sanitizeHttpParam($this->paramsPost[$name]);
             }
         }
         return null;

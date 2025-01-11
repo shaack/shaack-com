@@ -7,7 +7,7 @@
 $v = "2501102102";
 $content = $page->render($request);
 $pageConfig = $page->getConfig(); // the frontmatter config
-$hideNav = !!$page->getConfig()["hide-nav"];
+$hideNav = !!@$page->getConfig()["hide-nav"];
 $navbarConfig = $site->getConfig()['nav'];
 ?>
 <!doctype html>
@@ -20,8 +20,8 @@ $navbarConfig = $site->getConfig()['nav'];
     <!-- <link rel="stylesheet" href="/assets/fontawesome-subset/css/all.min.css?v=<?= $v ?>"> -->
     <title>shaack.com, IT-Consulting & Development</title>
 </head>
-<body class="<?= $page->getConfig()["hide-nav"] ? "bg-gray2" : "" ?>" data-bs-theme="dark">
-<?php if (!$pageConfig["hide-nav"]) { ?>
+<body class="<?= $hideNav ? "bg-gray2" : "" ?>" data-bs-theme="dark">
+<?php if (!$hideNav) { ?>
 <header>
     <?php include "_navbar.php" ?>
 </header>
@@ -31,7 +31,7 @@ $navbarConfig = $site->getConfig()['nav'];
 </main>
 <footer class="container-fluid max-width-lg">
     <nav class="navbar navbar-legal navbar-dark">
-        <ul class="navbar-nav d-flex flex-row <?= $page->getConfig()["hide-nav"] ? "animate-fade-in" : "" ?>">
+        <ul class="navbar-nav d-flex flex-row <?= $hideNav ? "animate-fade-in" : "" ?>">
             <?php
             $navService = $navbarConfig['service'];
             foreach ($navService as $label => $path) { ?>
