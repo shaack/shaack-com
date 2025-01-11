@@ -8,19 +8,19 @@ $shrink: 0.92;
   margin-top: $margin-top;
   margin-bottom: $margin-bottom;
   @include media-breakpoint-down(lg) {
-    font-size: max($font-size * $shrink, 1rem);
+    font-size: max($font-size * $shrink, 1.3rem);
     margin-top: $margin-top * $shrink;
     margin-bottom: $margin-bottom * $shrink;
   }
   @include media-breakpoint-down(md) {
     $dimension: $shrink * $shrink;
-    font-size: max($font-size * $dimension, 1rem);
+    font-size: max($font-size * $dimension, 1.2rem);
     margin-top: $margin-top * $dimension;
     margin-bottom: $margin-bottom * $dimension;
   }
   @include media-breakpoint-down(sm) {
     $dimension: $shrink * $shrink * $shrink;
-    font-size: max($font-size * $dimension, 1rem);
+    font-size: max($font-size * $dimension, 1.1rem);
     margin-top: $margin-top * $dimension;
     margin-bottom: $margin-bottom * $dimension;
   }
@@ -44,6 +44,16 @@ h3 {
 h4 {
   font-family: $font-family-base;
   @include heading-responsive(1.3rem, 1.5rem, 1rem);
+  color: $_gray4;
+}
+h5 {
+  font-family: $font-family-base;
+  @include heading-responsive(1.2rem, 1.5rem, 1rem);
+  color: $_gray4;
+}
+h6 {
+  font-family: $font-family-base;
+  @include heading-responsive(1.1rem, 1.5rem, 1rem);
   color: $_gray4;
 }
 

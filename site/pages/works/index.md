@@ -14,13 +14,14 @@
 
 #### Bootstrap extensions and modules
 
-- bootstrap-input-spinner
-- bootstrap-lightbox-gallery
-- bootstrap-cookie-consent-settings
-- bootstrap-auto-dark-mode
-- bootstrap-show-modal
-- bootstrap-show-toast
-- bootstrap-detect-breakpoint
+- [bootstrap-input-spinner](works/readme?project=bootstrap-input-spinner) // Input spinner elements for number input
+- [bootstrap-show-modal](works/readme?project=bootstrap-show-modal) // Bootstrap Modals in pure JavaScript
+- [bootstrap-show-toast](works/readme?project=bootstrap-show-toast) // Bootstrap Toasts in pure JavaScript
+- [bootstrap-lightbox-gallery](works/readme?project=bootstrap-lightbox-gallery) // A lightbox gallery for Bootstrap
+- [bootstrap-cookie-consent-settings](works/readme?project=bootstrap-cookie-consent-settings) // Comprehensive consent framework
+- [bootstrap-detect-breakpoint](works/readme?project=bootstrap-detect-breakpoint) // Detect the current Bootstrap breakpoint in JavaScript
+- [bootstrap-auto-dark-mode](works/readme?project=bootstrap-auto-dark-mode) // Switches theme automatically 
+  depending on system settings
 
 ### Chess modules
 

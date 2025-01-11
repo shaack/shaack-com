@@ -25,6 +25,9 @@ main {
   @include media-breakpoint-down(md) {
     margin-top: 6rem;
   }
+  img {
+    max-width: 100%;
+  }
 }
 hr {
   color: $_gray7;
@@ -32,4 +35,5 @@ hr {
 }
 pre[class*=language-] {
   background-color: darken($_gray2, 2.2%);
+  margin-bottom: 1rem;
 }
