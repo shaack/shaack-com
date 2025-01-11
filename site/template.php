@@ -16,6 +16,7 @@ $navbarConfig = $site->getConfig()['nav'];
     <base href="<?= $site->getWebPath() ?>"/>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/vendor/prism/theme-tomorrow-night.css" />
     <link rel="stylesheet" href="/assets/styles/screen.css?v=<?= $v ?>">
     <!-- <link rel="stylesheet" href="/assets/fontawesome-subset/css/all.min.css?v=<?= $v ?>"> -->
     <title>shaack.com, IT-Consulting & Development</title>
@@ -44,5 +45,6 @@ $navbarConfig = $site->getConfig()['nav'];
     </nav>
 </footer>
 <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/vendor/prism/prism.js"></script>
 </body>
 </html>

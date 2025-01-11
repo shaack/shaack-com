@@ -29,4 +29,6 @@ can be counteracted with a **backup concept**.
 With a **maintenance contract** I can offer you a carefree flat rate for a functioning
 server system that runs reliably and always has all important security updates installed.
 
-See also: [Works](works)
+---
+
+See also: [Projects](works)

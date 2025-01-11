@@ -2,43 +2,49 @@ body {
   line-height: 1.5;
 }
 
+$shrink: 0.92;
+@mixin heading-responsive($font-size, $margin-top, $margin-bottom) {
+  font-size: $font-size;
+  margin-top: $margin-top;
+  margin-bottom: $margin-bottom;
+  @include media-breakpoint-down(lg) {
+    font-size: max($font-size * $shrink, 1rem);
+    margin-top: $margin-top * $shrink;
+    margin-bottom: $margin-bottom * $shrink;
+  }
+  @include media-breakpoint-down(md) {
+    $dimension: $shrink * $shrink;
+    font-size: max($font-size * $dimension, 1rem);
+    margin-top: $margin-top * $dimension;
+    margin-bottom: $margin-bottom * $dimension;
+  }
+  @include media-breakpoint-down(sm) {
+    $dimension: $shrink * $shrink * $shrink;
+    font-size: max($font-size * $dimension, 1rem);
+    margin-top: $margin-top * $dimension;
+    margin-bottom: $margin-bottom * $dimension;
+  }
+}
+
 h1 {
-  margin-bottom: 2rem;
+  @include heading-responsive(2.7rem, 0, 2rem);
 }
 
 h2 {
-  margin-top: 4rem;
-  margin-bottom: 2rem;
+  @include heading-responsive(2rem, 4rem, 2rem);
   border-bottom: 1px solid $_gray5;
-  font-size: 1.58rem;
-  @include media-breakpoint-down(md) {
-    font-size: 1.4rem;
-    margin-top: 3rem;
-    margin-bottom: 2.5rem;
-  }
-  @include media-breakpoint-down(sm) {
-    font-size: 1.3rem;
-    margin-top: 2.5rem;
-    margin-bottom: 2rem;
-  }
 }
 
 h3 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  font-size: 1.25rem;
-  @include media-breakpoint-down(md) {
-    font-size: 1.15rem;
-  }
-  @include media-breakpoint-down(sm) {
-    font-size: 1.1rem;
-  }
+  font-family: $font-family-base;
+  @include heading-responsive(1.6rem, 2.5rem, 1.5rem);
   color: $_gray5;
 }
 
 h4 {
-  font-size: 1rem;
-  color: $_gray5;
+  font-family: $font-family-base;
+  @include heading-responsive(1.3rem, 1.5rem, 1rem);
+  color: $_gray4;
 }
 
 strong, b {

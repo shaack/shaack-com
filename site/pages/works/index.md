@@ -4,18 +4,23 @@
 
 ### Bootstrap 5 and HTML extensions
 
-- General HTML extensions (which work also without Bootstrap)
-  - [auto-resize-textarea](works/readme?project=auto-resize-textarea)
-  - cookie-consent-js
-  - touch-and-hold-button
-- Bootstrap
-  - bootstrap-lightbox-gallery
-  - bootstrap-cookie-consent-settings
-  - bootstrap-input-spinner
-  - bootstrap-auto-dark-mode
-  - bootstrap-show-modal
-  - bootstrap-show-toast
-  - bootstrap-detect-breakpoint
+#### General HTML extensions (which work also without Bootstrap)
+
+- [auto-resize-textarea](works/readme?project=auto-resize-textarea) // Auto resizes the height of any `<textarea>` to match the text input
+- [touch-and-hold-button](works/readme?project=touch-and-hold-button) // Transform an HTML button into a long press 
+  button
+- [cookie-consent-js](works/readme?project=cookie-consent-js) // Dialog and framework to handle the EU law about 
+  cookies
+
+#### Bootstrap extensions and modules
+
+- bootstrap-input-spinner
+- bootstrap-lightbox-gallery
+- bootstrap-cookie-consent-settings
+- bootstrap-auto-dark-mode
+- bootstrap-show-modal
+- bootstrap-show-toast
+- bootstrap-detect-breakpoint
 
 ### Chess modules
 
@@ -72,7 +77,7 @@
 
 ### There is a world beside Wordpress
 
-When we create websites, we usually use these systems. 
+When I create websites, I usually use these systems:
 
 - [Craft CMS](https://craftcms.com) // For medium-sized and larger websites that require content versioning. Open source
   but not free.
