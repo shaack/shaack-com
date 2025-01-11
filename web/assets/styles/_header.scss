@@ -1,5 +1,13 @@
 nav.navbar {
-  font-family: "michroma", sans-serif;
-  font-size: 20px;
+  font-family: 'michroma', sans-serif;
+  font-size: 16px;
   font-weight: lighter;
+  .navbar-brand img {
+    width: 16rem;
+    padding: 0.2rem;
+    margin-right: 0.5rem;
+    @include media-breakpoint-up(lg) {
+      margin-right: 2rem;
+    }
+  }
 }

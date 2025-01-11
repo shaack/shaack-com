@@ -1,8 +1,4 @@
 .block-hero {
-  margin-top: 2rem;
-  @include media-breakpoint-up(md) {
-    margin-top: 15lvh;
-  }
   .hero-brand {
     width: 32rem;
     max-width: 100%;
@@ -10,6 +6,6 @@
     padding-right: 1rem;
   }
   nav.navbar {
-    margin-bottom: 5rem;
+    font-size: 20px;
   }
 }

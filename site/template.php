@@ -20,7 +20,7 @@ $navbarConfig = $site->getConfig()['nav'];
     <!-- <link rel="stylesheet" href="/assets/fontawesome-subset/css/all.min.css?v=<?= $v ?>"> -->
     <title>shaack.com, IT-Consulting & Development</title>
 </head>
-<body class="<?= $page->getConfig()["hide-nav"] ? "bg-gray2" : "" ?>">
+<body class="<?= $page->getConfig()["hide-nav"] ? "bg-gray2" : "" ?>" data-bs-theme="dark">
 <?php if (!$pageConfig["hide-nav"]) { ?>
 <header>
     <?php include "_navbar.php" ?>
