@@ -27,12 +27,14 @@ $shrink: 0.92;
 }
 
 h1 {
-  @include heading-responsive(2.7rem, 0, 2rem);
+  @include heading-responsive(2.8rem, 0, 2rem);
 }
 
 h2 {
-  @include heading-responsive(2rem, 4rem, 2rem);
+  // font-family: $font-family-base;
+  @include heading-responsive(1.8rem, 4rem, 2rem);
   border-bottom: 1px solid $_gray5;
+  // color: $_gray6;
 }
 
 h3 {

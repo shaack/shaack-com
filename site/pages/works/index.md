@@ -25,29 +25,30 @@
 
 ### Chess modules
 
-- Service layer
-  - cm-chess
-  - cm-pgn
-  - engine compoent
-  - cm-engine-runner
-  - cm-polyglot
-- Frontend
-  - cm-chessboard
-  - cm-chessboard-playfield
-  - cm-chessboard-eight-queens-puzzle
-  - cm-chessboard-capture-them-all
-  - chess-console
-  - chess-console-stockfish
-  - chess-console-puzzles
-  - cm-fen-editor
-  - pgn-to-video-converter
+#### JavaScript service layer modules
+
+- [cm-chess](works/readme?project=cm-chess)
+- [cm-pgn](works/readme?project=cm-pgn)
+- [cm-engine-runner](works/readme?project=cm-engine-runner)
+- [cm-polyglot](works/readme?project=cm-polyglot)
+
+#### Frontend modules
+
+- [cm-chessboard](works/readme?project=cm-chessboard)
+- [cm-chessboard-playfield](works/readme?project=cm-chessboard-playfield)
+- [cm-chessboard-eight-queens-puzzle](works/readme?project=cm-chessboard-eight-queens-puzzle)
+- [chess-console](works/readme?project=chess-console)
+- [chess-console-stockfish](works/readme?project=chess-console-stockfish)
+- [chess-console-puzzles](works/readme?project=chess-console-puzzles)
+- [cm-fen-editor](works/readme?project=cm-fen-editor)
+- [pgn-to-video-converter](https://github.com/shaack/pgn-to-video-converter)
 
 ### General purpose modules
 
 - [cm-md-editor](works/readme?project=cm-md-editor) // Simple markdown editor
-- cm-web-modules // A set of JS modules I use in literally every project
-- teevi // Simple JS unit testing framework
-- starfield-js // Fly through space with this script
+- [cm-web-modules](works/readme?project=cm-web-modules) // A set of JS modules I use in literally every project
+- [teevi](works/readme?project=teevi) // Simple JS unit testing framework
+- [starfield-js](works/readme?project=starfield-js) // Fly through space with this script
 
 ## Chess apps and websites
 
@@ -56,8 +57,8 @@
 
 ## PHP Apps
 
-- Reboot CMS
-- ido - Project tracking and invoicing for self-employed
+- [Reboot CMS](works/readme?project=reboot-cms) // A Markdown CMS with blocks 
+- ido // Project tracking and invoicing for self-employed
 
 ## CMS Websites
 
@@ -80,8 +81,7 @@
 
 When I create websites, I usually use these systems:
 
-- [Craft CMS](https://craftcms.com) // For medium-sized and larger websites that require content versioning. Open source
-  but not free.
+- [Craft CMS](https://craftcms.com) // For medium-sized and larger websites that require content versioning.
 - [Redaxo](https://redaxo.org) // Good system for all types of websites. Open source and free.
 - [Reboot CMS](https://github.com/shaack/reboot-cms) // My own CMS for small and medium sites. Open source, free, no
   database needed. Markdown based. It´s extremely fast. This page runs on it. 👍
