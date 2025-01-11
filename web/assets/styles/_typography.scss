@@ -21,4 +21,9 @@ h4 {
 
 a {
     text-decoration-color: $secondary;
+    text-decoration-thickness: 2px;
+  &:hover {
+    text-decoration-color: $_beige;
+    // text-decoration-thickness: 2px;
+  }
 }
