@@ -19,4 +19,10 @@ body {
 }
 main {
   margin-top: 8rem;
+  @include media-breakpoint-down(lg) {
+    margin-top: 7rem;
+  }
+  @include media-breakpoint-down(md) {
+    margin-top: 6rem;
+  }
 }

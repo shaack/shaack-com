@@ -20,7 +20,7 @@ if (count($filenames) % 2 === 0) {
 ?>
 <div class="block block-how-to block-with-padding">
     <div class="container-fluid max-width-lg">
-        <h1>Knowledge Base</h1>
+        <h1>Worksheets</h1>
         <div class="row">
             <div class="col-md">
                 <ul style="margin-bottom: 0">

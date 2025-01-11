@@ -2,7 +2,7 @@
 
 Responsible for the content of this website
 
-Dipl.-Ing. Stefan Haack<br/>
+Stefan Haack<br/>
 Wittinger Straße 140L<br/>
 29223 Celle<br/>
 Germany
