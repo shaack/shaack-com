@@ -4,11 +4,11 @@ body {
 .animate-fade-in {
   * {
     opacity: 0;
-    animation: draw 1s ease-out forwards;
+    animation: draw 0.5s ease-out forwards;
   }
   @for $i from 1 through 10 {
     *:nth-child(#{$i}) {
-      animation-delay: $i * 0.2s;
+      animation-delay: $i * 0.02s;
     }
   }
 }

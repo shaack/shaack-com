@@ -2,19 +2,12 @@
 
 ## JavaScript modules
 
-### General purpose modules
-
-- [cm-md-editor](works/readme?project=cm-md-editor) // Simple markdown editor
-- cm-web-modules // A set of JS modules I use in literally every project
-- teevi // Simple JS unit testing framework
-- starfield-js // Fly through space with this script
-
 ### Bootstrap 5 and HTML extensions
 
-- General HTML extensions (work also without Bootstrap)
-  - touch-and-hold-button
+- General HTML extensions (which work also without Bootstrap)
+  - [auto-resize-textarea](works/readme?project=auto-resize-textarea)
   - cookie-consent-js
-  - auto-resize-textarea
+  - touch-and-hold-button
 - Bootstrap
   - bootstrap-lightbox-gallery
   - bootstrap-cookie-consent-settings
@@ -42,6 +35,13 @@
   - chess-console-puzzles
   - cm-fen-editor
   - pgn-to-video-converter
+
+### General purpose modules
+
+- [cm-md-editor](works/readme?project=cm-md-editor) // Simple markdown editor
+- cm-web-modules // A set of JS modules I use in literally every project
+- teevi // Simple JS unit testing framework
+- starfield-js // Fly through space with this script
 
 ## Chess apps and websites
 

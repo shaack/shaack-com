@@ -1,5 +1,6 @@
 # Websites global values, like the navigation
 
+addons: ["Project"]
 nav:
   main:
     Projects: /works
