@@ -8,7 +8,7 @@ $expandSize = "md";
 ?>
 <nav class="navbar navbar-expand-<?= $expandSize ?> navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/"><img src="assets/images/shaack_com_logo.svg" alt="shaack.com"/></a>
+        <a class="navbar-brand" href="/"><img src="/assets/images/shaack_com_logo.svg" alt="shaack.com"/></a>
         <button class="navbar-toggler ms-auto border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

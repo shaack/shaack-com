@@ -2,9 +2,9 @@
 
 nav:
   main:
-    Projects: /projects
+    Projects: /works
     Services: /services
-    Publications: /publications
+    Publications: /howto
     Contact: /contact
   service:
     Legal notice: /legal-notice
