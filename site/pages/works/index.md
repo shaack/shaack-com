@@ -55,17 +55,17 @@
 - [chessmail.de](https://www.chessmail.de) // concept, design, coding, operation, marketing
 - [gambit.ai](https://gambit.ai) // coding
 
-## PHP Apps
+## PHP apps
 
 - [Reboot CMS](works/readme?project=reboot-cms) // A Markdown CMS with blocks 
 - ido // Project tracking and invoicing for self-employed
 
-## CMS Websites
+## CMS websites
 
 - [fuhrberger.de](https://fuhrberger.de) // consulting, coding, maintenance
 - [fuhrberger-zimmerei.de](https://fuhrberger-zimmerei.de) // consulting, coding, maintenance
 - [wad.de](https://wad.de) // modifications, maintenance
-- [regioservice-sachsen.de](regioservice-sachsen.de) // styling, coding, maintenance
+- [regioservice-sachsen.de](https://regioservice-sachsen.de) // styling, coding, maintenance
 - [direktvertrieb.de](https://direktvertrieb.de) // coding, maintenance
 - [potsdamermitte.de](https://potsdamermitte.de) // coding, maintenance
 - [tonkuensterverband.de](https://www.tonkuenstlerverband.de) // design, coding, maintenance
