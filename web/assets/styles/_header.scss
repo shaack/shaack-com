@@ -7,7 +7,7 @@ nav.navbar {
       // position: absolute;
       // top: 0.8rem;
       width: 16rem;
-      padding: 0.2rem;
+      padding: 0.5rem 0.2rem;
       margin-right: 0.4rem;
       /*
       @include media-breakpoint-up(lg) {
@@ -16,4 +16,7 @@ nav.navbar {
        */
     }
   }
+}
+header nav.navbar {
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
 }

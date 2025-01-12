@@ -17,7 +17,7 @@ $navbar-dark-color: $_gray5;
 $navbar-dark-hover-color: $color-st13;
 $navbar-dark-active-color: $color-st13;
 $enable-smooth-scroll: false;  ;
-$dark: $_gray2;
+$dark: lighten($_gray2, 2%);
 $body-secondary-color-dark: $_gray3;
 // $link-color-dark: $color-st09;
 // $link-hover-color-dark: $_light_blue;

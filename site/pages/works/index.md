@@ -1,63 +1,82 @@
 # Projects
 
+Some time ago, I decided to produce my work in such a way that it could also be used by others. This increases the
+quality and it is then even used by others. Which is great, because it makes the work twice as useful.
+
 ## JavaScript modules
+
+These modules are in production use and should work. Of course, I give no guarantees, but as I said, they have been in
+production for years. All are fast and small, with as few dependencies as possible. Mainly modules for my chess
+server [chessmail.de](https://chessmail.de) with several thousand active users.
+
+I also offer professional support for all modules and can help with installation. Feel free to contact me at
+[shaack@gmail.com](mailto:shaack@gmail.com).
 
 ### Bootstrap 5 and HTML extensions
 
 #### General HTML extensions (which work also without Bootstrap)
 
-- [auto-resize-textarea](works/readme?project=auto-resize-textarea) // Auto resizes the height of any `<textarea>` to match the text input
-- [touch-and-hold-button](works/readme?project=touch-and-hold-button) // Transform an HTML button into a long press 
+- [auto-resize-textarea](works/readme?project=auto-resize-textarea) // Auto resizes the height of any `<textarea>` to
+  match the text input
+- [touch-and-hold-button](works/readme?project=touch-and-hold-button) // Transform an HTML button into a long press
   button
-- [cookie-consent-js](works/readme?project=cookie-consent-js) // Dialog and framework to handle the EU law about 
-  cookies
+- [cookie-consent-js](works/readme?project=cookie-consent-js) // Dialog and framework to handle the EU law about cookies
 
 #### Bootstrap extensions and modules
 
-- [bootstrap-input-spinner](works/readme?project=bootstrap-input-spinner) // Input spinner elements for number input
+- [bootstrap-input-spinner](works/readme?project=bootstrap-input-spinner) ★ // Input spinner element for number input
 - [bootstrap-show-modal](works/readme?project=bootstrap-show-modal) // Bootstrap Modals in pure JavaScript
 - [bootstrap-show-toast](works/readme?project=bootstrap-show-toast) // Bootstrap Toasts in pure JavaScript
 - [bootstrap-lightbox-gallery](works/readme?project=bootstrap-lightbox-gallery) // A lightbox gallery for Bootstrap
-- [bootstrap-cookie-consent-settings](works/readme?project=bootstrap-cookie-consent-settings) // Comprehensive consent framework
-- [bootstrap-detect-breakpoint](works/readme?project=bootstrap-detect-breakpoint) // Detect the current Bootstrap breakpoint in JavaScript
-- [bootstrap-auto-dark-mode](works/readme?project=bootstrap-auto-dark-mode) // Switches theme automatically 
-  depending on system settings
+- [bootstrap-cookie-consent-settings](works/readme?project=bootstrap-cookie-consent-settings) // Comprehensive consent
+  framework
+- [bootstrap-detect-breakpoint](works/readme?project=bootstrap-detect-breakpoint) // Detect the current Bootstrap
+  breakpoint in JavaScript
+- [bootstrap-auto-dark-mode](works/readme?project=bootstrap-auto-dark-mode) // Switches theme automatically depending on
+  system settings
 
 ### Chess modules
 
 #### JavaScript service layer modules
 
-- [cm-chess](works/readme?project=cm-chess)
-- [cm-pgn](works/readme?project=cm-pgn)
-- [cm-engine-runner](works/readme?project=cm-engine-runner)
-- [cm-polyglot](works/readme?project=cm-polyglot)
+- [cm-chess](works/readme?project=cm-chess) // Chess move validation with variations support
+- [cm-pgn](works/readme?project=cm-pgn) // Read and write PGNs (Portable Game Notation)
+- [cm-engine-runner](works/readme?project=cm-engine-runner) // Framework for running chess engines
+- [cm-polyglot](works/readme?project=cm-polyglot) // Reading of chess opening books in the polyglot (.bin) format
 
 #### Frontend modules
 
-- [cm-chessboard](works/readme?project=cm-chessboard)
-- [cm-chessboard-playfield](works/readme?project=cm-chessboard-playfield)
-- [cm-chessboard-eight-queens-puzzle](works/readme?project=cm-chessboard-eight-queens-puzzle)
-- [chess-console](works/readme?project=chess-console)
-- [chess-console-stockfish](works/readme?project=chess-console-stockfish)
-- [chess-console-puzzles](works/readme?project=chess-console-puzzles)
-- [cm-fen-editor](works/readme?project=cm-fen-editor)
-- [pgn-to-video-converter](https://github.com/shaack/pgn-to-video-converter)
+- [cm-chessboard](works/readme?project=cm-chessboard) ★ // JS chessboard, ES6 module based, SVG and without dependencies
+    - [cm-chessboard-playfield](works/readme?project=cm-chessboard-playfield) // cm-chessboard extension with many
+      features
+    - [cm-chessboard-eight-queens-puzzle](works/readme?project=cm-chessboard-eight-queens-puzzle) // cm-chessboard mini
+      game extension
+- [chess-console](works/readme?project=chess-console) ★ // Full featured online chess game, used
+  by [chessmail.de](https://chessmail.de) and [gambit.ai](https://gambit.ai)
+    - [chess-console-stockfish](works/readme?project=chess-console-stockfish) // Online chess engine, build with
+      chess-console
+    - [chess-console-puzzles](works/readme?project=chess-console-puzzles) // Online chess puzzles, build with
+      chess-console
+- [cm-fen-editor](works/readme?project=cm-fen-editor) // Online fen editor app, used
+  by [chessmail.de](https://chessmail.de)
+- [pgn-to-video-converter](https://github.com/shaack/pgn-to-video-converter) // Convert PGN files to videos
 
 ### General purpose modules
 
 - [cm-md-editor](works/readme?project=cm-md-editor) // Simple markdown editor
-- [cm-web-modules](works/readme?project=cm-web-modules) // A set of JS modules I use in literally every project
-- [teevi](works/readme?project=teevi) // Simple JS unit testing framework
-- [starfield-js](works/readme?project=starfield-js) // Fly through space with this script
+- [cm-web-modules](works/readme?project=cm-web-modules) // A set of JS modules that I use in almost every project
+- [teevi](works/readme?project=teevi) // A Simple JS unit testing framework without dependencies
+- [starfield-js](works/readme?project=starfield-js) // 🚀
 
 ## Chess apps and websites
 
-- [chessmail.de](https://www.chessmail.de) // concept, design, coding, operation, marketing
+- [chessmail.de](https://www.chessmail.de) ★ // concept, design, coding, operation, marketing
 - [gambit.ai](https://gambit.ai) // coding
 
 ## PHP apps
 
-- [Reboot CMS](works/readme?project=reboot-cms) // A Markdown CMS with blocks 
+- [Reboot CMS](works/readme?project=reboot-cms) ★ // Markdown CMS with blocks, amazingly fast and small (used for this
+  site)
 - ido // Project tracking and invoicing for self-employed
 
 ## CMS websites
