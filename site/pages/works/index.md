@@ -3,18 +3,18 @@
 Some time ago, I decided to produce my work in such a way that it could also be used by others. This increases the
 quality and it is then even used by others. Which is great, because it makes the work twice as useful.
 
-## JavaScript modules
+## JavaScript Modules
 
 These modules are in production use and should work. Of course, I give no guarantees, but as I said, they have been in
-production for years. All are fast and small, with as few dependencies as possible. Mainly modules for my chess
+production for years. All are fast and small and with as few dependencies as possible. Mainly modules for my chess
 server [chessmail.de](https://chessmail.de) with several thousand active users.
 
 I also offer professional support for all modules and can help with installation. Feel free to contact me at
 [shaack@gmail.com](mailto:shaack@gmail.com).
 
-### Bootstrap 5 and HTML extensions
+### Bootstrap 5 and HTML Extensions
 
-#### General HTML extensions (which work also without Bootstrap)
+#### General HTML Extensions (which work also without Bootstrap)
 
 - [auto-resize-textarea](works/readme?project=auto-resize-textarea) // Auto resizes the height of any `<textarea>` to
   match the text input
@@ -22,7 +22,7 @@ I also offer professional support for all modules and can help with installation
   button
 - [cookie-consent-js](works/readme?project=cookie-consent-js) // Dialog and framework to handle the EU law about cookies
 
-#### Bootstrap extensions and modules
+#### Bootstrap Extensions and Modules
 
 - [bootstrap-input-spinner](works/readme?project=bootstrap-input-spinner) ★ // Input spinner element for number input
 - [bootstrap-show-modal](works/readme?project=bootstrap-show-modal) // Bootstrap Modals in pure JavaScript
@@ -35,16 +35,16 @@ I also offer professional support for all modules and can help with installation
 - [bootstrap-auto-dark-mode](works/readme?project=bootstrap-auto-dark-mode) // Switches theme automatically depending on
   system settings
 
-### Chess modules
+### Chess Modules
 
-#### JavaScript service layer modules
+#### JavaScript Service Layer Modules
 
 - [cm-chess](works/readme?project=cm-chess) // Chess move validation with variations support
 - [cm-pgn](works/readme?project=cm-pgn) // Read and write PGNs (Portable Game Notation)
 - [cm-engine-runner](works/readme?project=cm-engine-runner) // Framework for running chess engines
 - [cm-polyglot](works/readme?project=cm-polyglot) // Reading of chess opening books in the polyglot (.bin) format
 
-#### Frontend modules
+#### Frontend Modules
 
 - [cm-chessboard](works/readme?project=cm-chessboard) ★ // JS chessboard, ES6 module based, SVG and without dependencies
     - [cm-chessboard-playfield](works/readme?project=cm-chessboard-playfield) // cm-chessboard extension with many
@@ -61,25 +61,25 @@ I also offer professional support for all modules and can help with installation
   by [chessmail.de](https://chessmail.de)
 - [pgn-to-video-converter](https://github.com/shaack/pgn-to-video-converter) // Convert PGN files to videos
 
-### General purpose modules
+### General Purpose Modules
 
 - [cm-md-editor](works/readme?project=cm-md-editor) // Simple markdown editor
 - [cm-web-modules](works/readme?project=cm-web-modules) // A set of JS modules that I use in almost every project
 - [teevi](works/readme?project=teevi) // A Simple JS unit testing framework without dependencies
 - [starfield-js](works/readme?project=starfield-js) // 🚀
 
-## Chess apps and websites
+## Chess Apps and Websites
 
 - [chessmail.de](https://www.chessmail.de) ★ // concept, design, coding, operation, marketing
 - [gambit.ai](https://gambit.ai) // coding
 
-## PHP apps
+## PHP Apps
 
 - [Reboot CMS](works/readme?project=reboot-cms) ★ // Markdown CMS with blocks, amazingly fast and small (used for this
   site)
 - ido // Project tracking and invoicing for self-employed
 
-## CMS websites
+## CMS Websites
 
 - [fuhrberger.de](https://fuhrberger.de) // consulting, coding, maintenance
 - [fuhrberger-zimmerei.de](https://fuhrberger-zimmerei.de) // consulting, coding, maintenance
