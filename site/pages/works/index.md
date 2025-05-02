@@ -1,20 +1,22 @@
 # Projects
 
-Some time ago, I decided to produce my work in such a way that it could also be used by others. This increases the
-quality and it is then even used by others. Which is great, because it makes the work twice as useful.
+We made the decision some time ago to produce our work in such a way that it could also be used by others. This enhances
+the quality of the product, which in turn is used by others. This enhancement is particularly beneficial, as it
+effectively doubles the utility of the work.
 
-## JavaScript Modules
+## Open Source
 
-These modules are in production use and should work. Of course, I give no guarantees, but as I said, they have been in
-production for years. All are fast and small and with as few dependencies as possible. Mainly modules for my chess
-server [chessmail.de](https://chessmail.de) with several thousand active users.
+These JavaScript modules are currently in production use and should function as expected. Naturally, we cannot
+guarantee the success of your business endeavors, but as previously mentioned, they have been in production for many
+years. All the aforementioned systems are fast and small, and have as few dependencies as possible. The primary focus is
+on modules for the chess server [chessmail.de](https://chessmail.de), which boasts several thousand active users.
 
-I also offer professional support for all modules and can help with installation. Feel free to contact me at
-[shaack@gmail.com](mailto:shaack@gmail.com).
+We offer comprehensive professional support for all modules and can help with installation. Should you have any
+queries, please do not hesitate to contact us at [contact@shaack.com](mailto:contact@shaack.com).
 
 ### Bootstrap 5 and HTML Extensions
 
-#### General HTML Extensions (which work also without Bootstrap)
+#### General HTML Extensions (working also without Bootstrap)
 
 - [auto-resize-textarea](works/readme?project=auto-resize-textarea) // Auto resizes the height of any `<textarea>` to
   match the text input
@@ -64,7 +66,7 @@ I also offer professional support for all modules and can help with installation
 ### General Purpose Modules
 
 - [cm-md-editor](works/readme?project=cm-md-editor) // Simple markdown editor
-- [cm-web-modules](works/readme?project=cm-web-modules) // A set of JS modules that I use in almost every project
+- [cm-web-modules](works/readme?project=cm-web-modules) // A set of JS modules that we use in almost every project
 - [teevi](works/readme?project=teevi) // A Simple JS unit testing framework without dependencies
 - [starfield-js](works/readme?project=starfield-js) // 🚀
 
@@ -83,13 +85,13 @@ I also offer professional support for all modules and can help with installation
 
 - [fuhrberger.de](https://fuhrberger.de) // consulting, coding, maintenance
 - [fuhrberger-zimmerei.de](https://fuhrberger-zimmerei.de) // consulting, coding, maintenance
-- [wad.de](https://wad.de) // modifications, maintenance
-- [regioservice-sachsen.de](https://regioservice-sachsen.de) // styling, coding, maintenance
+- [ghv-guetestelle.de](https://www.ghv-guetestelle.de) // redesign, coding, maintenance
 - [direktvertrieb.de](https://direktvertrieb.de) // coding, maintenance
 - [potsdamermitte.de](https://potsdamermitte.de) // coding, maintenance
 - [tonkuensterverband.de](https://www.tonkuenstlerverband.de) // design, coding, maintenance
+- [wad.de](https://wad.de) // modifications, maintenance
 - [wertestarter.de](https://wertestarter.de) // coding, maintenance
-- [ghv-guetestelle.de](https://www.ghv-guetestelle.de) // redesign, coding, maintenance
+- [regioservice-sachsen.de](https://regioservice-sachsen.de) // styling, coding, maintenance
 - [redpear.de](https://redpear.de) // coding, maintenance
 - [wukies.de](https://wukies.de) // design, coding, maintenance
 - [musiklehrer-finder.info](https://musiklehrer-finder.info) // concept, design, coding, maintenance
@@ -98,7 +100,7 @@ I also offer professional support for all modules and can help with installation
 
 ### There is a world beside Wordpress
 
-When I create websites, I usually use these systems:
+When we create websites, we usually use these systems:
 
 - [Craft CMS](https://craftcms.com) // For medium-sized and larger websites that require content versioning.
 - [Redaxo](https://redaxo.org) // Good system for all types of websites. Open source and free.

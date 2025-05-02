@@ -3,8 +3,8 @@
 addons: ["Project"]
 nav:
   main:
-    Projects: /works
     Services: /services
+    Projects: /works
     Publications: /howto
     Contact: /contact
   service:

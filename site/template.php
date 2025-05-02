@@ -19,7 +19,7 @@ $navbarConfig = $site->getConfig()['nav'];
     <link rel="stylesheet" href="/vendor/prism/theme-tomorrow-night.css" />
     <link rel="stylesheet" href="/assets/styles/screen.css?v=<?= $v ?>">
     <!-- <link rel="stylesheet" href="/assets/fontawesome-subset/css/all.min.css?v=<?= $v ?>"> -->
-    <title>shaack.com, IT-Consulting & Development</title>
+    <title>shaack.com // consulting, coding, coaching and chess</title>
 </head>
 <body class="<?= $hideNav ? "bg-gray2" : "" ?>" data-bs-theme="dark">
 <?php if (!$hideNav) { ?>
@@ -32,16 +32,15 @@ $navbarConfig = $site->getConfig()['nav'];
 </main>
 <footer class="container-fluid max-width-lg">
     <nav class="navbar navbar-legal navbar-dark">
-        <ul class="navbar-nav d-flex flex-row <?= $hideNav ? "animate-fade-in" : "" ?>">
+        <div class="row w-100 <?= $hideNav ? "animate-fade-in" : "" ?>">
             <?php
             $navService = $navbarConfig['service'];
             foreach ($navService as $label => $path) { ?>
-                <li class="nav-item me-5">
-                    <a class="nav-link"
-                       href="<?= $site->getWebPath() . $path ?>"><?= $label ?></a>
-                </li>
+                <div class="col-auto pe-4 pb-4">
+                    <a class="nav-link" href="<?= $site->getWebPath() . $path ?>"><?= $label ?></a>
+                </div>
             <?php } ?>
-        </ul>
+        </div>
     </nav>
 </footer>
 <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
