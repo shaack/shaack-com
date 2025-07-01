@@ -1,4 +1,5 @@
 .block-hero {
+  margin-top: max(0, calc((100vh - 500px) / 2));
   .hero-brand {
     width: 34rem;
     max-width: 100%;

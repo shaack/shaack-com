@@ -4,7 +4,7 @@
 /** @var Shaack\Reboot\Page $page */
 /** @var Shaack\Reboot\Request $request */
 
-$v = "2501102102";
+$v = "2507011348";
 $content = $page->render($request);
 $pageConfig = $page->getConfig(); // the frontmatter config
 $hideNav = !!@$page->getConfig()["hide-nav"];
@@ -21,7 +21,7 @@ $navbarConfig = $site->getConfig()['nav'];
     <!-- <link rel="stylesheet" href="/assets/fontawesome-subset/css/all.min.css?v=<?= $v ?>"> -->
     <title>shaack.com // consulting, coding, coaching and chess</title>
 </head>
-<body class="<?= $hideNav ? "bg-gray2" : "" ?>" data-bs-theme="dark">
+<body class="<?= $hideNav ? "hide-nav" : "" ?>" data-bs-theme="dark">
 <?php if (!$hideNav) { ?>
 <header>
     <?php include "_navbar.php" ?>

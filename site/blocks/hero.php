@@ -56,4 +56,19 @@
             </ul>
         </nav>
     </div>
+    <canvas id="starfield" class="position-fixed top-0 bottom-0 start-0 end-0 stars-fade-in"
+            style="z-index: -1"></canvas>
+    <script type="module">
+        import {Starfield} from "/node_modules/starfield-js/src/Starfield.js?v=1"
+
+        new Starfield(document.getElementById('starfield'), {
+            starCount: 500,
+            speed: 1,
+            magnification: 4,
+            color: "rgba(255,255,255,0.5)"
+        })
+        
+        // document.body.style.marginBottom = "100vh"
+        // document.body.style.background = "#040404"
+    </script>
 </section>

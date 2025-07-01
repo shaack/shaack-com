@@ -13,9 +13,9 @@ natcasesort($filenames);
 // split the array $filenames in two chunks
 // if not divide able by two make the first chunk bigger
 if (count($filenames) % 2 === 0) {
-    $chunks = array_chunk($filenames, count($filenames) / 2);
+    $chunks = array_chunk($filenames, intval(count($filenames) / 2));
 } else {
-    $chunks = array_chunk($filenames, count($filenames) / 2 + 1);
+    $chunks = array_chunk($filenames, intval(count($filenames) / 2 + 1));
 }
 ?>
 <div class="block block-how-to block-with-padding">
