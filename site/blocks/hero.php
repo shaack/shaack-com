@@ -65,7 +65,33 @@
             starCount: 500,
             speed: 1,
             magnification: 4,
-            color: "rgba(255,255,255,0.5)"
+            color: "rgba(255,255,255,0.5)",
+            showSpaceShip: true,
+            spaceShipCount: 6, // Configure the number of ships in the swarm
+            spaceShipProps: {
+                color: "#225", // Blue ship
+                tailStartColor: "#ffff00", // Yellow start of tail
+                tailEndColor: "#fa0000", // Red end of tail
+                size: 10,
+                speed: 3,
+                tailLength: 500,
+                tailMaxDistance: 500,
+                tailOpacity: 0.5, // Set tail opacity to 0.8
+                edgeDistance: 100, // Distance from edge to start turning
+                edgeCurveIntensity: 0.2, // How strongly to curve when approaching an edge
+                stuckThreshold: 40, // Number of frames to consider a ship stuck
+                stuckEscapeMultiplier: 3.5, // Multiplier for curve intensity when stuck
+                cornerDetectionThreshold: 1.5, // Threshold to detect when ship is in a corner
+
+                // Swarm behavior configuration
+                swarmSpread: 1, // How far apart the ships are horizontally (0-1)
+                swarmOffset: 0.05, // Vertical offset between ships (0-1)
+
+                // Following behavior configuration
+                followEnabled: true, // Whether ships should follow each other
+                followStrength: 0.05, // How strongly a ship follows another (0-1)
+                followDistance: 300 // Maximum distance to follow another ship
+            }
         })
         
         // document.body.style.marginBottom = "100vh"

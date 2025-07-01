@@ -4,7 +4,7 @@
 /** @var Shaack\Reboot\Page $page */
 /** @var Shaack\Reboot\Request $request */
 
-$v = "2507011348";
+$v = "2507012334";
 $content = $page->render($request);
 $pageConfig = $page->getConfig(); // the frontmatter config
 $hideNav = !!@$page->getConfig()["hide-nav"];
