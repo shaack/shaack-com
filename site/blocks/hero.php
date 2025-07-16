@@ -66,7 +66,7 @@
             speed: 1,
             magnification: 4,
             color: "rgba(255,255,255,0.5)",
-            showSpaceShip: true,
+            showSpaceShip: false,
             spaceShipCount: 6, // Configure the number of ships in the swarm
             spaceShipProps: {
                 color: "#225", // Blue ship
